@@ -63,60 +63,99 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
 # Job category taxonomy
-# Each entry: (canonical name, keywords that map to it)
-# Order matters - first match wins, so put more specific categories first
+# ORDERING PRINCIPLE: bottom-to-top specificity.
+# The MOST specific/niche categories (rare specialized skills) come FIRST so
+# they grab roles like "Software Engineer, On-Device ML" before generic SWE.
+# Generic catch-all categories (SWE, PM) come LAST.
 CATEGORIES: List[Tuple[str, List[str]]] = [
+    # ---- Tier 1: Hyper-specialized / niche skills (matched first) ----
     ("ML / AI / Generative AI", [
-        r"\bmachine learning\b", r"\bml engineer", r"\bml\b research", r"\bml\b data",
-        r"\bml\b model", r"\bml\b platform", r"\bml\b system", r"\bml\b ops",
-        r"\bmlops\b", r"\baiml\b", r"\bai/ml\b", r"\bai engineer", r"\bartificial intelligence\b",
-        r"\bdeep learning\b", r"\bneural\b", r"\bllm\b", r"\bfoundation model",
-        r"\bgenerative ai\b", r"\bgenai\b", r"\btransformer\b", r"\bnlp\b",
-        r"\bnatural language\b", r"\bcomputer vision\b", r"\bdata scientist\b",
-        r"\bapplied ml\b", r"\brobot ml\b", r"\bgpu ml\b", r"\bon-device\b",
-        r"\bsiri\b", r"\bads predictions\b", r"\bads signals\b",
-        r"\bads matching\b", r"\bad campaign\b", r"\bresponsible ai\b",
+        # Hyper-specific ML signals (must win against generic "Software Engineer")
+        r"\bon-device ml\b", r"\bon[- ]device\b.*\bml\b",
+        r"\bmachine learning\b", r"\bdeep learning\b",
+        r"\bneural\b", r"\bllm\b", r"\bfoundation model",
+        r"\bgenerative ai\b", r"\bgenai\b", r"\bgenerative ui\b",
+        r"\btransformer\b", r"\bnlp\b", r"\bnatural language\b",
+        r"\bcomputer vision\b", r"\bvision\b", r"\bperception\b",
+        r"\bdata scientist\b", r"\bdata science\b",
+        r"\bapplied ml\b", r"\bapplied machine learning\b", r"\bapplied ai\b",
+        r"\brobot ml\b", r"\brobotics\b",
+        r"\bgpu ml\b", r"\bcoreml\b", r"\bmlx\b", r"\bmetal\b",
+        r"\breinforcement learning\b",
+        # ML role prefixes
+        r"\bml\b\s*(engineer|researcher|scientist|engineer|manager|analyst)",
+        r"\bai/ml\b", r"\baiml\b", r"\bartificial intelligence\b",
+        r"\bai engineer", r"\bai platform", r"\bai data platform",
+        r"\bresponsible ai\b",
+        # Apple-specific ML teams/products
+        r"\bsiri\b", r"\bapple intelligence\b",
+        r"\bads (predictions|matching|signals|campaign)", r"\bad predictions\b",
+        # Apple-specific ML data platforms (AiDP team)
+        r"\bai\s*&\s*data platforms\b", r"\baidp\b",
+        r"\bai\s+data\s+platforms\b",
+        # ML frameworks / tools
+        r"\btensorflow\b", r"\bpytorch\b", r"\bjax\b", r"\bllama\b",
+        r"\bmodel integration\b", r"\bmodel inference\b", r"\bmodel optimization\b",
+        # Looser fallbacks — apply AFTER specific ones (deliberately no bare \bml\b —
+        # too many false positives like "HTML", "yml", "Gmail")
+        r"\bmachine learning\b",
     ]),
     ("Apple Silicon / Hardware Engineering", [
+        # Highly specific silicon signals
         r"\bcpu\b", r"\bgpu\b", r"\brtl\b", r"\basic\b", r"\bcircuit design",
         r"\bstandard cell\b", r"\bsilicon\b", r"\bchip\b", r"\bmicroarchitect",
         r"\bgate level\b", r"\bdesign verification\b", r"\bemulation verification",
         r"\banalog/mixed-signal\b", r"\bmixed signal\b", r"\bsoc\b",
         r"\bpre-silicon\b", r"\bsilicon debug\b", r"\bsilicon photonics\b",
         r"\bdisplay silicon\b", r"\bdisplay panel\b", r"\bdisplay module\b",
-        r"\bdisplay electrical\b", r"\btft\b", r"\bbattery management\b",
-        r"\bbattery algorithm\b", r"\bhardware system", r"\bmanufacturing design",
-        r"\btooling engineer\b", r"\bprototyping systems\b", r"\brf system\b",
-        r"\bwireless system\b", r"\bsignal and power integrity\b",
-        r"\bpower integrity\b", r"\bthermal engineer\b", r"\bacoustic engineer",
-        r"\bmicrophone module\b", r"\bpanel design\b", r"\bproduct design engineer",
+        r"\bdisplay electrical\b", r"\btft\b",
+        r"\bbattery management\b", r"\bbattery algorithm\b",
+        r"\bmanufacturing design\b", r"\btooling engineer\b",
+        r"\bprototyping systems\b", r"\brf system\b",
+        r"\bwireless system\b", r"\bwireless (tools|bluetooth|module|qa)",
+        r"\bsignal and power integrity\b", r"\bpower integrity\b",
+        r"\bthermal engineer\b", r"\bthermal design\b",
+        r"\bacoustic engineer\b", r"\bmicrophone module\b",
+        r"\bpanel design\b", r"\bproduct design engineer\b",
         r"\bmechanical systems\b", r"\bmodeling and simulation\b",
-        r"\bcontrols critical\b", r"\bdata center mechanical\b", r"\blab systems\b",
-        r"\bsystems debug\b", r"\btest & instrumentation\b", r"\bfpga\b",
+        r"\bcontrols critical\b", r"\bdata center mechanical\b",
+        r"\blab systems\b", r"\bsystems debug\b",
+        r"\btest & instrumentation\b", r"\bfpga\b",
         r"\bcamera mechanical\b", r"\bcamera simulation\b", r"\bcamera imaging\b",
         r"\bhardware engineering program\b", r"\boptical sensing\b",
-    ]),
-    ("Software Engineering (iOS/macOS/Services/Core OS)", [
-        r"\bsoftware engineer\b", r"\bsoftware development engineer\b",
-        r"\bbackend\b", r"\bfront end\b", r"\bfull stack\b", r"\bfull-stack\b",
-        r"\bios engineer\b", r"\bswift engineer\b", r"\bdarwin\b", r"\bcoreos\b",
-        r"\bkernel\b", r"\bembedded software\b", r"\bfirmware\b",
-        r"\bapplication & system\b", r"\bcompiler\b", r"\bsafari\b",
-        r"\bscreen sharing\b", r"\bsatellite operations\b",
-        r"\bfoundationdb\b", r"\bgenerative ui\b", r"\bagentic os\b",
-    ]),
-    ("Product / Program Management (Technical)", [
-        r"\bproduct manager\b", r"\bprogram manager\b",
-        r"\bengineering program manager\b", r"\bengineering project manager\b",
-        r"\bnpi operations\b", r"\bnew product operations\b",
-        r"\btechnical project manager\b", r"\bproject manager\b",
+        r"\bhardware system", r"\bhardware engineer\b",
+        # Fallback: any "engineering program manager" tied to hardware
+        r"\bhardware (program|engineering program)\b",
     ]),
     ("Computer Vision / AR / VR / Design", [
         r"\b3d computer vision\b", r"\breal-time computer vision\b",
-        r"\bsenior computer vision\b", r"\bux designer\b",
+        r"\bsenior computer vision\b",
+        r"\bux designer\b", r"\bui designer\b", r"\binteraction designer\b",
         r"\bdesigner, interactive\b", r"\bart director\b", r"\bmotion design\b",
         r"\bacd editorial\b", r"\blead designer, design systems\b",
         r"\bvisual communication designer\b", r"\bcreative director\b",
+    ]),
+    ("Security / Cryptography", [
+        r"\bred team\b", r"\bcryptography\b", r"\bsecurity adoption\b",
+        r"\bcloud security\b", r"\bsecurity software\b",
+        r"\bprincipal security\b", r"\bsecurity\b", r"\bsecurity engineer",
+    ]),
+    ("Infrastructure / SRE / Platform", [
+        r"\bsite reliability\b", r"\bsre\b", r"\binfrastructure engineer\b",
+        r"\bnetwork reliability\b", r"\brelease engineer\b",
+        r"\bobservability\b", r"\bprovisioning\b", r"\bplatform engineer\b",
+        r"\bdevops\b", r"\bkubernetes\b",
+    ]),
+    ("QA / Test / SDET", [
+        r"\bquality engineer\b", r"\bqa engineer\b", r"\btest engineer\b",
+        r"\btest and validation\b", r"\bscreening & integration\b",
+        r"\bsdet\b", r"\bsoftware development engineer in test\b",
+        r"\bquality systems\b", r"\bscreening\b",
+    ]),
+    ("Research / Applied Science", [
+        r"\bresearch scientist\b", r"\bresearch engineer\b",
+        r"\bresearch operations\b", r"\bapplied sensing\b",
+        r"\bhuman factors\b",
     ]),
     ("Data Engineering / Analytics", [
         r"\bdata engineer\b", r"\bdata analyst\b", r"\bdata solutions\b",
@@ -125,26 +164,22 @@ CATEGORIES: List[Tuple[str, List[str]]] = [
         r"\bconsumer insights\b", r"\bcompetitive intelligence\b",
         r"\bpricing analyst\b", r"\bfinancial analyst\b",
     ]),
-    ("QA / Test / SDET", [
-        r"\bquality engineer\b", r"\bqa engineer\b", r"\btest engineer\b",
-        r"\btest and validation\b", r"\bscreening & integration\b",
-        r"\bsdet\b", r"\bsoftware development engineer in test\b",
-        r"\bquality systems\b",
+    # ---- Tier 2: Mid-level functional categories ----
+    ("Product / Program Management (Technical)", [
+        r"\bproduct manager\b", r"\bprogram manager\b",
+        r"\bengineering program manager\b", r"\bengineering project manager\b",
+        r"\bnpi operations\b", r"\bnew product operations\b",
+        r"\btechnical project manager\b", r"\bproject manager\b",
     ]),
-    ("Security / Cryptography", [
-        r"\bsecurity\b", r"\bred team\b", r"\bcryptography\b",
-        r"\bsecurity adoption\b", r"\bcloud security\b",
-        r"\bsecurity software\b", r"\bprincipal security\b",
-    ]),
-    ("Infrastructure / SRE / Platform", [
-        r"\bsite reliability\b", r"\bsre\b", r"\binfrastructure engineer\b",
-        r"\bnetwork reliability\b", r"\brelease engineer\b",
-        r"\bobservability\b", r"\bprovisioning\b", r"\bplatform engineer\b",
-    ]),
-    ("Research / Applied Science", [
-        r"\bresearch scientist\b", r"\bresearch engineer\b",
-        r"\bresearch operations\b", r"\bapplied sensing\b",
-        r"\bhuman factors\b",
+    # ---- Tier 3: Generic catch-alls (matched last) ----
+    ("Software Engineering (iOS/macOS/Services/Core OS)", [
+        r"\bsoftware engineer\b", r"\bsoftware development engineer\b",
+        r"\bbackend\b", r"\bfront end\b", r"\bfull stack\b", r"\bfull-stack\b",
+        r"\bios engineer\b", r"\bswift engineer\b", r"\bdarwin\b", r"\bcoreos\b",
+        r"\bkernel\b", r"\bembedded software\b", r"\bfirmware\b",
+        r"\bapplication & system\b", r"\bcompiler\b", r"\bsafari\b",
+        r"\bscreen sharing\b", r"\bsatellite operations\b",
+        r"\bfoundationdb\b", r"\bagentic os\b",
     ]),
 ]
 
