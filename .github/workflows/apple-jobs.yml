@@ -5,6 +5,10 @@ on:
     - cron: '0 9 * * *'  # Daily at 9:00 AM UTC (matches flight-deals schedule)
   workflow_dispatch:
 
+# Grant the GITHUB_TOKEN contents:write so the "Commit history" step can push back.
+permissions:
+  contents: write
+
 jobs:
   apple-jobs-digest:
     name: Scrape Apple US Jobs & Send Telegram Digest
@@ -14,6 +18,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Need full history so the auto-commit step can push back cleanly
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,6 +47,12 @@ jobs:
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
+          # Pull any changes that may have landed since checkout (cron runs can race)
+          git pull --rebase --autostash origin main || true
           git add history.json latest_snapshot.json
-          git diff --staged --quiet || git commit -m "Daily Apple US jobs digest - $(date -u +%Y-%m-%d)"
-          git push
+          if ! git diff --staged --quiet; then
+            git commit -m "Daily Apple US jobs digest - $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No changes to commit."
+          fi
