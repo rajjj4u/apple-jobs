@@ -316,6 +316,15 @@ SKILLS_TAXONOMY: List[Tuple[str, str]] = [
     ("MapKit", r"\bmapkit\b"),
     ("CoreLocation", r"\bcorelocation\b"),
     ("WebKit", r"\bwebkit\b"),
+    ("iCloud", r"\bicloud\b"),
+    ("CloudKit", r"\bcloudkit\b"),
+    ("Core ML", r"\bcoreml\b"),
+    ("Metal", r"\bmetal\b"),
+    # Apple-specific ML platforms / teams
+    ("AI & Data Platforms (AiDP)", r"\bai\s*&\s*data platforms\b|\baidp\b|\bai\s+data\s+platforms\b"),
+    ("ML Infrastructure", r"\bml infrastructur"),
+    ("Foundation Models / LLM Inference", r"\bfoundation model|\bllm\b.*\binference\b|\bmodel inference\b"),
+    ("Search & Knowledge Platforms", r"\bsearch\s*&\s*knowledge\b"),
     # Methods / practices
     ("Computer Vision", r"\bcomputer vision\b"),
     ("NLP", r"\b(nlp|natural language)\b"),
@@ -566,11 +575,21 @@ async def fetch_job_description(session: aiohttp.ClientSession, job: JobListing)
     text = re.sub(r"\s+", " ", text).strip()
     job.description = text[:8000]  # cap to avoid memory bloat
 
-    # Extract skills
+    # Extract skills from description
     skills_found: List[str] = []
     for name, regex in SKILLS_COMPILED:
         if regex.search(job.description):
             skills_found.append(name)
+
+    # Fallback: also match skills against the title. Apple's jobSummaries
+    # can be vague (e.g. "iOS Software Engineer" descriptions rarely mention
+    # "iOS" or "Swift" explicitly). The title is a reliable signal.
+    for name, regex in SKILLS_COMPILED:
+        if name in skills_found:
+            continue
+        if regex.search(job.title):
+            skills_found.append(name)
+
     job.skills = skills_found
     return job
 
@@ -791,7 +810,17 @@ def top_paid_roles(jobs: List[JobListing]) -> List[PaidRole]:
       Mid posting for the same title, the role is ranked as Senior).
     - Rank by seniority score (desc), then by posting count (desc).
     - Filter out Mid / New Grad / Intern — we want the high end of the band.
+    - Filter out non-tech roles (Art Director, Creative Director, etc.) — this
+      digest is for tech hiring.
     """
+    # Roles in non-tech categories won't have extractable tech skills and aren't
+    # useful in this digest. Build a set of "tech category" names dynamically.
+    # We also explicitly exclude design roles (Art Director, Creative Director)
+    # even though they're in a tech-adjacent category — they don't have
+    # extractable tech skills and aren't useful here.
+    DESIGN_CATEGORY = "Computer Vision / AR / VR / Design"
+    tech_categories = {name for name, _ in CATEGORIES if name != DESIGN_CATEGORY}
+
     # Normalize title for bucketing. We collapse common senior prefixes
     # so "Senior SWE, Foo" and "Sr. SWE, Foo" bucket together.
     def norm(t: str) -> str:
@@ -802,7 +831,7 @@ def top_paid_roles(jobs: List[JobListing]) -> List[PaidRole]:
 
     buckets: Dict[Tuple[str, str], List[JobListing]] = {}
     for j in jobs:
-        if j.category == "Other / Non-Tech":
+        if j.category not in tech_categories:
             continue
         key = (norm(j.title), j.category)
         buckets.setdefault(key, []).append(j)
