@@ -217,6 +217,35 @@ SENIORITY_RANK = [
     "Mid", "New Grad", "Intern", "Unknown",
 ]
 
+# Numeric score for ranking "highest paid" roles. Higher = more senior = more $$.
+# New Grad / Intern are excluded from the highest-paid digest by being <0.
+SENIORITY_SCORE: Dict[str, int] = {
+    "Director":  7,
+    "Principal": 6,
+    "Staff":     5,
+    "Senior":    4,
+    "Lead":      3,
+    "Manager":   2,
+    "Mid":       1,
+    "New Grad":  0,
+    "Intern":   -1,
+    "Unknown":   1,  # treat as mid for ranking purposes
+}
+
+# Salary bands by seniority level (USD base) — used in the highest-paid section
+SENIORITY_SALARY_BAND: Dict[str, str] = {
+    "Director":  "$250K – $500K+",
+    "Principal": "$200K – $400K+",
+    "Staff":     "$200K – $380K",
+    "Senior":    "$170K – $280K",
+    "Lead":      "$180K – $310K",
+    "Manager":   "$180K – $320K",
+    "Mid":       "$140K – $220K",
+    "New Grad":  "$120K – $180K",
+    "Intern":    "$50 – $90/hr",
+    "Unknown":   "$140K – $260K (est.)",
+}
+
 # ============ SKILLS TAXONOMY ============
 # Curated list of tech skills. We count occurrences of each in the full
 # job description (not the title), ranked by frequency within each category.
@@ -734,6 +763,92 @@ def send_telegram(message: str) -> bool:
         log.error("Telegram send failed: %s", e)
         return False
 
+# ============ HIGHEST-PAID ROLES ============
+
+# How many top highest-paid roles to feature in the digest
+TOP_PAID_ROLES_IN_DIGEST = 5
+# Minimum seniority score to be eligible (excludes Mid / New Grad / Intern)
+TOP_PAID_MIN_SCORE = 4  # Senior and above
+
+@dataclass
+class PaidRole:
+    title: str
+    category: str
+    seniority: str           # the highest seniority level seen for this role
+    salary_band: str
+    posting_count: int       # how many postings across locations/teams
+    top_skills: List[Tuple[str, int]] = field(default_factory=list)
+    sample_locations: List[str] = field(default_factory=list)
+    seniority_score: int = 0
+
+def top_paid_roles(jobs: List[JobListing]) -> List[PaidRole]:
+    """Identify the highest-paid open roles by their highest seniority level.
+
+    Strategy:
+    - Bucket jobs by (normalized title, category). Two postings with the same
+      title in different locations count as one role with N postings.
+    - For each role, the highest seniority wins (e.g. if there's a Senior and a
+      Mid posting for the same title, the role is ranked as Senior).
+    - Rank by seniority score (desc), then by posting count (desc).
+    - Filter out Mid / New Grad / Intern — we want the high end of the band.
+    """
+    # Normalize title for bucketing. We collapse common senior prefixes
+    # so "Senior SWE, Foo" and "Sr. SWE, Foo" bucket together.
+    def norm(t: str) -> str:
+        s = re.sub(r"\s+", " ", t).strip().lower()
+        # Collapse senior prefixes
+        s = re.sub(r"^(senior|sr\.?|staff|principal|lead|head of|director|manager|mid|junior|intern)\s+", "", s)
+        return s
+
+    buckets: Dict[Tuple[str, str], List[JobListing]] = {}
+    for j in jobs:
+        if j.category == "Other / Non-Tech":
+            continue
+        key = (norm(j.title), j.category)
+        buckets.setdefault(key, []).append(j)
+
+    paid: List[PaidRole] = []
+    for (title_l, category), role_jobs in buckets.items():
+        # Pick the highest seniority seen across postings
+        seniority_counts = Counter(j.seniority for j in role_jobs)
+        # Order by score (highest first)
+        ordered = sorted(
+            seniority_counts.items(),
+            key=lambda kv: (-SENIORITY_SCORE.get(kv[0], 1), -kv[1]),
+        )
+        top_seniority = ordered[0][0]
+        score = SENIORITY_SCORE.get(top_seniority, 1)
+        if score < TOP_PAID_MIN_SCORE:
+            continue
+
+        # Aggregate skills for this role across its postings
+        skill_counter: Counter = Counter()
+        for j in role_jobs:
+            for s in j.skills:
+                skill_counter[s] += 1
+
+        # Sample top 3 locations
+        locations = Counter(j.location for j in role_jobs if j.location and j.location != "Various")
+        sample_locations = [loc for loc, _ in locations.most_common(3)]
+
+        # Display title (use the first job's title case)
+        display_title = role_jobs[0].title
+
+        paid.append(PaidRole(
+            title=display_title,
+            category=category,
+            seniority=top_seniority,
+            salary_band=SENIORITY_SALARY_BAND.get(top_seniority, SENIORITY_SALARY_BAND["Unknown"]),
+            posting_count=len(role_jobs),
+            top_skills=[(s, c) for s, c in skill_counter.most_common(5)],
+            sample_locations=sample_locations,
+            seniority_score=score,
+        ))
+
+    # Sort: seniority score desc, then posting count desc, then title asc
+    paid.sort(key=lambda r: (-r.seniority_score, -r.posting_count, r.title))
+    return paid[:TOP_PAID_ROLES_IN_DIGEST]
+
 # ============ FORMAT ============
 
 # How many top categories + titles to show in the Telegram digest
@@ -741,7 +856,12 @@ TOP_CATEGORIES_IN_DIGEST = 2
 TOP_TITLES_IN_DIGEST = 3
 TOP_SKILLS_IN_DIGEST = 6
 
-def format_telegram(jobs: List[JobListing], rollups: List[CategoryRollup], history: List[dict]) -> str:
+def format_telegram(
+    jobs: List[JobListing],
+    rollups: List[CategoryRollup],
+    paid_roles: List[PaidRole],
+    history: List[dict],
+) -> str:
     today = datetime.now(timezone.utc).strftime("%b %d, %Y")
     tech_total = sum(1 for j in jobs if is_tech(j))
     total_listings = len(jobs)
@@ -781,6 +901,35 @@ def format_telegram(jobs: List[JobListing], rollups: List[CategoryRollup], histo
 
         lines.append("")
 
+    # Highest-Paid Roles section (dynamic — driven by current open postings)
+    if paid_roles:
+        lines.append("<b>💎 Highest-Paid Open Roles</b>")
+        lines.append(f"<i>Senior / Staff / Principal / Director tier, ranked by seniority × demand</i>")
+        lines.append("")
+        for i, role in enumerate(paid_roles, 1):
+            # Title escape + truncation
+            t_disp = (
+                role.title.replace("&", "&amp;")
+                           .replace("<", "&lt;")
+                           .replace(">", "&gt;")
+            )
+            if len(t_disp) > MAX_TITLE_LEN:
+                t_disp = t_disp[: MAX_TITLE_LEN - 1] + "…"
+            # Seniority badge
+            level_badge = f"<b>{role.seniority}</b>"
+            # Locations
+            loc_str = ""
+            if role.sample_locations:
+                loc_str = " · " + ", ".join(role.sample_locations)
+            lines.append(f"<b>{i}. {t_disp}</b> <i>({level_badge})</i>")
+            lines.append(f"   💰 {role.salary_band}  ·  {role.posting_count} posting{'s' if role.posting_count != 1 else ''}{loc_str}")
+            if role.top_skills:
+                skill_strs = [f"{n} <i>({c})</i>" for n, c in role.top_skills]
+                lines.append(f"   🛠 <b>Skills:</b> {' · '.join(skill_strs)}")
+            else:
+                lines.append(f"   🛠 <i>Skills: not yet extracted</i>")
+            lines.append("")
+
     # Footer
     lines.append("<i>Source: jobs.apple.com (US-only, scraped live)</i>")
     lines.append("<i>Next digest: tomorrow at 9:00 AM UTC</i>")
@@ -815,6 +964,7 @@ async def main_async() -> int:
         j.skills = skills_lookup.get(j.role_number.split("-")[0], [])
 
     rollups = analyze(jobs)
+    paid = top_paid_roles(jobs)
     history = load_history()
 
     # Append current run
@@ -823,10 +973,15 @@ async def main_async() -> int:
         "tech_role_count": sum(1 for j in jobs if is_tech(j)),
         "top_categories": [r.name for r in rollups[:3]],
         "top_category_counts": [r.role_count for r in rollups[:3]],
+        "top_paid_roles": [
+            {"title": r.title, "category": r.category, "seniority": r.seniority,
+             "salary_band": r.salary_band, "posting_count": r.posting_count}
+            for r in paid
+        ],
     })
     save_history(history)
 
-    message = format_telegram(jobs, rollups, history)
+    message = format_telegram(jobs, rollups, paid, history)
     print("=" * 60)
     print(message)
     print("=" * 60)
@@ -849,6 +1004,18 @@ async def main_async() -> int:
                 "seniority_breakdown": r.seniority_breakdown,
             }
             for r in rollups[:5]
+        ],
+        "highest_paid_roles": [
+            {
+                "title": r.title,
+                "category": r.category,
+                "seniority": r.seniority,
+                "salary_band": r.salary_band,
+                "posting_count": r.posting_count,
+                "top_skills": [{"skill": s, "count": c} for s, c in r.top_skills],
+                "sample_locations": r.sample_locations,
+            }
+            for r in paid
         ],
     }
     Path("latest_snapshot.json").write_text(json.dumps(snapshot, indent=2))
