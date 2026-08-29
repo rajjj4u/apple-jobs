@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-08-29T04:30:52+00:00",
-  "total_listings": 1180,
-  "tech_role_count": 741,
+  "scraped_at": "2026-08-29T04:42:43+00:00",
+  "total_listings": 1200,
+  "tech_role_count": 752,
   "top_categories": [
     {
       "name": "ML / AI / Generative AI",
@@ -43,8 +43,16 @@
       ],
       "top_skills": [
         {
+          "skill": "AI & Data Platforms (AiDP)",
+          "count": 28
+        },
+        {
           "skill": "LLMs / Foundation Models",
           "count": 14
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 10
         },
         {
           "skill": "Computer Vision",
@@ -55,7 +63,7 @@
           "count": 8
         },
         {
-          "skill": "Speech / Audio",
+          "skill": "Foundation Models / LLM Inference",
           "count": 8
         },
         {
@@ -73,14 +81,6 @@
         {
           "skill": "watchOS",
           "count": 5
-        },
-        {
-          "skill": "SoC",
-          "count": 4
-        },
-        {
-          "skill": "Distributed Systems",
-          "count": 4
         }
       ],
       "seniority_breakdown": {
@@ -93,12 +93,16 @@
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 131,
-      "posting_count": 185,
+      "role_count": 133,
+      "posting_count": 189,
       "top_titles": [
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
           "count": 10
+        },
+        {
+          "title": "Systems Software Engineer, Platform Architecture",
+          "count": 6
         },
         {
           "title": "Wi-Fi Software Engineer, Wireless Technologies & Ecosystems",
@@ -123,35 +127,39 @@
         {
           "title": "iOS Engineer - Creator Studio",
           "count": 5
-        },
-        {
-          "title": "Software Engineer",
-          "count": 4
         }
       ],
       "top_skills": [
+        {
+          "skill": "iOS / iPadOS",
+          "count": 40
+        },
         {
           "skill": "macOS",
           "count": 29
         },
         {
-          "skill": "iOS / iPadOS",
-          "count": 17
+          "skill": "Swift",
+          "count": 16
         },
         {
           "skill": "SwiftUI",
           "count": 13
         },
         {
-          "skill": "Swift",
-          "count": 12
+          "skill": "Go",
+          "count": 13
         },
         {
           "skill": "RF / Wireless",
-          "count": 10
+          "count": 11
         },
         {
           "skill": "watchOS",
+          "count": 9
+        },
+        {
+          "skill": "iCloud",
           "count": 9
         },
         {
@@ -159,20 +167,12 @@
           "count": 8
         },
         {
-          "skill": "Go",
-          "count": 8
-        },
-        {
           "skill": "Distributed Systems",
-          "count": 5
-        },
-        {
-          "skill": "LLMs / Foundation Models",
-          "count": 4
+          "count": 8
         }
       ],
       "seniority_breakdown": {
-        "Mid": 123,
+        "Mid": 127,
         "Senior": 56,
         "New Grad": 2,
         "Staff": 3,
@@ -181,8 +181,8 @@
     },
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 125,
-      "posting_count": 179,
+      "role_count": 130,
+      "posting_count": 186,
       "top_titles": [
         {
           "title": "Analog/Mixed-Signal IP Engineering Program Manager",
@@ -201,6 +201,10 @@
           "count": 6
         },
         {
+          "title": "Design Verification Engineer",
+          "count": 5
+        },
+        {
           "title": "Power Integrity Engineer",
           "count": 4
         },
@@ -211,44 +215,40 @@
         {
           "title": "Emulation Verification Engineer",
           "count": 4
-        },
-        {
-          "title": "Sensing & Imaging FPGA Engineer",
-          "count": 4
         }
       ],
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 31
+          "count": 39
         },
         {
           "skill": "RF / Wireless",
-          "count": 27
-        },
-        {
-          "skill": "RTL Design",
-          "count": 9
+          "count": 28
         },
         {
           "skill": "CPU Architecture",
-          "count": 8
+          "count": 17
+        },
+        {
+          "skill": "RTL Design",
+          "count": 13
+        },
+        {
+          "skill": "ASIC Design",
+          "count": 12
+        },
+        {
+          "skill": "Power Integrity",
+          "count": 9
         },
         {
           "skill": "Speech / Audio",
           "count": 8
         },
         {
-          "skill": "Power Integrity",
-          "count": 7
-        },
-        {
           "skill": "GPU Architecture",
-          "count": 6
-        },
-        {
-          "skill": "ASIC Design",
-          "count": 5
+          "count": 7
         },
         {
           "skill": "Signal Integrity",
@@ -260,7 +260,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 156,
+        "Mid": 163,
         "Senior": 3,
         "Manager": 20
       }
@@ -313,6 +313,10 @@
           "count": 5
         },
         {
+          "skill": "watchOS",
+          "count": 3
+        },
+        {
           "skill": "iOS / iPadOS",
           "count": 3
         },
@@ -325,15 +329,19 @@
           "count": 2
         },
         {
-          "skill": "watchOS",
-          "count": 2
-        },
-        {
           "skill": "Agile / Scrum",
           "count": 2
         },
         {
+          "skill": "iCloud",
+          "count": 2
+        },
+        {
           "skill": "LLMs / Foundation Models",
+          "count": 2
+        },
+        {
+          "skill": "ML Infrastructure",
           "count": 2
         }
       ],
@@ -391,12 +399,12 @@
           "count": 6
         },
         {
-          "skill": "Speech / Audio",
-          "count": 3
+          "skill": "RF / Wireless",
+          "count": 4
         },
         {
-          "skill": "RF / Wireless",
-          "count": 2
+          "skill": "Speech / Audio",
+          "count": 3
         },
         {
           "skill": "Computer Vision",
@@ -415,50 +423,6 @@
   ],
   "highest_paid_roles": [
     {
-      "title": "Art Director, Motion Design",
-      "category": "Computer Vision / AR / VR / Design",
-      "seniority": "Director",
-      "salary_band": "$250K \u2013 $500K+",
-      "posting_count": 2,
-      "top_skills": [],
-      "sample_locations": [
-        "Sunnyvale"
-      ]
-    },
-    {
-      "title": "Art Director, Design - Apple TV Brand Marketing",
-      "category": "Computer Vision / AR / VR / Design",
-      "seniority": "Director",
-      "salary_band": "$250K \u2013 $500K+",
-      "posting_count": 1,
-      "top_skills": [],
-      "sample_locations": [
-        "Culver City"
-      ]
-    },
-    {
-      "title": "Creative Director, A/V \u2014 Apple TV Sports Marketing",
-      "category": "Computer Vision / AR / VR / Design",
-      "seniority": "Director",
-      "salary_band": "$250K \u2013 $500K+",
-      "posting_count": 1,
-      "top_skills": [],
-      "sample_locations": [
-        "Culver City"
-      ]
-    },
-    {
-      "title": "Creative Director, Design - Apple TV Sports Marketing",
-      "category": "Computer Vision / AR / VR / Design",
-      "seniority": "Director",
-      "salary_band": "$250K \u2013 $500K+",
-      "posting_count": 1,
-      "top_skills": [],
-      "sample_locations": [
-        "Culver City"
-      ]
-    },
-    {
       "title": "Principal Security Engineering Program Manager - China Security & Infrastructure, Apple Services Engineering",
       "category": "Security / Cryptography",
       "seniority": "Principal",
@@ -467,6 +431,67 @@
       "top_skills": [],
       "sample_locations": [
         "Seattle"
+      ]
+    },
+    {
+      "title": "Sr. Principal Engineer - FoundationDB",
+      "category": "Software Engineering (iOS/macOS/Services/Core OS)",
+      "seniority": "Principal",
+      "salary_band": "$200K \u2013 $400K+",
+      "posting_count": 1,
+      "top_skills": [
+        {
+          "skill": "FoundationDB",
+          "count": 1
+        },
+        {
+          "skill": "iCloud",
+          "count": 1
+        }
+      ],
+      "sample_locations": [
+        "Cupertino"
+      ]
+    },
+    {
+      "title": "Software Engineer, Apple Ads",
+      "category": "Software Engineering (iOS/macOS/Services/Core OS)",
+      "seniority": "Staff",
+      "salary_band": "$200K \u2013 $380K",
+      "posting_count": 5,
+      "top_skills": [],
+      "sample_locations": [
+        "Austin",
+        "Cupertino"
+      ]
+    },
+    {
+      "title": "Staff Data Engineer",
+      "category": "Data Engineering / Analytics",
+      "seniority": "Staff",
+      "salary_band": "$200K \u2013 $380K",
+      "posting_count": 2,
+      "top_skills": [
+        {
+          "skill": "iCloud",
+          "count": 2
+        }
+      ],
+      "sample_locations": [
+        "Austin",
+        "Seattle"
+      ]
+    },
+    {
+      "title": "Staff Machine Learning Engineer \u2013 Ads Predictions",
+      "category": "ML / AI / Generative AI",
+      "seniority": "Staff",
+      "salary_band": "$200K \u2013 $380K",
+      "posting_count": 2,
+      "top_skills": [],
+      "sample_locations": [
+        "Cupertino",
+        "New York City"
       ]
     }
   ]
