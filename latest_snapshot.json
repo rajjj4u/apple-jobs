@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-08-29T04:42:43+00:00",
+  "scraped_at": "2026-08-29T14:17:06+00:00",
   "total_listings": 1200,
-  "tech_role_count": 752,
+  "tech_role_count": 751,
   "top_categories": [
     {
       "name": "ML / AI / Generative AI",
@@ -93,8 +93,8 @@
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 133,
-      "posting_count": 189,
+      "role_count": 132,
+      "posting_count": 188,
       "top_titles": [
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
@@ -132,11 +132,11 @@
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 40
+          "count": 39
         },
         {
           "skill": "macOS",
-          "count": 29
+          "count": 28
         },
         {
           "skill": "Swift",
@@ -172,7 +172,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 127,
+        "Mid": 126,
         "Senior": 56,
         "New Grad": 2,
         "Staff": 3,

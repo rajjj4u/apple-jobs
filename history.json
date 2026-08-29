@@ -170,5 +170,56 @@
         "posting_count": 2
       }
     ]
+  },
+  {
+    "date": "2026-08-29T14:17:05+00:00",
+    "tech_role_count": 751,
+    "top_categories": [
+      "ML / AI / Generative AI",
+      "Software Engineering (iOS/macOS/Services/Core OS)",
+      "Apple Silicon / Hardware Engineering"
+    ],
+    "top_category_counts": [
+      135,
+      132,
+      130
+    ],
+    "top_paid_roles": [
+      {
+        "title": "Principal Security Engineering Program Manager - China Security & Infrastructure, Apple Services Engineering",
+        "category": "Security / Cryptography",
+        "seniority": "Principal",
+        "salary_band": "$200K \u2013 $400K+",
+        "posting_count": 1
+      },
+      {
+        "title": "Sr. Principal Engineer - FoundationDB",
+        "category": "Software Engineering (iOS/macOS/Services/Core OS)",
+        "seniority": "Principal",
+        "salary_band": "$200K \u2013 $400K+",
+        "posting_count": 1
+      },
+      {
+        "title": "Software Engineer, Apple Ads",
+        "category": "Software Engineering (iOS/macOS/Services/Core OS)",
+        "seniority": "Staff",
+        "salary_band": "$200K \u2013 $380K",
+        "posting_count": 5
+      },
+      {
+        "title": "Staff Data Engineer",
+        "category": "Data Engineering / Analytics",
+        "seniority": "Staff",
+        "salary_band": "$200K \u2013 $380K",
+        "posting_count": 2
+      },
+      {
+        "title": "Staff Machine Learning Engineer \u2013 Ads Predictions",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Staff",
+        "salary_band": "$200K \u2013 $380K",
+        "posting_count": 2
+      }
+    ]
   }
 ]
