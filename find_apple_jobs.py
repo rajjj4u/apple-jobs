@@ -217,6 +217,101 @@ SENIORITY_RANK = [
     "Mid", "New Grad", "Intern", "Unknown",
 ]
 
+# ============ SKILLS TAXONOMY ============
+# Curated list of tech skills. We count occurrences of each in the full
+# job description (not the title), ranked by frequency within each category.
+# Order matters for display only; counts determine ranking.
+SKILLS_TAXONOMY: List[Tuple[str, str]] = [
+    # Languages
+    ("Python", r"\bpython\b"),
+    ("Swift", r"\bswift\b"),
+    ("C++", r"\bc\+\+\b"),
+    ("C", r"\b(?<!visual )\bc language\b|\bansi c\b|(?<!\.)\bC\b(?=[\s,;.])"),
+    ("Objective-C", r"\bobjective[- ]c\b"),
+    ("Java", r"\bjava\b(?!script)"),
+    ("JavaScript/TypeScript", r"\b(javascript|typescript|ts)\b"),
+    ("Rust", r"\brust\b"),
+    ("Go", r"\b(go(?:lang)?)\b"),
+    ("SQL", r"\bsql\b"),
+    ("Shell/Bash", r"\b(bash|shell|sh|zsh)\b"),
+    ("Verilog/SystemVerilog", r"\b(verilog|systemverilog)\b"),
+    ("VHDL", r"\bvhdl\b"),
+    ("Matlab", r"\bmatlab\b"),
+    # ML / AI frameworks
+    ("PyTorch", r"\bpytorch\b"),
+    ("TensorFlow", r"\btensorflow\b"),
+    ("JAX", r"\bjax\b"),
+    ("Core ML / MLX", r"\b(coreml|mlx)\b"),
+    ("LLMs / Foundation Models", r"\b(llm|llms|foundation model)\b"),
+    ("CUDA", r"\bcuda\b"),
+    ("Metal", r"\bmetal\b"),
+    # Hardware / silicon
+    ("RTL Design", r"\brtl\b"),
+    ("ASIC Design", r"\basic\b"),
+    ("FPGA", r"\bfpga\b"),
+    ("CPU Architecture", r"\bcpu\b"),
+    ("GPU Architecture", r"\bgpu\b"),
+    ("SoC", r"\bsoc\b"),
+    ("Signal Integrity", r"\bsignal integrity\b"),
+    ("Power Integrity", r"\bpower integrity\b"),
+    ("RF / Wireless", r"\b(rf|wireless)\b"),
+    # Mobile / platforms
+    ("iOS / iPadOS", r"\b(iOS|iPadOS|ios)\b"),
+    ("macOS", r"\bmacOS\b"),
+    ("visionOS", r"\bvisionOS\b"),
+    ("watchOS", r"\bwatchOS\b"),
+    ("Android", r"\bandroid\b"),
+    # Web / cloud
+    ("React", r"\breact\b"),
+    ("Kubernetes", r"\b(kubernetes|k8s)\b"),
+    ("Docker / Containers", r"\b(docker|containers?|containerd)\b"),
+    ("AWS", r"\baws\b"),
+    ("GCP", r"\bgcp\b"),
+    ("Azure", r"\bazure\b"),
+    # Data / DB
+    ("PostgreSQL", r"\bpostgres(?:ql)?\b"),
+    ("MongoDB", r"\bmongodb\b"),
+    ("Redis", r"\bredis\b"),
+    ("Kafka", r"\bkafka\b"),
+    ("Spark", r"\bspark\b"),
+    ("Snowflake", r"\bsnowflake\b"),
+    # Apple-specific platforms
+    ("Xcode", r"\bxcode\b"),
+    ("SwiftUI", r"\bswiftui\b"),
+    ("UIKit", r"\buikit\b"),
+    ("ARKit", r"\barkit\b"),
+    ("RealityKit", r"\brealitykit\b"),
+    ("CoreData", r"\bcoredata\b"),
+    ("Combine", r"\bcombine\b"),
+    ("FoundationDB", r"\bfoundationdb\b"),
+    ("MapKit", r"\bmapkit\b"),
+    ("CoreLocation", r"\bcorelocation\b"),
+    ("WebKit", r"\bwebkit\b"),
+    # Methods / practices
+    ("Computer Vision", r"\bcomputer vision\b"),
+    ("NLP", r"\b(nlp|natural language)\b"),
+    ("Speech / Audio", r"\b(speech|audio)\b"),
+    ("3D Graphics / Rendering", r"\b(3d graphics|rendering|metal)\b"),
+    ("Computer Graphics", r"\bcomputer graphics\b"),
+    ("Cryptography", r"\bcryptograph"),
+    ("Distributed Systems", r"\b(distributed systems?|distributed computing)\b"),
+    ("Microservices", r"\bmicroservices?\b"),
+    ("MLOps", r"\bmlops\b"),
+    ("SystemVerilog/UVM", r"\b(systemverilog|uvm)\b"),
+    ("Observability", r"\bobservability\b"),
+    # Soft
+    ("Agile / Scrum", r"\b(agile|scrum)\b"),
+]
+
+# Pre-compile skill regexes (case-insensitive)
+SKILLS_COMPILED = [(name, re.compile(pat, re.IGNORECASE)) for name, pat in SKILLS_TAXONOMY]
+
+# How many detail pages to fetch concurrently for skill extraction.
+SKILL_FETCH_WORKERS = 16
+# Cap on number of jobs to fetch details for (top roles per top categories only)
+# Setting to None fetches all. Set to e.g. 100 to limit.
+MAX_DETAIL_FETCHES = None
+
 # ============ DATA MODELS ============
 
 @dataclass
@@ -228,6 +323,8 @@ class JobListing:
     team: str
     category: str = "Other / Non-Tech"
     seniority: str = "Mid"
+    description: str = ""           # raw job description text (HTML stripped)
+    skills: List[str] = field(default_factory=list)  # extracted skill names
 
     @property
     def url(self) -> str:
@@ -250,8 +347,9 @@ class CategoryRollup:
     name: str
     role_count: int        # unique open roles
     posting_count: int     # total postings incl. same role at multiple locations
-    top_titles: List[str] = field(default_factory=list)
+    top_titles: List[Tuple[str, int]] = field(default_factory=list)  # (title, count)
     seniority_breakdown: Dict[str, int] = field(default_factory=dict)
+    top_skills: List[Tuple[str, int]] = field(default_factory=list)  # (skill, count)
     sample_role: Optional[JobListing] = None
 
 # ============ SCRAPER ============
@@ -387,6 +485,98 @@ async def scrape_all_pages() -> List[JobListing]:
     log.info("Total raw listings scraped: %d", len(all_jobs))
     return all_jobs
 
+# ============ JOB DESCRIPTION FETCHING ============
+
+async def fetch_job_description(session: aiohttp.ClientSession, job: JobListing) -> JobListing:
+    """Fetch the detail page for a single job and extract its description text.
+
+    Apple's job detail page embeds the actual job description inside an
+    escaped JSON blob (key "jobSummary"). We extract that via regex, unescape
+    it, then count skills by matching against SKILLS_COMPILED regexes.
+
+    Why not parse the rendered HTML? Apple's site wraps every page with a huge
+    nav/footer/chrome that mentions "JavaScript" boilerplate. Pulling text from
+    the rendered DOM catches that chrome and gives bogus skill counts.
+    """
+    url = f"https://jobs.apple.com/en-us/details/{job.role_number}/{job._slug(job.title)}?team={job.team}"
+    try:
+        async with session.get(url, timeout=aiohttp.ClientTimeout(total=15)) as resp:
+            if resp.status != 200:
+                log.debug("Detail fetch failed for %s: HTTP %s", job.role_number, resp.status)
+                return job
+            html = await resp.text()
+    except Exception as e:
+        log.debug("Detail fetch error for %s: %s", job.role_number, e)
+        return job
+
+    # Extract the escaped JSON jobSummary field. The HTML contains JSON where
+    # the inner string has been backslash-escaped for HTML embedding, so:
+    #   \"jobSummary\":\"<escaped description>\"
+    # where <escaped description> itself has \" for quotes and \\ for backslashes.
+    match = re.search(
+        r'\\"jobSummary\\"\s*:\s*\\"((?:[^"\\]|\\.)*?)\\"(?:\s*[,}])',
+        html,
+    )
+    if not match:
+        log.debug("No jobSummary found for %s", job.role_number)
+        return job
+
+    raw = match.group(1)
+    # Unescape the doubly-escaped string:
+    # 1) \" -> "        (HTML-escaped quote → real quote)
+    # 2) \\ -> \        (escaped backslash → real backslash)
+    # 3) \n, \t, \uXXXX → real chars
+    text = raw.replace('\\"', '"').replace('\\\\', '\\')
+    try:
+        # Use JSON decoder for any remaining \uXXXX / \n etc.
+        text = __import__("json").loads(f'"{text}"')
+    except Exception:
+        # Fallback: do manual replacements if JSON decode fails
+        text = text.replace('\\n', '\n').replace('\\t', '\t').replace('\\u0026', '&')
+
+    text = re.sub(r"\s+", " ", text).strip()
+    job.description = text[:8000]  # cap to avoid memory bloat
+
+    # Extract skills
+    skills_found: List[str] = []
+    for name, regex in SKILLS_COMPILED:
+        if regex.search(job.description):
+            skills_found.append(name)
+    job.skills = skills_found
+    return job
+
+async def fetch_all_descriptions(jobs: List[JobListing]) -> None:
+    """Fetch descriptions for a list of jobs in parallel, populating skills.
+
+    Mutates each JobListing in-place with description + skills fields.
+    """
+    if MAX_DETAIL_FETCHES is not None:
+        jobs_to_fetch = jobs[:MAX_DETAIL_FETCHES]
+        log.info("Fetching descriptions for %d jobs (cap: %d)...",
+                 len(jobs_to_fetch), MAX_DETAIL_FETCHES)
+    else:
+        jobs_to_fetch = jobs
+        log.info("Fetching descriptions for %d jobs...", len(jobs_to_fetch))
+
+    sem = asyncio.Semaphore(SKILL_FETCH_WORKERS)
+
+    async def bounded(session, j):
+        async with sem:
+            return await fetch_job_description(session, j)
+
+    async with aiohttp.ClientSession(
+        headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 "
+                          "(KHTML, like Gecko) Version/17.4 Safari/605.1.15",
+            "Accept": "text/html,application/xhtml+xml",
+            "Accept-Language": "en-US,en;q=0.9",
+        }
+    ) as session:
+        await asyncio.gather(*[bounded(session, j) for j in jobs_to_fetch])
+
+    fetched = sum(1 for j in jobs_to_fetch if j.description)
+    log.info("Fetched %d/%d descriptions successfully.", fetched, len(jobs_to_fetch))
+
 # ============ CATEGORIZATION ============
 
 def categorize(job: JobListing) -> str:
@@ -412,7 +602,7 @@ def is_tech(job: JobListing) -> bool:
 def analyze(jobs: List[JobListing]) -> List[CategoryRollup]:
     tech_jobs = [j for j in jobs if is_tech(j)]
 
-    # Group by (category, role_number_base) - the same role can be open in multiple cities
+    # Group by category
     by_cat: Dict[str, List[JobListing]] = {}
     for j in tech_jobs:
         j.category = categorize(j)
@@ -421,17 +611,28 @@ def analyze(jobs: List[JobListing]) -> List[CategoryRollup]:
 
     rollups: List[CategoryRollup] = []
     for cat, cat_jobs in by_cat.items():
-        # unique roles (role_number = role id + location code, so use the base 9-digit role id)
         unique_role_ids = {j.role_number.split("-")[0] for j in cat_jobs}
         titles = Counter(j.title for j in cat_jobs)
         seniority_breakdown = Counter(j.seniority for j in cat_jobs)
+
+        # Aggregate skills across all jobs in this category
+        skill_counter: Counter = Counter()
+        for j in cat_jobs:
+            for s in j.skills:
+                skill_counter[s] += 1
+        # Show top skills (only those that appear in at least 2 jobs to filter noise)
+        top_skills = [
+            (name, count) for name, count in skill_counter.most_common()
+            if count >= 2
+        ][:10]
 
         rollups.append(CategoryRollup(
             name=cat,
             role_count=len(unique_role_ids),
             posting_count=len(cat_jobs),
-            top_titles=[t for t, _ in titles.most_common(8)],
+            top_titles=[(t, c) for t, c in titles.most_common(8)],
             seniority_breakdown=dict(seniority_breakdown),
+            top_skills=top_skills,
             sample_role=cat_jobs[0],
         ))
 
@@ -535,6 +736,11 @@ def send_telegram(message: str) -> bool:
 
 # ============ FORMAT ============
 
+# How many top categories + titles to show in the Telegram digest
+TOP_CATEGORIES_IN_DIGEST = 2
+TOP_TITLES_IN_DIGEST = 3
+TOP_SKILLS_IN_DIGEST = 6
+
 def format_telegram(jobs: List[JobListing], rollups: List[CategoryRollup], history: List[dict]) -> str:
     today = datetime.now(timezone.utc).strftime("%b %d, %Y")
     tech_total = sum(1 for j in jobs if is_tech(j))
@@ -547,18 +753,17 @@ def format_telegram(jobs: List[JobListing], rollups: List[CategoryRollup], histo
     lines.append(f"<i>{tech_total} unique tech roles open across {total_listings} total postings</i>{delta_str}")
     lines.append("")
 
-    top3 = rollups[:3]
-    for i, rollup in enumerate(top3, 1):
+    top_categories = rollups[:TOP_CATEGORIES_IN_DIGEST]
+    for i, rollup in enumerate(top_categories, 1):
         band, level = pick_salary_band(rollup.seniority_breakdown)
         lines.append(f"<b>#{i} {rollup.name}</b>")
         lines.append(f"  • <b>{rollup.role_count}</b> unique roles  •  <b>{rollup.posting_count}</b> postings")
         lines.append(f"  • Most common seniority: <b>{level}</b>")
         lines.append(f"  • 💰 Salary band: <b>{band}</b>")
 
-        # Top roles (top 5, with truncation)
+        # Top roles (top N, with posting count in parens)
         lines.append(f"  • <b>Top roles:</b>")
-        for t in rollup.top_titles[:5]:
-            # HTML-escape for Telegram, but & in the title should render as &
+        for t, count in rollup.top_titles[:TOP_TITLES_IN_DIGEST]:
             t_disp = (
                 t.replace("&", "&amp;")
                  .replace("<", "&lt;")
@@ -566,17 +771,13 @@ def format_telegram(jobs: List[JobListing], rollups: List[CategoryRollup], histo
             )
             if len(t_disp) > MAX_TITLE_LEN:
                 t_disp = t_disp[: MAX_TITLE_LEN - 1] + "…"
-            lines.append(f"      – {t_disp}")
+            suffix = f" <i>(×{count})</i>" if count > 1 else ""
+            lines.append(f"      – {t_disp}{suffix}")
 
-        # Seniority breakdown summary
-        if rollup.seniority_breakdown:
-            breakdown = ", ".join(
-                f"{k}: {v}" for k, v in sorted(
-                    rollup.seniority_breakdown.items(),
-                    key=lambda x: -x[1],
-                )[:4]
-            )
-            lines.append(f"  • <i>Seniority mix: {breakdown}</i>")
+        # Top skills
+        if rollup.top_skills:
+            skill_strs = [f"{name} <i>({count})</i>" for name, count in rollup.top_skills[:TOP_SKILLS_IN_DIGEST]]
+            lines.append(f"  • <b>Top skills:</b> {' · '.join(skill_strs)}")
 
         lines.append("")
 
@@ -595,6 +796,23 @@ async def main_async() -> int:
     if not jobs:
         log.error("No jobs scraped; aborting.")
         return 1
+
+    # Fetch job descriptions for skill extraction. We fetch only the unique
+    # tech-role base role IDs to keep request count reasonable.
+    tech_jobs = [j for j in jobs if is_tech(j)]
+    unique_jobs_by_id = {}
+    for j in tech_jobs:
+        base_id = j.role_number.split("-")[0]
+        # Keep the first occurrence (any will do for skill extraction)
+        unique_jobs_by_id.setdefault(base_id, j)
+    jobs_for_skills = list(unique_jobs_by_id.values())
+    log.info("Fetching descriptions for %d unique tech roles...", len(jobs_for_skills))
+    await fetch_all_descriptions(jobs_for_skills)
+
+    # Now propagate skills from the dedup'd jobs back to all postings of the same role
+    skills_lookup = {j.role_number.split("-")[0]: j.skills for j in jobs_for_skills}
+    for j in jobs:
+        j.skills = skills_lookup.get(j.role_number.split("-")[0], [])
 
     rollups = analyze(jobs)
     history = load_history()
@@ -626,7 +844,8 @@ async def main_async() -> int:
                 "name": r.name,
                 "role_count": r.role_count,
                 "posting_count": r.posting_count,
-                "top_titles": r.top_titles,
+                "top_titles": [{"title": t, "count": c} for t, c in r.top_titles],
+                "top_skills": [{"skill": s, "count": c} for s, c in r.top_skills],
                 "seniority_breakdown": r.seniority_breakdown,
             }
             for r in rollups[:5]
