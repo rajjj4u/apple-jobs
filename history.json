@@ -26,5 +26,19 @@
       131,
       106
     ]
+  },
+  {
+    "date": "2026-08-29T03:57:20+00:00",
+    "tech_role_count": 740,
+    "top_categories": [
+      "Software Engineering (iOS/macOS/Services/Core OS)",
+      "Apple Silicon / Hardware Engineering",
+      "Product / Program Management (Technical)"
+    ],
+    "top_category_counts": [
+      177,
+      131,
+      106
+    ]
   }
 ]
