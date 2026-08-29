@@ -1,0 +1,2 @@
+# Apple Jobs Trend Finder Dependencies
+aiohttp>=3.9
