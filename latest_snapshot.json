@@ -1,12 +1,34 @@
 {
-  "scraped_at": "2026-08-29T03:57:21+00:00",
+  "scraped_at": "2026-08-29T04:03:13+00:00",
   "total_listings": 1200,
-  "tech_role_count": 740,
+  "tech_role_count": 752,
   "top_categories": [
     {
+      "name": "ML / AI / Generative AI",
+      "role_count": 135,
+      "posting_count": 153,
+      "top_titles": [
+        "ML Engineer - Creator Studio",
+        "Software Engineer (Framework Solutions), AI & Data Platforms (AiDP)",
+        "Machine Learning Engineer",
+        "Engineering Project Manager, Ai & Data Platforms",
+        "AIML - Senior Applied ML Research Scientist, Accessibility",
+        "Machine Learning Engineer - Health AIML",
+        "Hardware System Design Engineer - Apple Vision Pro",
+        "On-device ML Performance Engineer, Graphics, Games and Machine Learning"
+      ],
+      "seniority_breakdown": {
+        "Mid": 90,
+        "Manager": 19,
+        "Senior": 36,
+        "Staff": 7,
+        "New Grad": 1
+      }
+    },
+    {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 177,
-      "posting_count": 237,
+      "role_count": 133,
+      "posting_count": 189,
       "top_titles": [
         "ISE, System Experience - Senior Software Engineer, macOS System Experience",
         "Systems Software Engineer, Platform Architecture",
@@ -18,93 +40,69 @@
         "iOS Engineer - Creator Studio"
       ],
       "seniority_breakdown": {
-        "Mid": 162,
-        "Senior": 66,
-        "New Grad": 3,
-        "Staff": 4,
-        "Manager": 1,
+        "Mid": 127,
+        "Senior": 56,
+        "New Grad": 2,
+        "Staff": 3,
         "Principal": 1
       }
     },
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 131,
-      "posting_count": 185,
+      "role_count": 130,
+      "posting_count": 186,
       "top_titles": [
         "Analog/Mixed-Signal IP Engineering Program Manager",
+        "Wireless Module Engineer",
         "CPU Verification Engineer",
         "Wireless System Integration and Characterization Engineer",
         "Design Verification Engineer",
         "Power Integrity Engineer",
         "Silicon Photonics EPM, Data Center SoC",
-        "Emulation Verification Engineer",
-        "Sensing & Imaging FPGA Engineer"
+        "Emulation Verification Engineer"
       ],
       "seniority_breakdown": {
-        "Mid": 160,
+        "Mid": 163,
         "Senior": 3,
-        "Manager": 22
+        "Manager": 20
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 106,
-      "posting_count": 128,
+      "role_count": 95,
+      "posting_count": 111,
       "top_titles": [
         "Data Center Project Manager, Mechanical",
         "Data Center Construction Project Manager",
-        "Engineering Project Manager, Ai & Data Platforms",
-        "Residential Security Program Manager, Executive Protection",
         "3rd Party IP Engineering Program Manager",
-        "AMP Engineering Program Manager - Strategic Data Solutions",
         "Technical Product Manager, Partner Reporting Solutions",
-        "Product Manager, Employee Experience & Productivity"
+        "Product Manager, Employee Experience & Productivity",
+        "NPI Operations Program Manager, iPad & Accessories",
+        "Engineering Program Manager, Search Quality and Infrastructure, Apple Services Engineering",
+        "RF Test Engineering Program Manager"
       ],
       "seniority_breakdown": {
-        "Manager": 108,
+        "Manager": 92,
         "Senior": 17,
-        "Lead": 2,
-        "Principal": 1
-      }
-    },
-    {
-      "name": "ML / AI / Generative AI",
-      "role_count": 97,
-      "posting_count": 108,
-      "top_titles": [
-        "ML Engineer - Creator Studio",
-        "Machine Learning Engineer",
-        "AIML - Senior Applied ML Research Scientist, Accessibility",
-        "Machine Learning Engineer - Health AIML",
-        "On-device ML Performance Engineer, Graphics, Games and Machine Learning",
-        "Staff/Senior Machine Learning Engineer, Search & Knowledge Platforms",
-        "Sr. Machine Learning Research Engineer, Siri Speech",
-        "Staff Research Scientist, Siri Innovation Studio"
-      ],
-      "seniority_breakdown": {
-        "Mid": 61,
-        "Manager": 10,
-        "Senior": 29,
-        "Staff": 7,
-        "Lead": 1
+        "Lead": 2
       }
     },
     {
       "name": "QA / Test / SDET",
-      "role_count": 21,
-      "posting_count": 21,
+      "role_count": 28,
+      "posting_count": 29,
       "top_titles": [
+        "Software Development Engineer in Test, Creative Apps",
         "Quality Engineer",
+        "Software Engineer - Test and Validation",
         "Software Quality Engineer",
         "Software Quality Engineer, Sensing & Connectivity",
         "Embedded Quality Engineer - Camera",
-        "Sr. Applied Scientist, AI Evaluation & Quality Systems",
-        "Camera Calibration and Test Engineer",
-        "Software Test Engineer, Sensing & Connectivity",
-        "Feature Integration Quality Engineer"
+        "Software Development Engineer in Test, Full Stack, Creativity Apps",
+        "Sr. Applied Scientist, AI Evaluation & Quality Systems"
       ],
       "seniority_breakdown": {
-        "Mid": 18,
+        "Mid": 26,
         "Senior": 3
       }
     }
