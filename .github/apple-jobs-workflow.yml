@@ -1,0 +1,45 @@
+name: Apple Jobs Trend Finder — US Tech Demand
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # Daily at 9:00 AM UTC (matches flight-deals schedule)
+  workflow_dispatch:
+
+jobs:
+  apple-jobs-digest:
+    name: Scrape Apple US Jobs & Send Telegram Digest
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-apple-jobs-${{ hashFiles('requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Apple Jobs trend finder
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python find_apple_jobs.py
+
+      - name: Commit history.json + latest_snapshot.json
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add history.json latest_snapshot.json
+          git diff --staged --quiet || git commit -m "Daily Apple US jobs digest - $(date -u +%Y-%m-%d)"
+          git push
