@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-08-29T04:19:36+00:00",
-  "total_listings": 1200,
-  "tech_role_count": 752,
+  "scraped_at": "2026-08-29T04:30:52+00:00",
+  "total_listings": 1180,
+  "tech_role_count": 741,
   "top_categories": [
     {
       "name": "ML / AI / Generative AI",
@@ -93,16 +93,12 @@
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 133,
-      "posting_count": 189,
+      "role_count": 131,
+      "posting_count": 185,
       "top_titles": [
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
           "count": 10
-        },
-        {
-          "title": "Systems Software Engineer, Platform Architecture",
-          "count": 6
         },
         {
           "title": "Wi-Fi Software Engineer, Wireless Technologies & Ecosystems",
@@ -127,6 +123,10 @@
         {
           "title": "iOS Engineer - Creator Studio",
           "count": 5
+        },
+        {
+          "title": "Software Engineer",
+          "count": 4
         }
       ],
       "top_skills": [
@@ -172,7 +172,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 127,
+        "Mid": 123,
         "Senior": 56,
         "New Grad": 2,
         "Staff": 3,
@@ -181,8 +181,8 @@
     },
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 130,
-      "posting_count": 186,
+      "role_count": 125,
+      "posting_count": 179,
       "top_titles": [
         {
           "title": "Analog/Mixed-Signal IP Engineering Program Manager",
@@ -201,10 +201,6 @@
           "count": 6
         },
         {
-          "title": "Design Verification Engineer",
-          "count": 5
-        },
-        {
           "title": "Power Integrity Engineer",
           "count": 4
         },
@@ -214,6 +210,10 @@
         },
         {
           "title": "Emulation Verification Engineer",
+          "count": 4
+        },
+        {
+          "title": "Sensing & Imaging FPGA Engineer",
           "count": 4
         }
       ],
@@ -228,7 +228,7 @@
         },
         {
           "skill": "RTL Design",
-          "count": 13
+          "count": 9
         },
         {
           "skill": "CPU Architecture",
@@ -260,7 +260,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 163,
+        "Mid": 156,
         "Senior": 3,
         "Manager": 20
       }
@@ -411,6 +411,63 @@
         "Mid": 26,
         "Senior": 3
       }
+    }
+  ],
+  "highest_paid_roles": [
+    {
+      "title": "Art Director, Motion Design",
+      "category": "Computer Vision / AR / VR / Design",
+      "seniority": "Director",
+      "salary_band": "$250K \u2013 $500K+",
+      "posting_count": 2,
+      "top_skills": [],
+      "sample_locations": [
+        "Sunnyvale"
+      ]
+    },
+    {
+      "title": "Art Director, Design - Apple TV Brand Marketing",
+      "category": "Computer Vision / AR / VR / Design",
+      "seniority": "Director",
+      "salary_band": "$250K \u2013 $500K+",
+      "posting_count": 1,
+      "top_skills": [],
+      "sample_locations": [
+        "Culver City"
+      ]
+    },
+    {
+      "title": "Creative Director, A/V \u2014 Apple TV Sports Marketing",
+      "category": "Computer Vision / AR / VR / Design",
+      "seniority": "Director",
+      "salary_band": "$250K \u2013 $500K+",
+      "posting_count": 1,
+      "top_skills": [],
+      "sample_locations": [
+        "Culver City"
+      ]
+    },
+    {
+      "title": "Creative Director, Design - Apple TV Sports Marketing",
+      "category": "Computer Vision / AR / VR / Design",
+      "seniority": "Director",
+      "salary_band": "$250K \u2013 $500K+",
+      "posting_count": 1,
+      "top_skills": [],
+      "sample_locations": [
+        "Culver City"
+      ]
+    },
+    {
+      "title": "Principal Security Engineering Program Manager - China Security & Infrastructure, Apple Services Engineering",
+      "category": "Security / Cryptography",
+      "seniority": "Principal",
+      "salary_band": "$200K \u2013 $400K+",
+      "posting_count": 1,
+      "top_skills": [],
+      "sample_locations": [
+        "Seattle"
+      ]
     }
   ]
 }
