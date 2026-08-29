@@ -1,0 +1,112 @@
+{
+  "scraped_at": "2026-08-29T03:46:53+00:00",
+  "total_listings": 1200,
+  "tech_role_count": 740,
+  "top_categories": [
+    {
+      "name": "Software Engineering (iOS/macOS/Services/Core OS)",
+      "role_count": 177,
+      "posting_count": 237,
+      "top_titles": [
+        "ISE, System Experience - Senior Software Engineer, macOS System Experience",
+        "Systems Software Engineer, Platform Architecture",
+        "Wi-Fi Software Engineer, Wireless Technologies & Ecosystems",
+        "iOS Engineer: Cloud Media and Collaboration",
+        "iOS Analytics Software Engineer - Video Applications",
+        "Sr iOS Software Engineer - Creative Apps",
+        "iOS Software Engineer - Creative Apps",
+        "iOS Engineer - Creator Studio"
+      ],
+      "seniority_breakdown": {
+        "Mid": 162,
+        "Senior": 66,
+        "New Grad": 3,
+        "Staff": 4,
+        "Manager": 1,
+        "Principal": 1
+      }
+    },
+    {
+      "name": "Apple Silicon / Hardware Engineering",
+      "role_count": 131,
+      "posting_count": 185,
+      "top_titles": [
+        "Analog/Mixed-Signal IP Engineering Program Manager",
+        "CPU Verification Engineer",
+        "Wireless System Integration and Characterization Engineer",
+        "Design Verification Engineer",
+        "Power Integrity Engineer",
+        "Silicon Photonics EPM, Data Center SoC",
+        "Emulation Verification Engineer",
+        "Sensing & Imaging FPGA Engineer"
+      ],
+      "seniority_breakdown": {
+        "Mid": 160,
+        "Senior": 3,
+        "Manager": 22
+      }
+    },
+    {
+      "name": "Product / Program Management (Technical)",
+      "role_count": 106,
+      "posting_count": 128,
+      "top_titles": [
+        "Data Center Project Manager, Mechanical",
+        "Data Center Construction Project Manager",
+        "Engineering Project Manager, Ai & Data Platforms",
+        "Residential Security Program Manager, Executive Protection",
+        "3rd Party IP Engineering Program Manager",
+        "AMP Engineering Program Manager - Strategic Data Solutions",
+        "Technical Product Manager, Partner Reporting Solutions",
+        "Product Manager, Employee Experience & Productivity"
+      ],
+      "seniority_breakdown": {
+        "Manager": 108,
+        "Senior": 17,
+        "Lead": 2,
+        "Principal": 1
+      }
+    },
+    {
+      "name": "ML / AI / Generative AI",
+      "role_count": 97,
+      "posting_count": 108,
+      "top_titles": [
+        "ML Engineer - Creator Studio",
+        "Machine Learning Engineer",
+        "AIML - Senior Applied ML Research Scientist, Accessibility",
+        "Machine Learning Engineer - Health AIML",
+        "On-device ML Performance Engineer, Graphics, Games and Machine Learning",
+        "Staff/Senior Machine Learning Engineer, Search & Knowledge Platforms",
+        "Sr. Machine Learning Research Engineer, Siri Speech",
+        "Staff Research Scientist, Siri Innovation Studio"
+      ],
+      "seniority_breakdown": {
+        "Mid": 61,
+        "Manager": 10,
+        "Senior": 29,
+        "Staff": 7,
+        "Lead": 1
+      }
+    },
+    {
+      "name": "QA / Test / SDET",
+      "role_count": 21,
+      "posting_count": 21,
+      "top_titles": [
+        "Quality Engineer",
+        "Software Quality Engineer",
+        "Software Quality Engineer, Sensing & Connectivity",
+        "Embedded Quality Engineer - Camera",
+        "Sr. Applied Scientist, AI Evaluation & Quality Systems",
+        "Camera Calibration and Test Engineer",
+        "Software Test Engineer, Sensing & Connectivity",
+        "Feature Integration Quality Engineer"
+      ],
+      "seniority_breakdown": {
+        "Mid": 18,
+        "Senior": 3
+      }
+    }
+  ]
+}
