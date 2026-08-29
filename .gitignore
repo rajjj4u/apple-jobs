@@ -17,3 +17,6 @@ venv/
 # Don't ignore these - they ARE the point of the repo
 # history.json
 # latest_snapshot.json
+
+# Local-only setup notes (not part of the public repo)
+SETUP.md
