@@ -54,5 +54,19 @@
       133,
       130
     ]
+  },
+  {
+    "date": "2026-08-29T04:19:35+00:00",
+    "tech_role_count": 752,
+    "top_categories": [
+      "ML / AI / Generative AI",
+      "Software Engineering (iOS/macOS/Services/Core OS)",
+      "Apple Silicon / Hardware Engineering"
+    ],
+    "top_category_counts": [
+      135,
+      133,
+      130
+    ]
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-29T04:03:13+00:00",
+  "scraped_at": "2026-08-29T04:19:36+00:00",
   "total_listings": 1200,
   "tech_role_count": 752,
   "top_categories": [
@@ -8,14 +8,80 @@
       "role_count": 135,
       "posting_count": 153,
       "top_titles": [
-        "ML Engineer - Creator Studio",
-        "Software Engineer (Framework Solutions), AI & Data Platforms (AiDP)",
-        "Machine Learning Engineer",
-        "Engineering Project Manager, Ai & Data Platforms",
-        "AIML - Senior Applied ML Research Scientist, Accessibility",
-        "Machine Learning Engineer - Health AIML",
-        "Hardware System Design Engineer - Apple Vision Pro",
-        "On-device ML Performance Engineer, Graphics, Games and Machine Learning"
+        {
+          "title": "ML Engineer - Creator Studio",
+          "count": 5
+        },
+        {
+          "title": "Software Engineer (Framework Solutions), AI & Data Platforms (AiDP)",
+          "count": 4
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "count": 3
+        },
+        {
+          "title": "Engineering Project Manager, Ai & Data Platforms",
+          "count": 3
+        },
+        {
+          "title": "AIML - Senior Applied ML Research Scientist, Accessibility",
+          "count": 3
+        },
+        {
+          "title": "Machine Learning Engineer - Health AIML",
+          "count": 3
+        },
+        {
+          "title": "Hardware System Design Engineer - Apple Vision Pro",
+          "count": 3
+        },
+        {
+          "title": "On-device ML Performance Engineer, Graphics, Games and Machine Learning",
+          "count": 2
+        }
+      ],
+      "top_skills": [
+        {
+          "skill": "LLMs / Foundation Models",
+          "count": 14
+        },
+        {
+          "skill": "Computer Vision",
+          "count": 9
+        },
+        {
+          "skill": "Combine",
+          "count": 8
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 8
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 7
+        },
+        {
+          "skill": "macOS",
+          "count": 7
+        },
+        {
+          "skill": "visionOS",
+          "count": 5
+        },
+        {
+          "skill": "watchOS",
+          "count": 5
+        },
+        {
+          "skill": "SoC",
+          "count": 4
+        },
+        {
+          "skill": "Distributed Systems",
+          "count": 4
+        }
       ],
       "seniority_breakdown": {
         "Mid": 90,
@@ -30,14 +96,80 @@
       "role_count": 133,
       "posting_count": 189,
       "top_titles": [
-        "ISE, System Experience - Senior Software Engineer, macOS System Experience",
-        "Systems Software Engineer, Platform Architecture",
-        "Wi-Fi Software Engineer, Wireless Technologies & Ecosystems",
-        "iOS Engineer: Cloud Media and Collaboration",
-        "iOS Analytics Software Engineer - Video Applications",
-        "Sr iOS Software Engineer - Creative Apps",
-        "iOS Software Engineer - Creative Apps",
-        "iOS Engineer - Creator Studio"
+        {
+          "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
+          "count": 10
+        },
+        {
+          "title": "Systems Software Engineer, Platform Architecture",
+          "count": 6
+        },
+        {
+          "title": "Wi-Fi Software Engineer, Wireless Technologies & Ecosystems",
+          "count": 6
+        },
+        {
+          "title": "iOS Engineer: Cloud Media and Collaboration",
+          "count": 5
+        },
+        {
+          "title": "iOS Analytics Software Engineer - Video Applications",
+          "count": 5
+        },
+        {
+          "title": "Sr iOS Software Engineer - Creative Apps",
+          "count": 5
+        },
+        {
+          "title": "iOS Software Engineer - Creative Apps",
+          "count": 5
+        },
+        {
+          "title": "iOS Engineer - Creator Studio",
+          "count": 5
+        }
+      ],
+      "top_skills": [
+        {
+          "skill": "macOS",
+          "count": 29
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 17
+        },
+        {
+          "skill": "SwiftUI",
+          "count": 13
+        },
+        {
+          "skill": "Swift",
+          "count": 12
+        },
+        {
+          "skill": "RF / Wireless",
+          "count": 10
+        },
+        {
+          "skill": "watchOS",
+          "count": 9
+        },
+        {
+          "skill": "visionOS",
+          "count": 8
+        },
+        {
+          "skill": "Go",
+          "count": 8
+        },
+        {
+          "skill": "Distributed Systems",
+          "count": 5
+        },
+        {
+          "skill": "LLMs / Foundation Models",
+          "count": 4
+        }
       ],
       "seniority_breakdown": {
         "Mid": 127,
@@ -52,14 +184,80 @@
       "role_count": 130,
       "posting_count": 186,
       "top_titles": [
-        "Analog/Mixed-Signal IP Engineering Program Manager",
-        "Wireless Module Engineer",
-        "CPU Verification Engineer",
-        "Wireless System Integration and Characterization Engineer",
-        "Design Verification Engineer",
-        "Power Integrity Engineer",
-        "Silicon Photonics EPM, Data Center SoC",
-        "Emulation Verification Engineer"
+        {
+          "title": "Analog/Mixed-Signal IP Engineering Program Manager",
+          "count": 7
+        },
+        {
+          "title": "Wireless Module Engineer",
+          "count": 6
+        },
+        {
+          "title": "CPU Verification Engineer",
+          "count": 6
+        },
+        {
+          "title": "Wireless System Integration and Characterization Engineer",
+          "count": 6
+        },
+        {
+          "title": "Design Verification Engineer",
+          "count": 5
+        },
+        {
+          "title": "Power Integrity Engineer",
+          "count": 4
+        },
+        {
+          "title": "Silicon Photonics EPM, Data Center SoC",
+          "count": 4
+        },
+        {
+          "title": "Emulation Verification Engineer",
+          "count": 4
+        }
+      ],
+      "top_skills": [
+        {
+          "skill": "SoC",
+          "count": 31
+        },
+        {
+          "skill": "RF / Wireless",
+          "count": 27
+        },
+        {
+          "skill": "RTL Design",
+          "count": 13
+        },
+        {
+          "skill": "CPU Architecture",
+          "count": 8
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 8
+        },
+        {
+          "skill": "Power Integrity",
+          "count": 7
+        },
+        {
+          "skill": "GPU Architecture",
+          "count": 6
+        },
+        {
+          "skill": "ASIC Design",
+          "count": 5
+        },
+        {
+          "skill": "Signal Integrity",
+          "count": 4
+        },
+        {
+          "skill": "Go",
+          "count": 4
+        }
       ],
       "seniority_breakdown": {
         "Mid": 163,
@@ -72,14 +270,72 @@
       "role_count": 95,
       "posting_count": 111,
       "top_titles": [
-        "Data Center Project Manager, Mechanical",
-        "Data Center Construction Project Manager",
-        "3rd Party IP Engineering Program Manager",
-        "Technical Product Manager, Partner Reporting Solutions",
-        "Product Manager, Employee Experience & Productivity",
-        "NPI Operations Program Manager, iPad & Accessories",
-        "Engineering Program Manager, Search Quality and Infrastructure, Apple Services Engineering",
-        "RF Test Engineering Program Manager"
+        {
+          "title": "Data Center Project Manager, Mechanical",
+          "count": 5
+        },
+        {
+          "title": "Data Center Construction Project Manager",
+          "count": 5
+        },
+        {
+          "title": "3rd Party IP Engineering Program Manager",
+          "count": 3
+        },
+        {
+          "title": "Technical Product Manager, Partner Reporting Solutions",
+          "count": 2
+        },
+        {
+          "title": "Product Manager, Employee Experience & Productivity",
+          "count": 2
+        },
+        {
+          "title": "NPI Operations Program Manager, iPad & Accessories",
+          "count": 2
+        },
+        {
+          "title": "Engineering Program Manager, Search Quality and Infrastructure, Apple Services Engineering",
+          "count": 2
+        },
+        {
+          "title": "RF Test Engineering Program Manager",
+          "count": 2
+        }
+      ],
+      "top_skills": [
+        {
+          "skill": "RF / Wireless",
+          "count": 7
+        },
+        {
+          "skill": "Go",
+          "count": 5
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 3
+        },
+        {
+          "skill": "Combine",
+          "count": 2
+        },
+        {
+          "skill": "macOS",
+          "count": 2
+        },
+        {
+          "skill": "watchOS",
+          "count": 2
+        },
+        {
+          "skill": "Agile / Scrum",
+          "count": 2
+        },
+        {
+          "skill": "LLMs / Foundation Models",
+          "count": 2
+        }
       ],
       "seniority_breakdown": {
         "Manager": 92,
@@ -92,14 +348,64 @@
       "role_count": 28,
       "posting_count": 29,
       "top_titles": [
-        "Software Development Engineer in Test, Creative Apps",
-        "Quality Engineer",
-        "Software Engineer - Test and Validation",
-        "Software Quality Engineer",
-        "Software Quality Engineer, Sensing & Connectivity",
-        "Embedded Quality Engineer - Camera",
-        "Software Development Engineer in Test, Full Stack, Creativity Apps",
-        "Sr. Applied Scientist, AI Evaluation & Quality Systems"
+        {
+          "title": "Software Development Engineer in Test, Creative Apps",
+          "count": 2
+        },
+        {
+          "title": "Quality Engineer",
+          "count": 2
+        },
+        {
+          "title": "Software Engineer - Test and Validation",
+          "count": 2
+        },
+        {
+          "title": "Software Quality Engineer",
+          "count": 2
+        },
+        {
+          "title": "Software Quality Engineer, Sensing & Connectivity",
+          "count": 1
+        },
+        {
+          "title": "Embedded Quality Engineer - Camera",
+          "count": 1
+        },
+        {
+          "title": "Software Development Engineer in Test, Full Stack, Creativity Apps",
+          "count": 1
+        },
+        {
+          "title": "Sr. Applied Scientist, AI Evaluation & Quality Systems",
+          "count": 1
+        }
+      ],
+      "top_skills": [
+        {
+          "skill": "iOS / iPadOS",
+          "count": 7
+        },
+        {
+          "skill": "macOS",
+          "count": 6
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 3
+        },
+        {
+          "skill": "RF / Wireless",
+          "count": 2
+        },
+        {
+          "skill": "Computer Vision",
+          "count": 2
+        },
+        {
+          "skill": "watchOS",
+          "count": 2
+        }
       ],
       "seniority_breakdown": {
         "Mid": 26,
