@@ -41,7 +41,25 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python find_apple_jobs.py
+        run: |
+          # Quick smoke test: confirm bot token + chat id actually work
+          if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
+            echo "TELEGRAM_BOT_TOKEN length: ${#TELEGRAM_BOT_TOKEN}"
+            echo "TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID}"
+            # Hit getMe to validate the bot token
+            BOT_CHECK=$(curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getMe" | head -c 200)
+            echo "Bot getMe response: $BOT_CHECK"
+            # Send a tiny test message to verify chat id
+            CHAT_CHECK=$(curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+              -d "chat_id=${TELEGRAM_CHAT_ID}" \
+              -d "text=🛠️ Apple Jobs workflow smoke test — if you see this, Telegram delivery works." \
+              -d "disable_web_page_preview=true" | head -c 300)
+            echo "Smoke-test sendMessage response: $CHAT_CHECK"
+          else
+            echo "WARNING: Telegram creds missing."
+          fi
+          echo "---"
+          python find_apple_jobs.py
 
       - name: Commit history.json + latest_snapshot.json
         run: |
