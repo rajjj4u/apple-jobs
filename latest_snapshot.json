@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-29T14:17:06+00:00",
+  "scraped_at": "2026-08-30T14:22:16+00:00",
   "total_listings": 1200,
   "tech_role_count": 751,
   "top_categories": [
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 135,
-      "posting_count": 153,
+      "role_count": 137,
+      "posting_count": 155,
       "top_titles": [
         {
           "title": "ML Engineer - Creator Studio",
@@ -48,7 +48,7 @@
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 14
+          "count": 15
         },
         {
           "skill": "Speech / Audio",
@@ -84,17 +84,17 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 90,
+        "Mid": 91,
         "Manager": 19,
-        "Senior": 36,
+        "Senior": 37,
         "Staff": 7,
         "New Grad": 1
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 132,
-      "posting_count": 188,
+      "role_count": 134,
+      "posting_count": 190,
       "top_titles": [
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
@@ -132,11 +132,11 @@
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 39
+          "count": 41
         },
         {
           "skill": "macOS",
-          "count": 28
+          "count": 30
         },
         {
           "skill": "Swift",
@@ -155,11 +155,11 @@
           "count": 11
         },
         {
-          "skill": "watchOS",
-          "count": 9
+          "skill": "iCloud",
+          "count": 10
         },
         {
-          "skill": "iCloud",
+          "skill": "watchOS",
           "count": 9
         },
         {
@@ -172,8 +172,8 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 126,
-        "Senior": 56,
+        "Mid": 127,
+        "Senior": 57,
         "New Grad": 2,
         "Staff": 3,
         "Principal": 1
@@ -181,8 +181,8 @@
     },
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 130,
-      "posting_count": 186,
+      "role_count": 127,
+      "posting_count": 181,
       "top_titles": [
         {
           "title": "Analog/Mixed-Signal IP Engineering Program Manager",
@@ -193,16 +193,12 @@
           "count": 6
         },
         {
-          "title": "CPU Verification Engineer",
-          "count": 6
-        },
-        {
           "title": "Wireless System Integration and Characterization Engineer",
           "count": 6
         },
         {
           "title": "Design Verification Engineer",
-          "count": 5
+          "count": 4
         },
         {
           "title": "Power Integrity Engineer",
@@ -215,28 +211,32 @@
         {
           "title": "Emulation Verification Engineer",
           "count": 4
+        },
+        {
+          "title": "Sensing & Imaging FPGA Engineer",
+          "count": 4
         }
       ],
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 39
+          "count": 41
         },
         {
           "skill": "RF / Wireless",
-          "count": 28
-        },
-        {
-          "skill": "CPU Architecture",
-          "count": 17
+          "count": 30
         },
         {
           "skill": "RTL Design",
-          "count": 13
+          "count": 15
         },
         {
           "skill": "ASIC Design",
           "count": 12
+        },
+        {
+          "skill": "CPU Architecture",
+          "count": 11
         },
         {
           "skill": "Power Integrity",
@@ -260,15 +260,15 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 163,
+        "Mid": 158,
         "Senior": 3,
         "Manager": 20
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 95,
-      "posting_count": 111,
+      "role_count": 96,
+      "posting_count": 112,
       "top_titles": [
         {
           "title": "Data Center Project Manager, Mechanical",
@@ -346,8 +346,8 @@
         }
       ],
       "seniority_breakdown": {
+        "Senior": 18,
         "Manager": 92,
-        "Senior": 17,
         "Lead": 2
       }
     },
