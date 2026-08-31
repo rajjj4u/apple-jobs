@@ -1,100 +1,12 @@
 {
-  "scraped_at": "2026-08-30T14:22:16+00:00",
+  "scraped_at": "2026-08-31T16:56:28+00:00",
   "total_listings": 1200,
-  "tech_role_count": 751,
+  "tech_role_count": 748,
   "top_categories": [
     {
-      "name": "ML / AI / Generative AI",
-      "role_count": 137,
-      "posting_count": 155,
-      "top_titles": [
-        {
-          "title": "ML Engineer - Creator Studio",
-          "count": 5
-        },
-        {
-          "title": "Software Engineer (Framework Solutions), AI & Data Platforms (AiDP)",
-          "count": 4
-        },
-        {
-          "title": "Machine Learning Engineer",
-          "count": 3
-        },
-        {
-          "title": "Engineering Project Manager, Ai & Data Platforms",
-          "count": 3
-        },
-        {
-          "title": "AIML - Senior Applied ML Research Scientist, Accessibility",
-          "count": 3
-        },
-        {
-          "title": "Machine Learning Engineer - Health AIML",
-          "count": 3
-        },
-        {
-          "title": "Hardware System Design Engineer - Apple Vision Pro",
-          "count": 3
-        },
-        {
-          "title": "On-device ML Performance Engineer, Graphics, Games and Machine Learning",
-          "count": 2
-        }
-      ],
-      "top_skills": [
-        {
-          "skill": "AI & Data Platforms (AiDP)",
-          "count": 28
-        },
-        {
-          "skill": "LLMs / Foundation Models",
-          "count": 15
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 10
-        },
-        {
-          "skill": "Computer Vision",
-          "count": 9
-        },
-        {
-          "skill": "Combine",
-          "count": 8
-        },
-        {
-          "skill": "Foundation Models / LLM Inference",
-          "count": 8
-        },
-        {
-          "skill": "iOS / iPadOS",
-          "count": 7
-        },
-        {
-          "skill": "macOS",
-          "count": 7
-        },
-        {
-          "skill": "visionOS",
-          "count": 5
-        },
-        {
-          "skill": "watchOS",
-          "count": 5
-        }
-      ],
-      "seniority_breakdown": {
-        "Mid": 91,
-        "Manager": 19,
-        "Senior": 37,
-        "Staff": 7,
-        "New Grad": 1
-      }
-    },
-    {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 134,
-      "posting_count": 190,
+      "role_count": 133,
+      "posting_count": 189,
       "top_titles": [
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
@@ -173,16 +85,104 @@
       ],
       "seniority_breakdown": {
         "Mid": 127,
-        "Senior": 57,
+        "Senior": 56,
         "New Grad": 2,
         "Staff": 3,
         "Principal": 1
       }
     },
     {
+      "name": "ML / AI / Generative AI",
+      "role_count": 133,
+      "posting_count": 153,
+      "top_titles": [
+        {
+          "title": "ML Engineer - Creator Studio",
+          "count": 5
+        },
+        {
+          "title": "Software Engineer (Framework Solutions), AI & Data Platforms (AiDP)",
+          "count": 4
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "count": 3
+        },
+        {
+          "title": "Engineering Project Manager, Ai & Data Platforms",
+          "count": 3
+        },
+        {
+          "title": "AIML - Senior Applied ML Research Scientist, Accessibility",
+          "count": 3
+        },
+        {
+          "title": "Machine Learning Engineer - Health AIML",
+          "count": 3
+        },
+        {
+          "title": "Hardware System Design Engineer - Apple Vision Pro",
+          "count": 3
+        },
+        {
+          "title": "Product Design Engineer - Apple Vision Pro",
+          "count": 3
+        }
+      ],
+      "top_skills": [
+        {
+          "skill": "AI & Data Platforms (AiDP)",
+          "count": 28
+        },
+        {
+          "skill": "LLMs / Foundation Models",
+          "count": 14
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 10
+        },
+        {
+          "skill": "Computer Vision",
+          "count": 9
+        },
+        {
+          "skill": "Combine",
+          "count": 8
+        },
+        {
+          "skill": "Foundation Models / LLM Inference",
+          "count": 8
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 7
+        },
+        {
+          "skill": "macOS",
+          "count": 7
+        },
+        {
+          "skill": "visionOS",
+          "count": 5
+        },
+        {
+          "skill": "watchOS",
+          "count": 5
+        }
+      ],
+      "seniority_breakdown": {
+        "Mid": 91,
+        "Senior": 36,
+        "Manager": 18,
+        "Staff": 7,
+        "New Grad": 1
+      }
+    },
+    {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 127,
-      "posting_count": 181,
+      "role_count": 126,
+      "posting_count": 180,
       "top_titles": [
         {
           "title": "Analog/Mixed-Signal IP Engineering Program Manager",
@@ -260,15 +260,15 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 158,
+        "Mid": 157,
         "Senior": 3,
         "Manager": 20
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 96,
-      "posting_count": 112,
+      "role_count": 95,
+      "posting_count": 111,
       "top_titles": [
         {
           "title": "Data Center Project Manager, Mechanical",
@@ -347,14 +347,14 @@
       ],
       "seniority_breakdown": {
         "Senior": 18,
-        "Manager": 92,
+        "Manager": 91,
         "Lead": 2
       }
     },
     {
       "name": "QA / Test / SDET",
-      "role_count": 28,
-      "posting_count": 29,
+      "role_count": 29,
+      "posting_count": 30,
       "top_titles": [
         {
           "title": "Software Development Engineer in Test, Creative Apps",
@@ -416,7 +416,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 26,
+        "Mid": 27,
         "Senior": 3
       }
     }
