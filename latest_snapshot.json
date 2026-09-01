@@ -1,12 +1,100 @@
 {
-  "scraped_at": "2026-08-31T16:56:28+00:00",
+  "scraped_at": "2026-09-01T14:04:29+00:00",
   "total_listings": 1200,
-  "tech_role_count": 748,
+  "tech_role_count": 753,
   "top_categories": [
     {
+      "name": "ML / AI / Generative AI",
+      "role_count": 136,
+      "posting_count": 157,
+      "top_titles": [
+        {
+          "title": "ML Engineer - Creator Studio",
+          "count": 5
+        },
+        {
+          "title": "Software Engineer (Framework Solutions), AI & Data Platforms (AiDP)",
+          "count": 4
+        },
+        {
+          "title": "Manager, Machine Learning, Apple Store Online",
+          "count": 3
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "count": 3
+        },
+        {
+          "title": "Engineering Project Manager, Ai & Data Platforms",
+          "count": 3
+        },
+        {
+          "title": "AIML - Senior Applied ML Research Scientist, Accessibility",
+          "count": 3
+        },
+        {
+          "title": "Machine Learning Engineer - Health AIML",
+          "count": 3
+        },
+        {
+          "title": "Hardware System Design Engineer - Apple Vision Pro",
+          "count": 3
+        }
+      ],
+      "top_skills": [
+        {
+          "skill": "AI & Data Platforms (AiDP)",
+          "count": 27
+        },
+        {
+          "skill": "LLMs / Foundation Models",
+          "count": 13
+        },
+        {
+          "skill": "Foundation Models / LLM Inference",
+          "count": 11
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 10
+        },
+        {
+          "skill": "Computer Vision",
+          "count": 9
+        },
+        {
+          "skill": "Combine",
+          "count": 8
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 7
+        },
+        {
+          "skill": "macOS",
+          "count": 7
+        },
+        {
+          "skill": "visionOS",
+          "count": 5
+        },
+        {
+          "skill": "watchOS",
+          "count": 5
+        }
+      ],
+      "seniority_breakdown": {
+        "Manager": 21,
+        "Senior": 36,
+        "Mid": 91,
+        "Staff": 8,
+        "New Grad": 1
+      }
+    },
+    {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 133,
-      "posting_count": 189,
+      "role_count": 128,
+      "posting_count": 185,
       "top_titles": [
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
@@ -44,23 +132,23 @@
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 41
+          "count": 37
         },
         {
           "skill": "macOS",
-          "count": 30
+          "count": 26
         },
         {
           "skill": "Swift",
           "count": 16
         },
         {
-          "skill": "SwiftUI",
+          "skill": "Go",
           "count": 13
         },
         {
-          "skill": "Go",
-          "count": 13
+          "skill": "SwiftUI",
+          "count": 12
         },
         {
           "skill": "RF / Wireless",
@@ -68,121 +156,33 @@
         },
         {
           "skill": "iCloud",
-          "count": 10
-        },
-        {
-          "skill": "watchOS",
           "count": 9
-        },
-        {
-          "skill": "visionOS",
-          "count": 8
         },
         {
           "skill": "Distributed Systems",
           "count": 8
+        },
+        {
+          "skill": "watchOS",
+          "count": 7
+        },
+        {
+          "skill": "visionOS",
+          "count": 6
         }
       ],
       "seniority_breakdown": {
-        "Mid": 127,
         "Senior": 56,
+        "Mid": 123,
         "New Grad": 2,
         "Staff": 3,
         "Principal": 1
       }
     },
     {
-      "name": "ML / AI / Generative AI",
-      "role_count": 133,
-      "posting_count": 153,
-      "top_titles": [
-        {
-          "title": "ML Engineer - Creator Studio",
-          "count": 5
-        },
-        {
-          "title": "Software Engineer (Framework Solutions), AI & Data Platforms (AiDP)",
-          "count": 4
-        },
-        {
-          "title": "Machine Learning Engineer",
-          "count": 3
-        },
-        {
-          "title": "Engineering Project Manager, Ai & Data Platforms",
-          "count": 3
-        },
-        {
-          "title": "AIML - Senior Applied ML Research Scientist, Accessibility",
-          "count": 3
-        },
-        {
-          "title": "Machine Learning Engineer - Health AIML",
-          "count": 3
-        },
-        {
-          "title": "Hardware System Design Engineer - Apple Vision Pro",
-          "count": 3
-        },
-        {
-          "title": "Product Design Engineer - Apple Vision Pro",
-          "count": 3
-        }
-      ],
-      "top_skills": [
-        {
-          "skill": "AI & Data Platforms (AiDP)",
-          "count": 28
-        },
-        {
-          "skill": "LLMs / Foundation Models",
-          "count": 14
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 10
-        },
-        {
-          "skill": "Computer Vision",
-          "count": 9
-        },
-        {
-          "skill": "Combine",
-          "count": 8
-        },
-        {
-          "skill": "Foundation Models / LLM Inference",
-          "count": 8
-        },
-        {
-          "skill": "iOS / iPadOS",
-          "count": 7
-        },
-        {
-          "skill": "macOS",
-          "count": 7
-        },
-        {
-          "skill": "visionOS",
-          "count": 5
-        },
-        {
-          "skill": "watchOS",
-          "count": 5
-        }
-      ],
-      "seniority_breakdown": {
-        "Mid": 91,
-        "Senior": 36,
-        "Manager": 18,
-        "Staff": 7,
-        "New Grad": 1
-      }
-    },
-    {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 126,
-      "posting_count": 180,
+      "role_count": 125,
+      "posting_count": 177,
       "top_titles": [
         {
           "title": "Analog/Mixed-Signal IP Engineering Program Manager",
@@ -220,15 +220,15 @@
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 41
+          "count": 40
         },
         {
           "skill": "RF / Wireless",
-          "count": 30
+          "count": 27
         },
         {
           "skill": "RTL Design",
-          "count": 15
+          "count": 13
         },
         {
           "skill": "ASIC Design",
@@ -236,7 +236,7 @@
         },
         {
           "skill": "CPU Architecture",
-          "count": 11
+          "count": 9
         },
         {
           "skill": "Power Integrity",
@@ -260,15 +260,15 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 157,
-        "Senior": 3,
+        "Mid": 155,
+        "Senior": 2,
         "Manager": 20
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 95,
-      "posting_count": 111,
+      "role_count": 98,
+      "posting_count": 115,
       "top_titles": [
         {
           "title": "Data Center Project Manager, Mechanical",
@@ -279,8 +279,20 @@
           "count": 5
         },
         {
+          "title": "Sensing, Power, and Haptics Engineering Program Manager",
+          "count": 3
+        },
+        {
           "title": "3rd Party IP Engineering Program Manager",
           "count": 3
+        },
+        {
+          "title": "Program Manager, BPR: Supply Chain",
+          "count": 2
+        },
+        {
+          "title": "PMIC Engineering Program Manager",
+          "count": 2
         },
         {
           "title": "Technical Product Manager, Partner Reporting Solutions",
@@ -288,18 +300,6 @@
         },
         {
           "title": "Product Manager, Employee Experience & Productivity",
-          "count": 2
-        },
-        {
-          "title": "NPI Operations Program Manager, iPad & Accessories",
-          "count": 2
-        },
-        {
-          "title": "Engineering Program Manager, Search Quality and Infrastructure, Apple Services Engineering",
-          "count": 2
-        },
-        {
-          "title": "RF Test Engineering Program Manager",
           "count": 2
         }
       ],
@@ -310,10 +310,10 @@
         },
         {
           "skill": "Go",
-          "count": 5
+          "count": 6
         },
         {
-          "skill": "watchOS",
+          "skill": "Speech / Audio",
           "count": 3
         },
         {
@@ -329,6 +329,10 @@
           "count": 2
         },
         {
+          "skill": "watchOS",
+          "count": 2
+        },
+        {
           "skill": "Agile / Scrum",
           "count": 2
         },
@@ -337,17 +341,13 @@
           "count": 2
         },
         {
-          "skill": "LLMs / Foundation Models",
-          "count": 2
-        },
-        {
           "skill": "ML Infrastructure",
           "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Senior": 18,
-        "Manager": 91,
+        "Manager": 96,
+        "Senior": 17,
         "Lead": 2
       }
     },
