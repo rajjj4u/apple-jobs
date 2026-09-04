@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-03T13:26:30+00:00",
+  "scraped_at": "2026-09-04T13:21:07+00:00",
   "total_listings": 1200,
-  "tech_role_count": 760,
+  "tech_role_count": 752,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 140,
-      "posting_count": 194,
+      "role_count": 137,
+      "posting_count": 189,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
@@ -44,11 +44,11 @@
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 41
+          "count": 37
         },
         {
           "skill": "RF / Wireless",
-          "count": 32
+          "count": 31
         },
         {
           "skill": "RTL Design",
@@ -84,26 +84,26 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 172,
+        "Mid": 167,
         "Manager": 20,
         "Senior": 2
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 136,
-      "posting_count": 154,
+      "role_count": 134,
+      "posting_count": 153,
       "top_titles": [
         {
           "title": "ML Engineer - Creator Studio",
           "count": 5
         },
         {
-          "title": "Machine Learning Engineer",
+          "title": "AIML - Machine Learning Researcher, Foundation Models",
           "count": 4
         },
         {
-          "title": "AIML - Machine Learning Researcher, Foundation Models",
+          "title": "Machine Learning Engineer",
           "count": 3
         },
         {
@@ -119,38 +119,34 @@
           "count": 3
         },
         {
-          "title": "Machine Learning Applied Researcher - Speech, Vision and Audio",
+          "title": "Senior Product Data Scientist, Media Services",
           "count": 2
         },
         {
-          "title": "On-Device ML Compiler Engineer, Model Compilation, Graphics, Games and Machine Learning",
+          "title": "Machine Learning Systems Engineer \u2013 Video Computer Vision",
           "count": 2
         }
       ],
       "top_skills": [
         {
           "skill": "AI & Data Platforms (AiDP)",
-          "count": 24
-        },
-        {
-          "skill": "Foundation Models / LLM Inference",
-          "count": 15
+          "count": 23
         },
         {
           "skill": "Speech / Audio",
-          "count": 14
+          "count": 17
+        },
+        {
+          "skill": "Foundation Models / LLM Inference",
+          "count": 17
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 10
+          "count": 11
         },
         {
           "skill": "Computer Vision",
-          "count": 9
-        },
-        {
-          "skill": "Combine",
-          "count": 7
+          "count": 10
         },
         {
           "skill": "iOS / iPadOS",
@@ -161,27 +157,31 @@
           "count": 7
         },
         {
-          "skill": "ML Infrastructure",
-          "count": 5
+          "skill": "Combine",
+          "count": 6
         },
         {
           "skill": "Search & Knowledge Platforms",
           "count": 5
+        },
+        {
+          "skill": "visionOS",
+          "count": 5
         }
       ],
       "seniority_breakdown": {
-        "Mid": 90,
-        "Senior": 36,
+        "Mid": 87,
+        "Senior": 37,
+        "Manager": 16,
         "Lead": 4,
         "Staff": 8,
-        "Manager": 15,
         "New Grad": 1
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
       "role_count": 129,
-      "posting_count": 182,
+      "posting_count": 183,
       "top_titles": [
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
@@ -219,7 +219,7 @@
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 34
+          "count": 32
         },
         {
           "skill": "macOS",
@@ -242,12 +242,12 @@
           "count": 11
         },
         {
-          "skill": "Search & Knowledge Platforms",
-          "count": 8
+          "skill": "Distributed Systems",
+          "count": 9
         },
         {
-          "skill": "Distributed Systems",
-          "count": 8
+          "skill": "RF / Wireless",
+          "count": 7
         },
         {
           "skill": "watchOS",
@@ -259,25 +259,20 @@
         }
       ],
       "seniority_breakdown": {
-        "Senior": 61,
-        "Mid": 115,
-        "New Grad": 2,
+        "Senior": 62,
+        "Mid": 117,
         "Staff": 3,
         "Principal": 1
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 92,
-      "posting_count": 108,
+      "role_count": 93,
+      "posting_count": 107,
       "top_titles": [
         {
           "title": "Data Center Project Manager, Mechanical",
           "count": 5
-        },
-        {
-          "title": "Data Center Construction Project Manager",
-          "count": 4
         },
         {
           "title": "Sensing, Power, and Haptics Engineering Program Manager",
@@ -286,6 +281,10 @@
         {
           "title": "3rd Party IP Engineering Program Manager",
           "count": 3
+        },
+        {
+          "title": "Engineering Program Manager - Camera & Depth",
+          "count": 2
         },
         {
           "title": "Cellular Modem RF Software Engineering Program Manager",
@@ -344,14 +343,14 @@
       ],
       "seniority_breakdown": {
         "Manager": 92,
-        "Senior": 14,
+        "Senior": 13,
         "Lead": 2
       }
     },
     {
       "name": "QA / Test / SDET",
-      "role_count": 30,
-      "posting_count": 31,
+      "role_count": 28,
+      "posting_count": 29,
       "top_titles": [
         {
           "title": "Software Development Engineer in Test, Creative Apps",
@@ -389,18 +388,14 @@
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 7
-        },
-        {
-          "skill": "macOS",
           "count": 6
         },
         {
-          "skill": "RF / Wireless",
-          "count": 4
+          "skill": "macOS",
+          "count": 5
         },
         {
-          "skill": "Speech / Audio",
+          "skill": "RF / Wireless",
           "count": 3
         },
         {
@@ -410,10 +405,14 @@
         {
           "skill": "watchOS",
           "count": 2
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 29,
+        "Mid": 27,
         "Senior": 2
       }
     }
