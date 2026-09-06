@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-05T12:32:18+00:00",
+  "scraped_at": "2026-09-06T12:45:19+00:00",
   "total_listings": 1200,
-  "tech_role_count": 773,
+  "tech_role_count": 772,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
@@ -181,8 +181,8 @@
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 131,
-      "posting_count": 188,
+      "role_count": 130,
+      "posting_count": 186,
       "top_titles": [
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
@@ -236,7 +236,7 @@
         },
         {
           "skill": "iCloud",
-          "count": 11
+          "count": 9
         },
         {
           "skill": "Go",
@@ -262,14 +262,13 @@
       "seniority_breakdown": {
         "Senior": 64,
         "Mid": 121,
-        "Staff": 2,
         "Principal": 1
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 96,
-      "posting_count": 111,
+      "role_count": 97,
+      "posting_count": 112,
       "top_titles": [
         {
           "title": "Data Center Project Manager, Mechanical",
@@ -347,7 +346,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 97,
+        "Manager": 98,
         "Senior": 12,
         "Lead": 2
       }
