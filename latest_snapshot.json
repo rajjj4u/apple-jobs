@@ -1,16 +1,16 @@
 {
-  "scraped_at": "2026-09-06T12:45:19+00:00",
+  "scraped_at": "2026-09-07T14:57:06+00:00",
   "total_listings": 1200,
-  "tech_role_count": 772,
+  "tech_role_count": 771,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 143,
-      "posting_count": 197,
+      "role_count": 140,
+      "posting_count": 194,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
-          "count": 13
+          "count": 10
         },
         {
           "title": "Analog/Mixed-Signal IP Engineering Program Manager",
@@ -84,7 +84,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 173,
+        "Mid": 170,
         "Lead": 2,
         "Manager": 20,
         "Senior": 2
@@ -181,8 +181,8 @@
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 130,
-      "posting_count": 186,
+      "role_count": 131,
+      "posting_count": 187,
       "top_titles": [
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
@@ -262,13 +262,14 @@
       "seniority_breakdown": {
         "Senior": 64,
         "Mid": 121,
-        "Principal": 1
+        "Principal": 1,
+        "Staff": 1
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 97,
-      "posting_count": 112,
+      "role_count": 98,
+      "posting_count": 113,
       "top_titles": [
         {
           "title": "Data Center Project Manager, Mechanical",
@@ -346,7 +347,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 98,
+        "Manager": 99,
         "Senior": 12,
         "Lead": 2
       }
@@ -453,6 +454,18 @@
       ]
     },
     {
+      "title": "Senior Software Engineer, Apple Ads",
+      "category": "Software Engineering (iOS/macOS/Services/Core OS)",
+      "seniority": "Staff",
+      "salary_band": "$200K \u2013 $380K",
+      "posting_count": 3,
+      "top_skills": [],
+      "sample_locations": [
+        "Austin",
+        "Cupertino"
+      ]
+    },
+    {
       "title": "Staff Data Engineer",
       "category": "Data Engineering / Analytics",
       "seniority": "Staff",
@@ -479,39 +492,6 @@
       "sample_locations": [
         "Cupertino",
         "New York City"
-      ]
-    },
-    {
-      "title": "Staff Research Scientist, Siri Innovation Studio",
-      "category": "ML / AI / Generative AI",
-      "seniority": "Staff",
-      "salary_band": "$200K \u2013 $380K",
-      "posting_count": 2,
-      "top_skills": [
-        {
-          "skill": "iOS / iPadOS",
-          "count": 2
-        },
-        {
-          "skill": "macOS",
-          "count": 2
-        },
-        {
-          "skill": "visionOS",
-          "count": 2
-        },
-        {
-          "skill": "watchOS",
-          "count": 2
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 2
-        }
-      ],
-      "sample_locations": [
-        "Cupertino",
-        "Seattle"
       ]
     }
   ]
