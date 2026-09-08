@@ -1,16 +1,16 @@
 {
-  "scraped_at": "2026-09-07T14:57:06+00:00",
+  "scraped_at": "2026-09-08T13:26:38+00:00",
   "total_listings": 1200,
-  "tech_role_count": 771,
+  "tech_role_count": 774,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 140,
-      "posting_count": 194,
+      "role_count": 138,
+      "posting_count": 195,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
-          "count": 10
+          "count": 8
         },
         {
           "title": "Analog/Mixed-Signal IP Engineering Program Manager",
@@ -44,7 +44,7 @@
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 35
+          "count": 39
         },
         {
           "skill": "RF / Wireless",
@@ -79,12 +79,12 @@
           "count": 7
         },
         {
-          "skill": "Metal",
+          "skill": "FPGA",
           "count": 4
         }
       ],
       "seniority_breakdown": {
-        "Mid": 170,
+        "Mid": 171,
         "Lead": 2,
         "Manager": 20,
         "Senior": 2
@@ -172,17 +172,17 @@
       ],
       "seniority_breakdown": {
         "Lead": 5,
-        "Mid": 90,
+        "Mid": 89,
         "Senior": 37,
-        "Manager": 15,
+        "Manager": 16,
         "Staff": 8,
         "New Grad": 1
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 131,
-      "posting_count": 187,
+      "role_count": 132,
+      "posting_count": 189,
       "top_titles": [
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
@@ -235,12 +235,16 @@
           "count": 12
         },
         {
+          "skill": "Go",
+          "count": 11
+        },
+        {
           "skill": "iCloud",
           "count": 9
         },
         {
-          "skill": "Go",
-          "count": 9
+          "skill": "Distributed Systems",
+          "count": 8
         },
         {
           "skill": "RF / Wireless",
@@ -251,25 +255,21 @@
           "count": 7
         },
         {
-          "skill": "Distributed Systems",
-          "count": 6
-        },
-        {
           "skill": "visionOS",
           "count": 6
         }
       ],
       "seniority_breakdown": {
         "Senior": 64,
-        "Mid": 121,
+        "Mid": 123,
         "Principal": 1,
         "Staff": 1
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 98,
-      "posting_count": 113,
+      "role_count": 97,
+      "posting_count": 112,
       "top_titles": [
         {
           "title": "Data Center Project Manager, Mechanical",
@@ -347,77 +347,78 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 99,
+        "Manager": 98,
         "Senior": 12,
         "Lead": 2
       }
     },
     {
-      "name": "Data Engineering / Analytics",
-      "role_count": 26,
-      "posting_count": 31,
+      "name": "QA / Test / SDET",
+      "role_count": 27,
+      "posting_count": 28,
       "top_titles": [
         {
-          "title": "Data Engineer, Apple Ads",
-          "count": 3
-        },
-        {
-          "title": "Applied Data Solutions Program, Internships \u2013 Summer 2027",
+          "title": "Software Development Engineer in Test, Creative Apps",
           "count": 2
         },
         {
-          "title": "Staff Data Engineer",
+          "title": "Quality Engineer",
           "count": 2
         },
         {
-          "title": "Sr. Data Engineer, iCloud",
+          "title": "Software Engineer - Test and Validation",
           "count": 2
         },
         {
-          "title": "Manager, Engineering Program Management - Strategic Data Solutions",
+          "title": "Manufacturing Quality Engineer (MQE) - RF Antenna",
           "count": 1
         },
         {
-          "title": "Retail Financial Analyst (People Retail)",
+          "title": "Product Quality Engineer",
           "count": 1
         },
         {
-          "title": "Financial Analyst, App Store",
+          "title": "Design for Test Engineer",
           "count": 1
         },
         {
-          "title": "US Consumer Insights & Competitive Intelligence Lead",
+          "title": "Software Quality Engineer, Sensing & Connectivity",
+          "count": 1
+        },
+        {
+          "title": "Embedded Quality Engineer - Camera",
           "count": 1
         }
       ],
       "top_skills": [
         {
-          "skill": "iCloud",
+          "skill": "iOS / iPadOS",
+          "count": 6
+        },
+        {
+          "skill": "macOS",
           "count": 5
         },
         {
-          "skill": "Observability",
+          "skill": "RF / Wireless",
           "count": 4
         },
         {
-          "skill": "Java",
-          "count": 3
+          "skill": "Computer Vision",
+          "count": 2
         },
         {
-          "skill": "Kafka",
-          "count": 3
+          "skill": "watchOS",
+          "count": 2
         },
         {
-          "skill": "Spark",
-          "count": 3
+          "skill": "Speech / Audio",
+          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Manager": 2,
-        "Mid": 18,
-        "Lead": 2,
-        "Senior": 6,
-        "Staff": 3
+        "Mid": 26,
+        "Senior": 2
       }
     }
   ],
