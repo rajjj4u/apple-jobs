@@ -1,103 +1,20 @@
 {
-  "scraped_at": "2026-09-09T13:36:42+00:00",
+  "scraped_at": "2026-09-10T13:28:53+00:00",
   "total_listings": 1200,
-  "tech_role_count": 764,
+  "tech_role_count": 756,
   "top_categories": [
     {
-      "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 141,
-      "posting_count": 195,
-      "top_titles": [
-        {
-          "title": "Design Verification Engineer",
-          "count": 9
-        },
-        {
-          "title": "Analog/Mixed-Signal IP Engineering Program Manager",
-          "count": 7
-        },
-        {
-          "title": "Wireless Module Engineer",
-          "count": 6
-        },
-        {
-          "title": "Wireless System Integration and Characterization Engineer",
-          "count": 6
-        },
-        {
-          "title": "Display Electrical Design Engineer",
-          "count": 4
-        },
-        {
-          "title": "Power Integrity Engineer",
-          "count": 4
-        },
-        {
-          "title": "Silicon Photonics EPM, Data Center SoC",
-          "count": 4
-        },
-        {
-          "title": "Emulation Verification Engineer",
-          "count": 4
-        }
-      ],
-      "top_skills": [
-        {
-          "skill": "SoC",
-          "count": 35
-        },
-        {
-          "skill": "RF / Wireless",
-          "count": 32
-        },
-        {
-          "skill": "RTL Design",
-          "count": 14
-        },
-        {
-          "skill": "CPU Architecture",
-          "count": 13
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 11
-        },
-        {
-          "skill": "Power Integrity",
-          "count": 10
-        },
-        {
-          "skill": "ASIC Design",
-          "count": 10
-        },
-        {
-          "skill": "Signal Integrity",
-          "count": 7
-        },
-        {
-          "skill": "GPU Architecture",
-          "count": 7
-        },
-        {
-          "skill": "FPGA",
-          "count": 4
-        }
-      ],
-      "seniority_breakdown": {
-        "Mid": 171,
-        "Lead": 2,
-        "Manager": 20,
-        "Senior": 2
-      }
-    },
-    {
       "name": "ML / AI / Generative AI",
-      "role_count": 135,
-      "posting_count": 156,
+      "role_count": 141,
+      "posting_count": 163,
       "top_titles": [
         {
           "title": "ML Engineer - Creator Studio",
           "count": 5
+        },
+        {
+          "title": "Machine Learning Engineer - Health AIML",
+          "count": 3
         },
         {
           "title": "Automation and Design Test Engineer, Siri",
@@ -122,10 +39,6 @@
         {
           "title": "Engineering Project Manager, Ai & Data Platforms",
           "count": 3
-        },
-        {
-          "title": "AIML - Senior Applied ML Research Scientist, Accessibility",
-          "count": 3
         }
       ],
       "top_skills": [
@@ -134,16 +47,16 @@
           "count": 23
         },
         {
+          "skill": "Foundation Models / LLM Inference",
+          "count": 17
+        },
+        {
           "skill": "Speech / Audio",
           "count": 17
         },
         {
-          "skill": "Foundation Models / LLM Inference",
-          "count": 16
-        },
-        {
           "skill": "LLMs / Foundation Models",
-          "count": 14
+          "count": 15
         },
         {
           "skill": "iOS / iPadOS",
@@ -166,23 +79,110 @@
           "count": 8
         },
         {
-          "skill": "RF / Wireless",
+          "skill": "NLP",
           "count": 5
         }
       ],
       "seniority_breakdown": {
-        "Mid": 93,
-        "Senior": 37,
-        "Lead": 5,
+        "Senior": 39,
+        "Mid": 97,
+        "Lead": 6,
         "Manager": 12,
         "Staff": 8,
         "New Grad": 1
       }
     },
     {
+      "name": "Apple Silicon / Hardware Engineering",
+      "role_count": 139,
+      "posting_count": 187,
+      "top_titles": [
+        {
+          "title": "Design Verification Engineer",
+          "count": 9
+        },
+        {
+          "title": "Wireless Module Engineer",
+          "count": 6
+        },
+        {
+          "title": "Wireless System Integration and Characterization Engineer",
+          "count": 6
+        },
+        {
+          "title": "Silicon Validation Engineer",
+          "count": 4
+        },
+        {
+          "title": "Display Electrical Design Engineer",
+          "count": 4
+        },
+        {
+          "title": "Power Integrity Engineer",
+          "count": 4
+        },
+        {
+          "title": "Silicon Photonics EPM, Data Center SoC",
+          "count": 4
+        },
+        {
+          "title": "Emulation Verification Engineer",
+          "count": 4
+        }
+      ],
+      "top_skills": [
+        {
+          "skill": "RF / Wireless",
+          "count": 33
+        },
+        {
+          "skill": "SoC",
+          "count": 33
+        },
+        {
+          "skill": "RTL Design",
+          "count": 16
+        },
+        {
+          "skill": "CPU Architecture",
+          "count": 13
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 12
+        },
+        {
+          "skill": "Power Integrity",
+          "count": 9
+        },
+        {
+          "skill": "ASIC Design",
+          "count": 8
+        },
+        {
+          "skill": "Signal Integrity",
+          "count": 7
+        },
+        {
+          "skill": "GPU Architecture",
+          "count": 7
+        },
+        {
+          "skill": "FPGA",
+          "count": 4
+        }
+      ],
+      "seniority_breakdown": {
+        "Mid": 170,
+        "Lead": 3,
+        "Manager": 12,
+        "Senior": 2
+      }
+    },
+    {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 128,
-      "posting_count": 182,
+      "role_count": 127,
+      "posting_count": 181,
       "top_titles": [
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
@@ -213,26 +213,26 @@
           "count": 5
         },
         {
-          "title": "Software Engineer",
+          "title": "Senior Software Engineer \u2014 Video Applications (FX Plug API\u2019s)",
           "count": 4
         }
       ],
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 37
+          "count": 36
         },
         {
           "skill": "macOS",
-          "count": 25
+          "count": 24
         },
         {
           "skill": "Swift",
-          "count": 15
+          "count": 12
         },
         {
           "skill": "SwiftUI",
-          "count": 12
+          "count": 11
         },
         {
           "skill": "iCloud",
@@ -243,32 +243,32 @@
           "count": 9
         },
         {
-          "skill": "watchOS",
+          "skill": "RF / Wireless",
           "count": 8
         },
         {
-          "skill": "RF / Wireless",
+          "skill": "watchOS",
           "count": 7
-        },
-        {
-          "skill": "visionOS",
-          "count": 6
         },
         {
           "skill": "Distributed Systems",
           "count": 6
+        },
+        {
+          "skill": "visionOS",
+          "count": 5
         }
       ],
       "seniority_breakdown": {
-        "Mid": 121,
-        "Senior": 60,
+        "Senior": 62,
+        "Mid": 118,
         "Principal": 1
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 96,
-      "posting_count": 107,
+      "role_count": 92,
+      "posting_count": 102,
       "top_titles": [
         {
           "title": "Program Manager, BPR: Supply Chain",
@@ -306,11 +306,11 @@
       "top_skills": [
         {
           "skill": "RF / Wireless",
-          "count": 9
+          "count": 7
         },
         {
           "skill": "Go",
-          "count": 5
+          "count": 4
         },
         {
           "skill": "Speech / Audio",
@@ -346,16 +346,20 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 94,
+        "Manager": 89,
         "Senior": 11,
         "Lead": 2
       }
     },
     {
       "name": "QA / Test / SDET",
-      "role_count": 29,
-      "posting_count": 30,
+      "role_count": 30,
+      "posting_count": 32,
       "top_titles": [
+        {
+          "title": "Screening & Integration Engineer, Watch Software, Sensing & Connectivity",
+          "count": 2
+        },
         {
           "title": "Software Development Engineer in Test, Creative Apps",
           "count": 2
@@ -369,6 +373,10 @@
           "count": 2
         },
         {
+          "title": "Quality Engineer, Tools and Automation",
+          "count": 1
+        },
+        {
           "title": "Performance & Automation Test Engineer, Creativity Apps",
           "count": 1
         },
@@ -378,14 +386,6 @@
         },
         {
           "title": "Manufacturing Quality Engineer (MQE) - RF Antenna",
-          "count": 1
-        },
-        {
-          "title": "Product Quality Engineer",
-          "count": 1
-        },
-        {
-          "title": "Design for Test Engineer",
           "count": 1
         }
       ],
@@ -399,15 +399,15 @@
           "count": 7
         },
         {
+          "skill": "watchOS",
+          "count": 5
+        },
+        {
           "skill": "RF / Wireless",
           "count": 4
         },
         {
           "skill": "Speech / Audio",
-          "count": 3
-        },
-        {
-          "skill": "watchOS",
           "count": 3
         },
         {
@@ -420,7 +420,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 28,
+        "Mid": 30,
         "Senior": 2
       }
     }
