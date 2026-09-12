@@ -1,16 +1,16 @@
 {
-  "scraped_at": "2026-09-11T13:25:00+00:00",
+  "scraped_at": "2026-09-12T12:45:50+00:00",
   "total_listings": 1200,
-  "tech_role_count": 743,
+  "tech_role_count": 746,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 137,
+      "role_count": 135,
       "posting_count": 182,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
-          "count": 10
+          "count": 9
         },
         {
           "title": "Wireless Module Engineer",
@@ -55,12 +55,12 @@
           "count": 15
         },
         {
-          "skill": "Speech / Audio",
-          "count": 13
+          "skill": "CPU Architecture",
+          "count": 14
         },
         {
-          "skill": "CPU Architecture",
-          "count": 11
+          "skill": "Speech / Audio",
+          "count": 13
         },
         {
           "skill": "Power Integrity",
@@ -75,25 +75,25 @@
           "count": 7
         },
         {
-          "skill": "GPU Architecture",
+          "skill": "FPGA",
           "count": 4
         },
         {
-          "skill": "FPGA",
-          "count": 4
+          "skill": "GPU Architecture",
+          "count": 3
         }
       ],
       "seniority_breakdown": {
         "Mid": 169,
-        "Lead": 3,
         "Manager": 8,
+        "Lead": 3,
         "Senior": 2
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 137,
-      "posting_count": 162,
+      "role_count": 133,
+      "posting_count": 157,
       "top_titles": [
         {
           "title": "ML Engineer - Creator Studio",
@@ -102,10 +102,6 @@
         {
           "title": "Machine Learning Engineer",
           "count": 4
-        },
-        {
-          "title": "Data Scientist, AI/ML Model Quality",
-          "count": 3
         },
         {
           "title": "Machine Learning Engineer - Health AIML",
@@ -126,12 +122,16 @@
         {
           "title": "AIML - Senior Applied ML Research Scientist, Accessibility",
           "count": 3
+        },
+        {
+          "title": "Machine Learning Research Engineer, ASE Search",
+          "count": 2
         }
       ],
       "top_skills": [
         {
           "skill": "AI & Data Platforms (AiDP)",
-          "count": 18
+          "count": 17
         },
         {
           "skill": "Foundation Models / LLM Inference",
@@ -143,7 +143,7 @@
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 15
+          "count": 14
         },
         {
           "skill": "iOS / iPadOS",
@@ -154,6 +154,10 @@
           "count": 11
         },
         {
+          "skill": "Computer Vision",
+          "count": 9
+        },
+        {
           "skill": "visionOS",
           "count": 9
         },
@@ -162,28 +166,23 @@
           "count": 9
         },
         {
-          "skill": "Computer Vision",
-          "count": 9
-        },
-        {
           "skill": "NLP",
-          "count": 6
+          "count": 7
         }
       ],
       "seniority_breakdown": {
+        "Manager": 12,
+        "Senior": 36,
         "Mid": 96,
-        "Manager": 11,
+        "Lead": 6,
         "Principal": 1,
-        "Senior": 39,
         "Director": 1,
-        "Lead": 5,
-        "Staff": 8,
-        "New Grad": 1
+        "Staff": 5
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 126,
+      "role_count": 127,
       "posting_count": 178,
       "top_titles": [
         {
@@ -230,7 +229,7 @@
         },
         {
           "skill": "RF / Wireless",
-          "count": 12
+          "count": 14
         },
         {
           "skill": "Swift",
@@ -249,12 +248,12 @@
           "count": 9
         },
         {
-          "skill": "Distributed Systems",
+          "skill": "watchOS",
           "count": 7
         },
         {
-          "skill": "watchOS",
-          "count": 7
+          "skill": "Distributed Systems",
+          "count": 5
         },
         {
           "skill": "visionOS",
@@ -262,15 +261,15 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 116,
-        "Senior": 61,
+        "Senior": 60,
+        "Mid": 117,
         "Principal": 1
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 88,
-      "posting_count": 100,
+      "role_count": 90,
+      "posting_count": 104,
       "top_titles": [
         {
           "title": "Operations Program Manager, Executive Protection",
@@ -289,19 +288,19 @@
           "count": 3
         },
         {
+          "title": "Engineering Program Manager, Sensor Software User Studies & Data Collection",
+          "count": 2
+        },
+        {
+          "title": "Off-Grid Safety Services Product Manager",
+          "count": 2
+        },
+        {
           "title": "Sr Product Manager, Apple Savings",
           "count": 2
         },
         {
           "title": "SOX PMO Project Manager",
-          "count": 2
-        },
-        {
-          "title": "Product Manager, Apple Learning Platform",
-          "count": 2
-        },
-        {
-          "title": "Cellular Modem RF Software Engineering Program Manager",
           "count": 2
         }
       ],
@@ -311,12 +310,12 @@
           "count": 7
         },
         {
-          "skill": "Go",
+          "skill": "Combine",
           "count": 4
         },
         {
-          "skill": "Combine",
-          "count": 4
+          "skill": "Go",
+          "count": 3
         },
         {
           "skill": "Speech / Audio",
@@ -340,8 +339,8 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 86,
-        "Senior": 12,
+        "Manager": 89,
+        "Senior": 13,
         "Lead": 2
       }
     },
@@ -367,6 +366,10 @@
           "count": 2
         },
         {
+          "title": "Software Development Engineer in Test - Video Codec",
+          "count": 1
+        },
+        {
           "title": "Software Quality Engineer - Media",
           "count": 1
         },
@@ -376,10 +379,6 @@
         },
         {
           "title": "Performance & Automation Test Engineer, Creativity Apps",
-          "count": 1
-        },
-        {
-          "title": "Software Development Engineer in Test - Contacts, Phone, FaceTime",
           "count": 1
         }
       ],
@@ -397,11 +396,11 @@
           "count": 5
         },
         {
-          "skill": "RF / Wireless",
-          "count": 4
+          "skill": "Speech / Audio",
+          "count": 3
         },
         {
-          "skill": "Speech / Audio",
+          "skill": "RF / Wireless",
           "count": 3
         },
         {
