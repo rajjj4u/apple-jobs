@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-12T12:45:50+00:00",
+  "scraped_at": "2026-09-13T13:45:47+00:00",
   "total_listings": 1200,
-  "tech_role_count": 746,
+  "tech_role_count": 745,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 135,
-      "posting_count": 182,
+      "role_count": 134,
+      "posting_count": 181,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
@@ -84,7 +84,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 169,
+        "Mid": 168,
         "Manager": 8,
         "Lead": 3,
         "Senior": 2
@@ -92,8 +92,8 @@
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 133,
-      "posting_count": 157,
+      "role_count": 131,
+      "posting_count": 155,
       "top_titles": [
         {
           "title": "ML Engineer - Creator Studio",
@@ -130,16 +130,16 @@
       ],
       "top_skills": [
         {
-          "skill": "AI & Data Platforms (AiDP)",
-          "count": 17
-        },
-        {
           "skill": "Foundation Models / LLM Inference",
           "count": 16
         },
         {
           "skill": "Speech / Audio",
           "count": 16
+        },
+        {
+          "skill": "AI & Data Platforms (AiDP)",
+          "count": 15
         },
         {
           "skill": "LLMs / Foundation Models",
@@ -171,9 +171,9 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 12,
+        "Manager": 11,
         "Senior": 36,
-        "Mid": 96,
+        "Mid": 95,
         "Lead": 6,
         "Principal": 1,
         "Director": 1,
@@ -268,8 +268,8 @@
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 90,
-      "posting_count": 104,
+      "role_count": 91,
+      "posting_count": 105,
       "top_titles": [
         {
           "title": "Operations Program Manager, Executive Protection",
@@ -311,7 +311,7 @@
         },
         {
           "skill": "Combine",
-          "count": 4
+          "count": 5
         },
         {
           "skill": "Go",
@@ -339,15 +339,15 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 89,
+        "Manager": 90,
         "Senior": 13,
         "Lead": 2
       }
     },
     {
       "name": "QA / Test / SDET",
-      "role_count": 28,
-      "posting_count": 30,
+      "role_count": 29,
+      "posting_count": 31,
       "top_titles": [
         {
           "title": "Screening & Integration Engineer, Watch Software, Sensing & Connectivity",
@@ -366,6 +366,10 @@
           "count": 2
         },
         {
+          "title": "Principal Quality Engineer",
+          "count": 1
+        },
+        {
           "title": "Software Development Engineer in Test - Video Codec",
           "count": 1
         },
@@ -375,10 +379,6 @@
         },
         {
           "title": "Quality Engineer, Tools and Automation",
-          "count": 1
-        },
-        {
-          "title": "Performance & Automation Test Engineer, Creativity Apps",
           "count": 1
         }
       ],
@@ -413,6 +413,7 @@
         }
       ],
       "seniority_breakdown": {
+        "Principal": 1,
         "Mid": 28,
         "Senior": 2
       }
@@ -432,6 +433,18 @@
         }
       ],
       "sample_locations": [
+        "Cupertino"
+      ]
+    },
+    {
+      "title": "Principal Quality Engineer",
+      "category": "QA / Test / SDET",
+      "seniority": "Principal",
+      "salary_band": "$200K \u2013 $400K+",
+      "posting_count": 3,
+      "top_skills": [],
+      "sample_locations": [
+        "San Diego",
         "Cupertino"
       ]
     },
@@ -492,23 +505,6 @@
       ],
       "sample_locations": [
         "Cupertino"
-      ]
-    },
-    {
-      "title": "Staff Data Engineer",
-      "category": "Data Engineering / Analytics",
-      "seniority": "Staff",
-      "salary_band": "$200K \u2013 $380K",
-      "posting_count": 2,
-      "top_skills": [
-        {
-          "skill": "iCloud",
-          "count": 2
-        }
-      ],
-      "sample_locations": [
-        "Austin",
-        "Seattle"
       ]
     }
   ]
