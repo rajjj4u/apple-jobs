@@ -1,16 +1,16 @@
 {
-  "scraped_at": "2026-09-13T13:45:47+00:00",
-  "total_listings": 1200,
-  "tech_role_count": 745,
+  "scraped_at": "2026-09-14T15:48:30+00:00",
+  "total_listings": 1180,
+  "tech_role_count": 728,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 134,
-      "posting_count": 181,
+      "role_count": 131,
+      "posting_count": 178,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
-          "count": 9
+          "count": 8
         },
         {
           "title": "Wireless Module Engineer",
@@ -56,7 +56,7 @@
         },
         {
           "skill": "CPU Architecture",
-          "count": 14
+          "count": 13
         },
         {
           "skill": "Speech / Audio",
@@ -84,7 +84,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 168,
+        "Mid": 165,
         "Manager": 8,
         "Lead": 3,
         "Senior": 2
@@ -92,8 +92,8 @@
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 131,
-      "posting_count": 155,
+      "role_count": 125,
+      "posting_count": 149,
       "top_titles": [
         {
           "title": "ML Engineer - Creator Studio",
@@ -130,20 +130,20 @@
       ],
       "top_skills": [
         {
-          "skill": "Foundation Models / LLM Inference",
-          "count": 16
-        },
-        {
           "skill": "Speech / Audio",
           "count": 16
         },
         {
-          "skill": "AI & Data Platforms (AiDP)",
+          "skill": "Foundation Models / LLM Inference",
           "count": 15
         },
         {
-          "skill": "LLMs / Foundation Models",
+          "skill": "AI & Data Platforms (AiDP)",
           "count": 14
+        },
+        {
+          "skill": "LLMs / Foundation Models",
+          "count": 12
         },
         {
           "skill": "iOS / iPadOS",
@@ -172,8 +172,8 @@
       ],
       "seniority_breakdown": {
         "Manager": 11,
-        "Senior": 36,
-        "Mid": 95,
+        "Senior": 34,
+        "Mid": 91,
         "Lead": 6,
         "Principal": 1,
         "Director": 1,
@@ -182,8 +182,8 @@
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 127,
-      "posting_count": 178,
+      "role_count": 124,
+      "posting_count": 174,
       "top_titles": [
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
@@ -202,10 +202,6 @@
           "count": 5
         },
         {
-          "title": "iOS Software Engineer - Creative Apps",
-          "count": 5
-        },
-        {
           "title": "iOS Engineer - Creator Studio",
           "count": 5
         },
@@ -216,12 +212,16 @@
         {
           "title": "Systems Software Engineer, Platform Architecture",
           "count": 4
+        },
+        {
+          "title": "Senior Software Engineer \u2014 Video Applications (FX Plug API\u2019s)",
+          "count": 4
         }
       ],
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 38
+          "count": 37
         },
         {
           "skill": "macOS",
@@ -261,15 +261,15 @@
         }
       ],
       "seniority_breakdown": {
-        "Senior": 60,
-        "Mid": 117,
+        "Mid": 115,
+        "Senior": 58,
         "Principal": 1
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 91,
-      "posting_count": 105,
+      "role_count": 90,
+      "posting_count": 104,
       "top_titles": [
         {
           "title": "Operations Program Manager, Executive Protection",
@@ -332,22 +332,18 @@
         {
           "skill": "watchOS",
           "count": 2
-        },
-        {
-          "skill": "Agile / Scrum",
-          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Manager": 90,
+        "Manager": 89,
         "Senior": 13,
         "Lead": 2
       }
     },
     {
       "name": "QA / Test / SDET",
-      "role_count": 29,
-      "posting_count": 31,
+      "role_count": 28,
+      "posting_count": 30,
       "top_titles": [
         {
           "title": "Screening & Integration Engineer, Watch Software, Sensing & Connectivity",
@@ -406,15 +402,11 @@
         {
           "skill": "visionOS",
           "count": 2
-        },
-        {
-          "skill": "Computer Vision",
-          "count": 2
         }
       ],
       "seniority_breakdown": {
         "Principal": 1,
-        "Mid": 28,
+        "Mid": 27,
         "Senior": 2
       }
     }
