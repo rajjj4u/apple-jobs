@@ -1139,5 +1139,56 @@
         "posting_count": 1
       }
     ]
+  },
+  {
+    "date": "2026-09-17T14:14:05+00:00",
+    "tech_role_count": 695,
+    "top_categories": [
+      "ML / AI / Generative AI",
+      "Software Engineering (iOS/macOS/Services/Core OS)",
+      "Apple Silicon / Hardware Engineering"
+    ],
+    "top_category_counts": [
+      128,
+      122,
+      113
+    ],
+    "top_paid_roles": [
+      {
+        "title": "AIML - Director, Evaluation - Data Science and Insights",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Director",
+        "salary_band": "$250K \u2013 $500K+",
+        "posting_count": 1
+      },
+      {
+        "title": "AIML Data Operations - Director, Business and Capacity Planning, Data Analytics",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Director",
+        "salary_band": "$250K \u2013 $500K+",
+        "posting_count": 1
+      },
+      {
+        "title": "Principal Quality Engineer",
+        "category": "QA / Test / SDET",
+        "seniority": "Principal",
+        "salary_band": "$200K \u2013 $400K+",
+        "posting_count": 2
+      },
+      {
+        "title": "Principal Applied Research Engineer/Scientist, Siri Labs",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Principal",
+        "salary_band": "$200K \u2013 $400K+",
+        "posting_count": 1
+      },
+      {
+        "title": "Staff/Senior Machine Learning Engineer, Search & Knowledge Platforms",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Staff",
+        "salary_band": "$200K \u2013 $380K",
+        "posting_count": 2
+      }
+    ]
   }
 ]
