@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-09-20T13:31:41+00:00",
+  "scraped_at": "2026-09-21T15:47:52+00:00",
   "total_listings": 1200,
-  "tech_role_count": 655,
+  "tech_role_count": 652,
   "top_categories": [
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
@@ -90,13 +90,100 @@
       }
     },
     {
+      "name": "Apple Silicon / Hardware Engineering",
+      "role_count": 112,
+      "posting_count": 154,
+      "top_titles": [
+        {
+          "title": "Design Verification Engineer",
+          "count": 11
+        },
+        {
+          "title": "Wireless Module Engineer",
+          "count": 6
+        },
+        {
+          "title": "Haptics Product Design Engineer",
+          "count": 4
+        },
+        {
+          "title": "SRAM Circuit Design Engineer",
+          "count": 4
+        },
+        {
+          "title": "Wireless SoC RF Integration and Validation Engineer",
+          "count": 4
+        },
+        {
+          "title": "Display Electrical Design Engineer",
+          "count": 4
+        },
+        {
+          "title": "Power Integrity Engineer",
+          "count": 4
+        },
+        {
+          "title": "Hardware Systems Engineer",
+          "count": 3
+        }
+      ],
+      "top_skills": [
+        {
+          "skill": "SoC",
+          "count": 38
+        },
+        {
+          "skill": "RF / Wireless",
+          "count": 32
+        },
+        {
+          "skill": "RTL Design",
+          "count": 20
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 14
+        },
+        {
+          "skill": "CPU Architecture",
+          "count": 13
+        },
+        {
+          "skill": "Signal Integrity",
+          "count": 8
+        },
+        {
+          "skill": "Power Integrity",
+          "count": 8
+        },
+        {
+          "skill": "GPU Architecture",
+          "count": 5
+        },
+        {
+          "skill": "ASIC Design",
+          "count": 5
+        },
+        {
+          "skill": "3D Graphics / Rendering",
+          "count": 3
+        }
+      ],
+      "seniority_breakdown": {
+        "Mid": 143,
+        "Manager": 6,
+        "Lead": 3,
+        "Senior": 2
+      }
+    },
+    {
       "name": "ML / AI / Generative AI",
-      "role_count": 113,
-      "posting_count": 134,
+      "role_count": 109,
+      "posting_count": 130,
       "top_titles": [
         {
           "title": "Machine Learning Engineer",
-          "count": 5
+          "count": 4
         },
         {
           "title": "Senior Machine Learning Engineer",
@@ -134,19 +221,19 @@
         },
         {
           "skill": "AI & Data Platforms (AiDP)",
-          "count": 12
+          "count": 11
         },
         {
           "skill": "NLP",
           "count": 11
         },
         {
-          "skill": "Speech / Audio",
+          "skill": "LLMs / Foundation Models",
           "count": 11
         },
         {
-          "skill": "LLMs / Foundation Models",
-          "count": 11
+          "skill": "Speech / Audio",
+          "count": 10
         },
         {
           "skill": "Computer Vision",
@@ -170,100 +257,13 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 11,
-        "Mid": 70,
+        "Manager": 10,
+        "Mid": 68,
         "Senior": 40,
-        "Lead": 7,
+        "Lead": 6,
         "Director": 2,
         "Principal": 1,
         "Staff": 3
-      }
-    },
-    {
-      "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 112,
-      "posting_count": 153,
-      "top_titles": [
-        {
-          "title": "Design Verification Engineer",
-          "count": 12
-        },
-        {
-          "title": "Wireless Module Engineer",
-          "count": 6
-        },
-        {
-          "title": "Haptics Product Design Engineer",
-          "count": 4
-        },
-        {
-          "title": "SRAM Circuit Design Engineer",
-          "count": 4
-        },
-        {
-          "title": "Wireless SoC RF Integration and Validation Engineer",
-          "count": 4
-        },
-        {
-          "title": "Display Electrical Design Engineer",
-          "count": 4
-        },
-        {
-          "title": "Power Integrity Engineer",
-          "count": 4
-        },
-        {
-          "title": "Hardware Systems Engineer",
-          "count": 3
-        }
-      ],
-      "top_skills": [
-        {
-          "skill": "SoC",
-          "count": 36
-        },
-        {
-          "skill": "RF / Wireless",
-          "count": 32
-        },
-        {
-          "skill": "RTL Design",
-          "count": 19
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 14
-        },
-        {
-          "skill": "CPU Architecture",
-          "count": 12
-        },
-        {
-          "skill": "Signal Integrity",
-          "count": 8
-        },
-        {
-          "skill": "Power Integrity",
-          "count": 8
-        },
-        {
-          "skill": "GPU Architecture",
-          "count": 5
-        },
-        {
-          "skill": "ASIC Design",
-          "count": 5
-        },
-        {
-          "skill": "3D Graphics / Rendering",
-          "count": 3
-        }
-      ],
-      "seniority_breakdown": {
-        "Mid": 142,
-        "Manager": 6,
-        "Lead": 3,
-        "Senior": 2
       }
     },
     {
@@ -334,8 +334,8 @@
     },
     {
       "name": "QA / Test / SDET",
-      "role_count": 30,
-      "posting_count": 31,
+      "role_count": 27,
+      "posting_count": 28,
       "top_titles": [
         {
           "title": "Camera Calibration and Test Engineer",
@@ -347,10 +347,6 @@
         },
         {
           "title": "NAND QA Test Engineer",
-          "count": 2
-        },
-        {
-          "title": "Design for Test Engineer",
           "count": 2
         },
         {
@@ -366,7 +362,11 @@
           "count": 1
         },
         {
-          "title": "Component Quality Engineer",
+          "title": "Systems Quality Engineer - Accessory Ecosystem",
+          "count": 1
+        },
+        {
+          "title": "Product System Test Engineer, Wireless Technologies & Ecosystems",
           "count": 1
         }
       ],
@@ -389,7 +389,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 28,
+        "Mid": 25,
         "Senior": 2,
         "Principal": 1
       }
