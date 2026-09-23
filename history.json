@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-08-29T03:57:20+00:00",
-    "tech_role_count": 740,
-    "top_categories": [
-      "Software Engineering (iOS/macOS/Services/Core OS)",
-      "Apple Silicon / Hardware Engineering",
-      "Product / Program Management (Technical)"
-    ],
-    "top_category_counts": [
-      177,
-      131,
-      106
-    ]
-  },
-  {
     "date": "2026-08-29T04:03:12+00:00",
     "tech_role_count": 752,
     "top_categories": [
@@ -1415,6 +1401,57 @@
         "seniority": "Principal",
         "salary_band": "$200K \u2013 $400K+",
         "posting_count": 1
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23T14:10:41+00:00",
+    "tech_role_count": 520,
+    "top_categories": [
+      "Apple Silicon / Hardware Engineering",
+      "ML / AI / Generative AI",
+      "Software Engineering (iOS/macOS/Services/Core OS)"
+    ],
+    "top_category_counts": [
+      97,
+      87,
+      83
+    ],
+    "top_paid_roles": [
+      {
+        "title": "AIML - Director, Evaluation - Data Science and Insights",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Director",
+        "salary_band": "$250K \u2013 $500K+",
+        "posting_count": 1
+      },
+      {
+        "title": "AIML Data Operations - Director, Business and Capacity Planning, Data Analytics",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Director",
+        "salary_band": "$250K \u2013 $500K+",
+        "posting_count": 1
+      },
+      {
+        "title": "Principal Quality Engineer",
+        "category": "QA / Test / SDET",
+        "seniority": "Principal",
+        "salary_band": "$200K \u2013 $400K+",
+        "posting_count": 1
+      },
+      {
+        "title": "Principal Software Engineer, Apple Services Engineering",
+        "category": "Software Engineering (iOS/macOS/Services/Core OS)",
+        "seniority": "Principal",
+        "salary_band": "$200K \u2013 $400K+",
+        "posting_count": 1
+      },
+      {
+        "title": "Staff/Sr. Core Infrastructure Engineer, AI, Search & Knowledge Platforms",
+        "category": "Infrastructure / SRE / Platform",
+        "seniority": "Staff",
+        "salary_band": "$200K \u2013 $380K",
+        "posting_count": 2
       }
     ]
   }
