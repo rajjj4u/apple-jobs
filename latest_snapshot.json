@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-26T13:42:22+00:00",
-  "total_listings": 980,
-  "tech_role_count": 500,
+  "scraped_at": "2026-09-27T14:38:25+00:00",
+  "total_listings": 1200,
+  "tech_role_count": 623,
   "top_categories": [
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 97,
-      "posting_count": 116,
+      "role_count": 118,
+      "posting_count": 144,
       "top_titles": [
         {
           "title": "Senior Software ML Engineer - Watch Software",
@@ -25,6 +25,10 @@
           "count": 3
         },
         {
+          "title": "AIML - Machine Learning Researcher, Foundation Models",
+          "count": 3
+        },
+        {
           "title": "Lead iCloud Insights Engineer, Services Data Science & Analytics",
           "count": 3
         },
@@ -35,72 +39,68 @@
         {
           "title": "Gate-level IR/EM CAD/NLP Engineer",
           "count": 2
-        },
-        {
-          "title": "Senior Staff Machine Learning Engineer, ML Platform",
-          "count": 2
         }
       ],
       "top_skills": [
         {
           "skill": "Foundation Models / LLM Inference",
-          "count": 12
+          "count": 18
         },
         {
           "skill": "NLP",
-          "count": 12
+          "count": 13
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 9
+          "count": 12
         },
         {
           "skill": "Speech / Audio",
-          "count": 8
-        },
-        {
-          "skill": "Computer Vision",
-          "count": 8
+          "count": 11
         },
         {
           "skill": "AI & Data Platforms (AiDP)",
-          "count": 7
+          "count": 11
+        },
+        {
+          "skill": "Computer Vision",
+          "count": 11
         },
         {
           "skill": "iOS / iPadOS",
-          "count": 4
-        },
-        {
-          "skill": "Agile / Scrum",
-          "count": 3
-        },
-        {
-          "skill": "SoC",
-          "count": 3
+          "count": 7
         },
         {
           "skill": "macOS",
-          "count": 3
+          "count": 6
+        },
+        {
+          "skill": "visionOS",
+          "count": 6
+        },
+        {
+          "skill": "watchOS",
+          "count": 6
         }
       ],
       "seniority_breakdown": {
-        "Mid": 65,
-        "Senior": 31,
-        "Manager": 9,
-        "Staff": 2,
-        "Lead": 6,
+        "Senior": 44,
+        "Mid": 77,
+        "Manager": 10,
+        "Staff": 3,
+        "Lead": 7,
         "Director": 2,
         "Principal": 1
       }
     },
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 89,
-      "posting_count": 119,
+      "role_count": 109,
+      "posting_count": 147,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
-          "count": 11
+          "count": 12
         },
         {
           "title": "Wireless Module Engineer",
@@ -115,76 +115,80 @@
           "count": 4
         },
         {
+          "title": "Hardware System Integration Electrical Engineer - Mac",
+          "count": 4
+        },
+        {
           "title": "Haptics Product Design Engineer",
           "count": 4
         },
         {
-          "title": "Display Electrical Design Engineer",
+          "title": "SRAM Circuit Design Engineer",
           "count": 4
         },
         {
-          "title": "CPU Memory Subsystem Verification Engineer",
-          "count": 3
-        },
-        {
-          "title": "Design Verification",
-          "count": 3
+          "title": "Wireless SoC RF Integration and Validation Engineer",
+          "count": 4
         }
       ],
       "top_skills": [
         {
           "skill": "RF / Wireless",
-          "count": 22
+          "count": 32
         },
         {
           "skill": "SoC",
-          "count": 18
+          "count": 32
         },
         {
           "skill": "Speech / Audio",
-          "count": 13
+          "count": 14
         },
         {
           "skill": "RTL Design",
-          "count": 8
+          "count": 14
         },
         {
           "skill": "CPU Architecture",
-          "count": 5
+          "count": 8
         },
         {
           "skill": "Signal Integrity",
-          "count": 4
-        },
-        {
-          "skill": "3D Graphics / Rendering",
-          "count": 3
+          "count": 6
         },
         {
           "skill": "GPU Architecture",
-          "count": 2
+          "count": 5
+        },
+        {
+          "skill": "ASIC Design",
+          "count": 5
         },
         {
           "skill": "Computer Vision",
           "count": 2
         },
         {
-          "skill": "Verilog/SystemVerilog",
+          "skill": "3D Graphics / Rendering",
           "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 110,
-        "Manager": 5,
+        "Mid": 135,
+        "Manager": 8,
         "Lead": 3,
         "Senior": 1
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 78,
-      "posting_count": 101,
+      "role_count": 97,
+      "posting_count": 129,
       "top_titles": [
+        {
+          "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
+          "count": 10
+        },
         {
           "title": "Systems Software Engineer, Platform Architecture",
           "count": 6
@@ -210,10 +214,6 @@
           "count": 3
         },
         {
-          "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
-          "count": 3
-        },
-        {
           "title": "Visual Generation Framework Software Engineer - Proactive",
           "count": 2
         }
@@ -221,22 +221,30 @@
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 15
+          "count": 17
         },
         {
           "skill": "macOS",
-          "count": 9
-        },
-        {
-          "skill": "Go",
-          "count": 6
-        },
-        {
-          "skill": "Distributed Systems",
-          "count": 6
+          "count": 17
         },
         {
           "skill": "Swift",
+          "count": 13
+        },
+        {
+          "skill": "SwiftUI",
+          "count": 11
+        },
+        {
+          "skill": "Distributed Systems",
+          "count": 10
+        },
+        {
+          "skill": "RF / Wireless",
+          "count": 7
+        },
+        {
+          "skill": "Go",
           "count": 6
         },
         {
@@ -248,32 +256,29 @@
           "count": 6
         },
         {
-          "skill": "RF / Wireless",
-          "count": 5
-        },
-        {
           "skill": "iCloud",
-          "count": 4
-        },
-        {
-          "skill": "SwiftUI",
-          "count": 4
+          "count": 5
         }
       ],
       "seniority_breakdown": {
-        "Mid": 68,
-        "Senior": 30,
+        "Mid": 80,
+        "Senior": 45,
         "Manager": 2,
-        "Principal": 1
+        "Principal": 1,
+        "Staff": 1
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 59,
-      "posting_count": 72,
+      "role_count": 79,
+      "posting_count": 93,
       "top_titles": [
         {
           "title": "Operations Program Manager, Executive Protection",
+          "count": 3
+        },
+        {
+          "title": "Sensing, Power, and Haptics Engineering Program Manager",
           "count": 3
         },
         {
@@ -297,15 +302,19 @@
           "count": 2
         },
         {
-          "title": "ASE - Engineering Program Manager, Search and Answer Relevance",
-          "count": 2
-        },
-        {
-          "title": "Sr Product Manager, Apple Savings",
+          "title": "Engineering Program Manager - Camera & Depth",
           "count": 2
         }
       ],
       "top_skills": [
+        {
+          "skill": "Go",
+          "count": 3
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 3
+        },
         {
           "skill": "Combine",
           "count": 3
@@ -313,10 +322,63 @@
         {
           "skill": "RF / Wireless",
           "count": 3
+        }
+      ],
+      "seniority_breakdown": {
+        "Manager": 77,
+        "Senior": 16
+      }
+    },
+    {
+      "name": "QA / Test / SDET",
+      "role_count": 28,
+      "posting_count": 28,
+      "top_titles": [
+        {
+          "title": "Performance & Automation Test Engineer, Creativity Apps",
+          "count": 2
         },
         {
-          "skill": "Go",
+          "title": "NAND ATE Test Engineer",
           "count": 2
+        },
+        {
+          "title": "NAND QA Test Engineer",
+          "count": 2
+        },
+        {
+          "title": "Camera Calibration and Test Engineer",
+          "count": 2
+        },
+        {
+          "title": "SDET Manager, Mail & Messages Automated Testing Frameworks",
+          "count": 1
+        },
+        {
+          "title": "OS Power and Performance - Software Development Engineer in Test",
+          "count": 1
+        },
+        {
+          "title": "Senior Software Engineer (SDET), Infrastructure Services",
+          "count": 1
+        },
+        {
+          "title": "Manufacturing Quality Engineer (MQE) Mac Enclosures",
+          "count": 1
+        }
+      ],
+      "top_skills": [
+        {
+          "skill": "RF / Wireless",
+          "count": 5
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 3
+        },
+        {
+          "skill": "macOS",
+          "count": 3
         },
         {
           "skill": "Speech / Audio",
@@ -324,74 +386,10 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 60,
-        "Senior": 12
-      }
-    },
-    {
-      "name": "Security / Cryptography",
-      "role_count": 19,
-      "posting_count": 26,
-      "top_titles": [
-        {
-          "title": "Secure Systems Engineer - Platform Architecture Security Team",
-          "count": 4
-        },
-        {
-          "title": "Residential Security Program Manager, Executive Protection",
-          "count": 3
-        },
-        {
-          "title": "Security Engineer - Health Software",
-          "count": 2
-        },
-        {
-          "title": "Senior Security Engineer",
-          "count": 2
-        },
-        {
-          "title": "Platform Security Engineer - Wallet Payments & Commerce",
-          "count": 2
-        },
-        {
-          "title": "Senior System Security Software Engineer, Platform Attestation",
-          "count": 1
-        },
-        {
-          "title": "Senior Network Security Engineer, Infrastructure Services",
-          "count": 1
-        },
-        {
-          "title": "Senior Security Software Engineer - Secure Transports",
-          "count": 1
-        }
-      ],
-      "top_skills": [
-        {
-          "skill": "iCloud",
-          "count": 4
-        },
-        {
-          "skill": "Cryptography",
-          "count": 3
-        },
-        {
-          "skill": "Go",
-          "count": 2
-        },
-        {
-          "skill": "iOS / iPadOS",
-          "count": 2
-        },
-        {
-          "skill": "Kubernetes",
-          "count": 2
-        }
-      ],
-      "seniority_breakdown": {
-        "Senior": 8,
-        "Mid": 14,
-        "Manager": 4
+        "Manager": 1,
+        "Mid": 23,
+        "Senior": 3,
+        "Principal": 1
       }
     }
   ],
