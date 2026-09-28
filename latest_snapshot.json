@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-09-27T14:38:25+00:00",
-  "total_listings": 1200,
-  "tech_role_count": 623,
+  "scraped_at": "2026-09-28T17:30:57+00:00",
+  "total_listings": 1060,
+  "tech_role_count": 564,
   "top_categories": [
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 118,
-      "posting_count": 144,
+      "role_count": 106,
+      "posting_count": 131,
       "top_titles": [
         {
           "title": "Senior Software ML Engineer - Watch Software",
@@ -44,14 +44,10 @@
       "top_skills": [
         {
           "skill": "Foundation Models / LLM Inference",
-          "count": 18
+          "count": 17
         },
         {
           "skill": "NLP",
-          "count": 13
-        },
-        {
-          "skill": "LLMs / Foundation Models",
           "count": 12
         },
         {
@@ -59,12 +55,16 @@
           "count": 11
         },
         {
-          "skill": "AI & Data Platforms (AiDP)",
+          "skill": "LLMs / Foundation Models",
           "count": 11
         },
         {
+          "skill": "AI & Data Platforms (AiDP)",
+          "count": 8
+        },
+        {
           "skill": "Computer Vision",
-          "count": 11
+          "count": 8
         },
         {
           "skill": "iOS / iPadOS",
@@ -84,8 +84,8 @@
         }
       ],
       "seniority_breakdown": {
-        "Senior": 44,
-        "Mid": 77,
+        "Mid": 71,
+        "Senior": 37,
         "Manager": 10,
         "Staff": 3,
         "Lead": 7,
@@ -95,16 +95,12 @@
     },
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 109,
-      "posting_count": 147,
+      "role_count": 102,
+      "posting_count": 130,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
           "count": 12
-        },
-        {
-          "title": "Wireless Module Engineer",
-          "count": 6
         },
         {
           "title": "RF System Integration Engineer",
@@ -129,24 +125,28 @@
         {
           "title": "Wireless SoC RF Integration and Validation Engineer",
           "count": 4
+        },
+        {
+          "title": "Display Electrical Design Engineer",
+          "count": 4
         }
       ],
       "top_skills": [
         {
-          "skill": "RF / Wireless",
-          "count": 32
-        },
-        {
           "skill": "SoC",
-          "count": 32
+          "count": 23
         },
         {
-          "skill": "Speech / Audio",
-          "count": 14
+          "skill": "RF / Wireless",
+          "count": 22
         },
         {
           "skill": "RTL Design",
-          "count": 14
+          "count": 15
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 12
         },
         {
           "skill": "CPU Architecture",
@@ -165,16 +165,16 @@
           "count": 5
         },
         {
-          "skill": "Computer Vision",
-          "count": 2
+          "skill": "3D Graphics / Rendering",
+          "count": 3
         },
         {
-          "skill": "3D Graphics / Rendering",
+          "skill": "Computer Vision",
           "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 135,
+        "Mid": 118,
         "Manager": 8,
         "Lead": 3,
         "Senior": 1
@@ -182,8 +182,8 @@
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 97,
-      "posting_count": 129,
+      "role_count": 84,
+      "posting_count": 113,
       "top_titles": [
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
@@ -192,10 +192,6 @@
         {
           "title": "Systems Software Engineer, Platform Architecture",
           "count": 6
-        },
-        {
-          "title": "Performance Control Software Engineer - Platform Architecture",
-          "count": 5
         },
         {
           "title": "iOS Analytics Software Engineer - Video Applications",
@@ -216,53 +212,57 @@
         {
           "title": "Visual Generation Framework Software Engineer - Proactive",
           "count": 2
+        },
+        {
+          "title": "Senior Software Engineer",
+          "count": 2
         }
       ],
       "top_skills": [
         {
-          "skill": "iOS / iPadOS",
-          "count": 17
-        },
-        {
           "skill": "macOS",
-          "count": 17
+          "count": 15
         },
         {
           "skill": "Swift",
           "count": 13
         },
         {
-          "skill": "SwiftUI",
-          "count": 11
+          "skill": "iOS / iPadOS",
+          "count": 13
         },
         {
           "skill": "Distributed Systems",
           "count": 10
         },
         {
+          "skill": "SwiftUI",
+          "count": 10
+        },
+        {
           "skill": "RF / Wireless",
-          "count": 7
+          "count": 8
         },
         {
           "skill": "Go",
-          "count": 6
+          "count": 5
         },
         {
           "skill": "visionOS",
-          "count": 6
+          "count": 5
         },
         {
           "skill": "watchOS",
-          "count": 6
+          "count": 5
         },
         {
-          "skill": "iCloud",
-          "count": 5
+          "skill": "Shell/Bash",
+          "count": 3
         }
       ],
       "seniority_breakdown": {
-        "Mid": 80,
-        "Senior": 45,
+        "Mid": 68,
+        "Senior": 41,
         "Manager": 2,
         "Principal": 1,
         "Staff": 1
@@ -270,8 +270,8 @@
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 79,
-      "posting_count": 93,
+      "role_count": 72,
+      "posting_count": 86,
       "top_titles": [
         {
           "title": "Operations Program Manager, Executive Protection",
@@ -308,10 +308,6 @@
       ],
       "top_skills": [
         {
-          "skill": "Go",
-          "count": 3
-        },
-        {
           "skill": "Speech / Audio",
           "count": 3
         },
@@ -322,11 +318,15 @@
         {
           "skill": "RF / Wireless",
           "count": 3
+        },
+        {
+          "skill": "Go",
+          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Manager": 77,
-        "Senior": 16
+        "Manager": 71,
+        "Senior": 15
       }
     },
     {
@@ -351,6 +351,10 @@
           "count": 2
         },
         {
+          "title": "Software Development Engineer in Test, IS&T Customer Systems",
+          "count": 1
+        },
+        {
           "title": "SDET Manager, Mail & Messages Automated Testing Frameworks",
           "count": 1
         },
@@ -361,10 +365,6 @@
         {
           "title": "Senior Software Engineer (SDET), Infrastructure Services",
           "count": 1
-        },
-        {
-          "title": "Manufacturing Quality Engineer (MQE) Mac Enclosures",
-          "count": 1
         }
       ],
       "top_skills": [
@@ -374,11 +374,11 @@
         },
         {
           "skill": "iOS / iPadOS",
-          "count": 3
+          "count": 4
         },
         {
           "skill": "macOS",
-          "count": 3
+          "count": 4
         },
         {
           "skill": "Speech / Audio",
@@ -386,8 +386,8 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 1,
         "Mid": 23,
+        "Manager": 1,
         "Senior": 3,
         "Principal": 1
       }
