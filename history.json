@@ -1,56 +1,5 @@
 [
   {
-    "date": "2026-09-03T13:26:30+00:00",
-    "tech_role_count": 760,
-    "top_categories": [
-      "Apple Silicon / Hardware Engineering",
-      "ML / AI / Generative AI",
-      "Software Engineering (iOS/macOS/Services/Core OS)"
-    ],
-    "top_category_counts": [
-      140,
-      136,
-      129
-    ],
-    "top_paid_roles": [
-      {
-        "title": "Principal Security Engineering Program Manager - China Security & Infrastructure, Apple Services Engineering",
-        "category": "Security / Cryptography",
-        "seniority": "Principal",
-        "salary_band": "$200K \u2013 $400K+",
-        "posting_count": 1
-      },
-      {
-        "title": "Sr. Principal Engineer - FoundationDB",
-        "category": "Software Engineering (iOS/macOS/Services/Core OS)",
-        "seniority": "Principal",
-        "salary_band": "$200K \u2013 $400K+",
-        "posting_count": 1
-      },
-      {
-        "title": "Senior Software Engineer, Apple Ads",
-        "category": "Software Engineering (iOS/macOS/Services/Core OS)",
-        "seniority": "Staff",
-        "salary_band": "$200K \u2013 $380K",
-        "posting_count": 3
-      },
-      {
-        "title": "Staff Data Engineer",
-        "category": "Data Engineering / Analytics",
-        "seniority": "Staff",
-        "salary_band": "$200K \u2013 $380K",
-        "posting_count": 2
-      },
-      {
-        "title": "Staff Machine Learning Engineer \u2013 Ads Predictions",
-        "category": "ML / AI / Generative AI",
-        "seniority": "Staff",
-        "salary_band": "$200K \u2013 $380K",
-        "posting_count": 2
-      }
-    ]
-  },
-  {
     "date": "2026-09-04T13:21:06+00:00",
     "tech_role_count": 752,
     "top_categories": [
@@ -1526,6 +1475,57 @@
         "seniority": "Staff",
         "salary_band": "$200K \u2013 $380K",
         "posting_count": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-10-03T14:13:34+00:00",
+    "tech_role_count": 470,
+    "top_categories": [
+      "Apple Silicon / Hardware Engineering",
+      "ML / AI / Generative AI",
+      "Software Engineering (iOS/macOS/Services/Core OS)"
+    ],
+    "top_category_counts": [
+      96,
+      85,
+      69
+    ],
+    "top_paid_roles": [
+      {
+        "title": "AIML - Director, Evaluation - Data Science and Insights",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Director",
+        "salary_band": "$250K \u2013 $500K+",
+        "posting_count": 1
+      },
+      {
+        "title": "AIML Data Operations - Director, Business and Capacity Planning, Data Analytics",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Director",
+        "salary_band": "$250K \u2013 $500K+",
+        "posting_count": 1
+      },
+      {
+        "title": "Principal Applied Research Engineer/Scientist, Siri Labs",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Principal",
+        "salary_band": "$200K \u2013 $400K+",
+        "posting_count": 1
+      },
+      {
+        "title": "Senior Staff Machine Learning Engineer, ML Platform",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Staff",
+        "salary_band": "$200K \u2013 $380K",
+        "posting_count": 2
+      },
+      {
+        "title": "Staff ML Infrastructure Engineer",
+        "category": "Infrastructure / SRE / Platform",
+        "seniority": "Staff",
+        "salary_band": "$200K \u2013 $380K",
+        "posting_count": 1
       }
     ]
   }
