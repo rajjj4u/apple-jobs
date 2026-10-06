@@ -1,20 +1,36 @@
 {
-  "scraped_at": "2026-10-05T18:10:42+00:00",
-  "total_listings": 1020,
-  "tech_role_count": 495,
+  "scraped_at": "2026-10-06T15:47:51+00:00",
+  "total_listings": 1200,
+  "tech_role_count": 585,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 99,
-      "posting_count": 132,
+      "role_count": 116,
+      "posting_count": 159,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
-          "count": 12
+          "count": 13
+        },
+        {
+          "title": "SerDes Circuit Design Engineer",
+          "count": 7
+        },
+        {
+          "title": "CPU Performance Engineer, Platform Architecture",
+          "count": 6
         },
         {
           "title": "SRAM Circuit Design Engineer",
           "count": 6
+        },
+        {
+          "title": "RF System Integration Engineer",
+          "count": 4
+        },
+        {
+          "title": "SOC Thermal Engineer",
+          "count": 4
         },
         {
           "title": "Thermal Engineer",
@@ -23,80 +39,68 @@
         {
           "title": "Haptics Product Design Engineer",
           "count": 4
-        },
-        {
-          "title": "Wireless SoC RF Integration and Validation Engineer",
-          "count": 4
-        },
-        {
-          "title": "SerDes Circuit Design Engineer",
-          "count": 3
-        },
-        {
-          "title": "Hardware Systems Engineer",
-          "count": 3
-        },
-        {
-          "title": "Digital Circuit Design Engineer",
-          "count": 3
         }
       ],
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 40
+          "count": 47
         },
         {
           "skill": "RF / Wireless",
-          "count": 21
+          "count": 25
+        },
+        {
+          "skill": "CPU Architecture",
+          "count": 22
         },
         {
           "skill": "RTL Design",
-          "count": 13
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 13
+          "count": 14
         },
         {
           "skill": "GPU Architecture",
           "count": 10
         },
         {
-          "skill": "CPU Architecture",
-          "count": 9
+          "skill": "Speech / Audio",
+          "count": 10
         },
         {
-          "skill": "SystemVerilog/UVM",
-          "count": 5
+          "skill": "Signal Integrity",
+          "count": 7
+        },
+        {
+          "skill": "Power Integrity",
+          "count": 4
         },
         {
           "skill": "Verilog/SystemVerilog",
           "count": 4
         },
         {
-          "skill": "Signal Integrity",
-          "count": 3
-        },
-        {
-          "skill": "Computer Vision",
-          "count": 2
+          "skill": "SystemVerilog/UVM",
+          "count": 4
         }
       ],
       "seniority_breakdown": {
-        "Mid": 123,
-        "Manager": 6,
-        "Lead": 3
+        "Mid": 152,
+        "Lead": 1,
+        "Manager": 6
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 91,
-      "posting_count": 110,
+      "role_count": 108,
+      "posting_count": 134,
       "top_titles": [
         {
+          "title": "SoC Machine Learning Design Engineer",
+          "count": 4
+        },
+        {
           "title": "ML Engineer - Automated Evaluation and Adversarial Design",
-          "count": 3
+          "count": 4
         },
         {
           "title": "Senior Software ML Engineer - Watch Software",
@@ -111,89 +115,81 @@
           "count": 3
         },
         {
-          "title": "Sr. Machine Learning Engineer",
+          "title": "Machine Learning FEA Engineer",
           "count": 2
         },
         {
-          "title": "Data Scientist",
+          "title": "SW Optimization Engineer AI/ML",
           "count": 2
         },
         {
-          "title": "Sr Machine Learning Engineer, Proactive",
-          "count": 2
-        },
-        {
-          "title": "Senior Data Scientist, Experimentation & Causal Inference",
+          "title": "Sr. Machine Learning Engineer, Speech LLM Evaluation",
           "count": 2
         }
       ],
       "top_skills": [
         {
-          "skill": "Foundation Models / LLM Inference",
-          "count": 9
+          "skill": "LLMs / Foundation Models",
+          "count": 11
         },
         {
-          "skill": "AI & Data Platforms (AiDP)",
-          "count": 7
+          "skill": "Foundation Models / LLM Inference",
+          "count": 11
         },
         {
           "skill": "NLP",
-          "count": 7
+          "count": 10
         },
         {
           "skill": "iOS / iPadOS",
-          "count": 6
-        },
-        {
-          "skill": "LLMs / Foundation Models",
-          "count": 5
+          "count": 9
         },
         {
           "skill": "macOS",
-          "count": 5
+          "count": 8
         },
         {
           "skill": "visionOS",
-          "count": 5
+          "count": 8
         },
         {
           "skill": "watchOS",
-          "count": 5
+          "count": 8
         },
         {
-          "skill": "Computer Vision",
-          "count": 5
+          "skill": "AI & Data Platforms (AiDP)",
+          "count": 8
         },
         {
-          "skill": "Combine",
-          "count": 4
+          "skill": "SoC",
+          "count": 7
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 5
         }
       ],
       "seniority_breakdown": {
-        "Mid": 57,
         "Manager": 11,
-        "Senior": 37,
-        "Staff": 1,
-        "Lead": 1,
+        "Mid": 73,
+        "Senior": 41,
+        "Staff": 3,
+        "Lead": 3,
         "Director": 2,
         "Principal": 1
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 79,
-      "posting_count": 104,
+      "role_count": 93,
+      "posting_count": 117,
       "top_titles": [
         {
           "title": "Software Engineer: Linux Driver and Kernel Developer",
-          "count": 8
+          "count": 12
         },
         {
-          "title": "iOS Engineer: Cloud Media and Collaboration",
-          "count": 5
-        },
-        {
-          "title": "iOS Analytics Software Engineer - Video Applications",
+          "title": "Performance Control Software Engineer - Platform Architecture",
           "count": 5
         },
         {
@@ -209,7 +205,11 @@
           "count": 3
         },
         {
-          "title": "Core OS Software Engineer - USB4/Thunderbolt",
+          "title": "Senior Software Engineer",
+          "count": 3
+        },
+        {
+          "title": "Bluetooth Firmware Engineer, Wireless Technologies & Ecosystems",
           "count": 2
         },
         {
@@ -219,58 +219,65 @@
       ],
       "top_skills": [
         {
-          "skill": "iOS / iPadOS",
-          "count": 18
-        },
-        {
-          "skill": "macOS",
-          "count": 11
-        },
-        {
           "skill": "Distributed Systems",
-          "count": 8
+          "count": 10
         },
         {
           "skill": "RF / Wireless",
+          "count": 10
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 8
+        },
+        {
+          "skill": "Go",
           "count": 7
+        },
+        {
+          "skill": "macOS",
+          "count": 6
+        },
+        {
+          "skill": "iCloud",
+          "count": 5
         },
         {
           "skill": "GPU Architecture",
           "count": 5
         },
         {
-          "skill": "Go",
-          "count": 4
-        },
-        {
           "skill": "visionOS",
           "count": 4
         },
         {
-          "skill": "iCloud",
-          "count": 3
-        },
-        {
-          "skill": "Xcode",
-          "count": 3
-        },
-        {
           "skill": "Shell/Bash",
+          "count": 3
+        },
+        {
+          "skill": "JavaScript/TypeScript",
           "count": 3
         }
       ],
       "seniority_breakdown": {
-        "Mid": 74,
-        "Senior": 27,
-        "Staff": 2,
-        "Manager": 1
+        "Mid": 79,
+        "Senior": 35,
+        "Staff": 3
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 49,
-      "posting_count": 60,
+      "role_count": 65,
+      "posting_count": 80,
       "top_titles": [
+        {
+          "title": "Product Manager, Employee Experience & Productivity",
+          "count": 6
+        },
+        {
+          "title": "Engineering Program Manager - Camera & Depth",
+          "count": 4
+        },
         {
           "title": "Program Manager, New Employee Experience",
           "count": 3
@@ -280,7 +287,11 @@
           "count": 3
         },
         {
-          "title": "Product Manager, Employee Experience & Productivity",
+          "title": "Engineering Program Manager (ANE/ML/AI), Video Engineering",
+          "count": 2
+        },
+        {
+          "title": "Trust & Safety Program Manager, Financial Fraud",
           "count": 2
         },
         {
@@ -290,36 +301,24 @@
         {
           "title": "Portfolio Planning Program Manager & Analyst",
           "count": 2
-        },
-        {
-          "title": "AppleCare Technologies BPR Project Manager, Service Supply Chain",
-          "count": 2
-        },
-        {
-          "title": "Platform Program Manager, AMP Partner Operations",
-          "count": 2
-        },
-        {
-          "title": "Engineering Program Manager - Camera & Depth",
-          "count": 2
         }
       ],
       "top_skills": [
         {
           "skill": "Combine",
-          "count": 2
+          "count": 3
         }
       ],
       "seniority_breakdown": {
-        "Manager": 52,
-        "Lead": 1,
-        "Senior": 7
+        "Manager": 65,
+        "Senior": 14,
+        "Lead": 1
       }
     },
     {
       "name": "QA / Test / SDET",
-      "role_count": 29,
-      "posting_count": 30,
+      "role_count": 32,
+      "posting_count": 33,
       "top_titles": [
         {
           "title": "Manufacturing Quality Engineer",
@@ -342,40 +341,37 @@
           "count": 2
         },
         {
+          "title": "Software Development Engineer in Test - Platform System Validation",
+          "count": 1
+        },
+        {
           "title": "Design for Test Engineer",
           "count": 1
         },
         {
           "title": "Software Development Engineer in Test (SDET), Creativity Apps",
           "count": 1
-        },
-        {
-          "title": "Camera and Photos - Image Quality Engineer",
-          "count": 1
         }
       ],
       "top_skills": [
         {
           "skill": "RF / Wireless",
-          "count": 4
+          "count": 5
         },
         {
           "skill": "iOS / iPadOS",
-          "count": 3
+          "count": 2
         },
         {
           "skill": "watchOS",
-          "count": 3
-        },
-        {
-          "skill": "macOS",
           "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 26,
+        "Mid": 28,
         "Senior": 3,
-        "Manager": 1
+        "Manager": 1,
+        "Principal": 1
       }
     }
   ],
@@ -436,35 +432,31 @@
       ]
     },
     {
-      "title": "Staff ML Infrastructure Engineer",
-      "category": "Infrastructure / SRE / Platform",
-      "seniority": "Staff",
-      "salary_band": "$200K \u2013 $380K",
+      "title": "Principal Quality Engineer",
+      "category": "QA / Test / SDET",
+      "seniority": "Principal",
+      "salary_band": "$200K \u2013 $400K+",
       "posting_count": 1,
-      "top_skills": [
-        {
-          "skill": "ML Infrastructure",
-          "count": 1
-        }
-      ],
+      "top_skills": [],
       "sample_locations": [
         "Cupertino"
       ]
     },
     {
-      "title": "Staff Machine Learning Engineer - Ads Bidding & Pacing",
+      "title": "Senior Staff Machine Learning Engineer, ML Platform",
       "category": "ML / AI / Generative AI",
       "seniority": "Staff",
       "salary_band": "$200K \u2013 $380K",
-      "posting_count": 1,
+      "posting_count": 2,
       "top_skills": [
         {
           "skill": "Agile / Scrum",
-          "count": 1
+          "count": 2
         }
       ],
       "sample_locations": [
-        "Cupertino"
+        "Cupertino",
+        "New York City"
       ]
     }
   ]
