@@ -1,56 +1,5 @@
 [
   {
-    "date": "2026-09-09T13:36:41+00:00",
-    "tech_role_count": 764,
-    "top_categories": [
-      "Apple Silicon / Hardware Engineering",
-      "ML / AI / Generative AI",
-      "Software Engineering (iOS/macOS/Services/Core OS)"
-    ],
-    "top_category_counts": [
-      141,
-      135,
-      128
-    ],
-    "top_paid_roles": [
-      {
-        "title": "Principal Security Engineering Program Manager - China Security & Infrastructure, Apple Services Engineering",
-        "category": "Security / Cryptography",
-        "seniority": "Principal",
-        "salary_band": "$200K \u2013 $400K+",
-        "posting_count": 1
-      },
-      {
-        "title": "Sr. Principal Engineer - FoundationDB",
-        "category": "Software Engineering (iOS/macOS/Services/Core OS)",
-        "seniority": "Principal",
-        "salary_band": "$200K \u2013 $400K+",
-        "posting_count": 1
-      },
-      {
-        "title": "Staff Data Engineer",
-        "category": "Data Engineering / Analytics",
-        "seniority": "Staff",
-        "salary_band": "$200K \u2013 $380K",
-        "posting_count": 2
-      },
-      {
-        "title": "Staff Machine Learning Engineer \u2013 Ads Predictions",
-        "category": "ML / AI / Generative AI",
-        "seniority": "Staff",
-        "salary_band": "$200K \u2013 $380K",
-        "posting_count": 2
-      },
-      {
-        "title": "Staff Research Scientist, Siri Innovation Studio",
-        "category": "ML / AI / Generative AI",
-        "seniority": "Staff",
-        "salary_band": "$200K \u2013 $380K",
-        "posting_count": 2
-      }
-    ]
-  },
-  {
     "date": "2026-09-10T13:28:52+00:00",
     "tech_role_count": 756,
     "top_categories": [
@@ -1523,6 +1472,57 @@
       {
         "title": "Senior / Staff ML Engineer, Apple Data Platform",
         "category": "ML / AI / Generative AI",
+        "seniority": "Staff",
+        "salary_band": "$200K \u2013 $380K",
+        "posting_count": 1
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09T15:58:48+00:00",
+    "tech_role_count": 588,
+    "top_categories": [
+      "ML / AI / Generative AI",
+      "Apple Silicon / Hardware Engineering",
+      "Software Engineering (iOS/macOS/Services/Core OS)"
+    ],
+    "top_category_counts": [
+      113,
+      111,
+      101
+    ],
+    "top_paid_roles": [
+      {
+        "title": "Principal Quality Engineer / Manager",
+        "category": "QA / Test / SDET",
+        "seniority": "Principal",
+        "salary_band": "$200K \u2013 $400K+",
+        "posting_count": 1
+      },
+      {
+        "title": "Senior Staff Machine Learning Engineer, ML Platform",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Staff",
+        "salary_band": "$200K \u2013 $380K",
+        "posting_count": 2
+      },
+      {
+        "title": "Staff/Sr. Software Engineer, Performance Testing Platform",
+        "category": "Software Engineering (iOS/macOS/Services/Core OS)",
+        "seniority": "Staff",
+        "salary_band": "$200K \u2013 $380K",
+        "posting_count": 2
+      },
+      {
+        "title": "Senior / Staff ML Engineer, Apple Data Platform",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Staff",
+        "salary_band": "$200K \u2013 $380K",
+        "posting_count": 1
+      },
+      {
+        "title": "Staff ML Infrastructure Engineer",
+        "category": "Infrastructure / SRE / Platform",
         "seniority": "Staff",
         "salary_band": "$200K \u2013 $380K",
         "posting_count": 1
