@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-10-15T14:04:10+00:00",
-  "total_listings": 1180,
-  "tech_role_count": 608,
+  "scraped_at": "2026-10-16T13:52:10+00:00",
+  "total_listings": 1120,
+  "tech_role_count": 584,
   "top_categories": [
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 121,
-      "posting_count": 161,
+      "role_count": 114,
+      "posting_count": 153,
       "top_titles": [
         {
           "title": "Software Engineer: Linux Driver and Kernel Developer",
@@ -48,30 +48,22 @@
         },
         {
           "skill": "iOS / iPadOS",
-          "count": 18
+          "count": 12
         },
         {
           "skill": "Swift",
           "count": 11
         },
         {
-          "skill": "iCloud",
-          "count": 10
-        },
-        {
           "skill": "SwiftUI",
           "count": 10
-        },
-        {
-          "skill": "RF / Wireless",
-          "count": 9
         },
         {
           "skill": "watchOS",
           "count": 8
         },
         {
-          "skill": "Distributed Systems",
+          "skill": "iCloud",
           "count": 8
         },
         {
@@ -79,28 +71,32 @@
           "count": 7
         },
         {
-          "skill": "visionOS",
-          "count": 6
+          "skill": "RF / Wireless",
+          "count": 7
+        },
+        {
+          "skill": "Go",
+          "count": 7
+        },
+        {
+          "skill": "Distributed Systems",
+          "count": 7
         }
       ],
       "seniority_breakdown": {
-        "Mid": 100,
-        "Senior": 57,
+        "Senior": 58,
+        "Mid": 91,
         "Staff": 4
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 108,
-      "posting_count": 136,
+      "role_count": 102,
+      "posting_count": 129,
       "top_titles": [
         {
           "title": "Gate-level IR/EM CAD/NLP Engineer",
           "count": 6
-        },
-        {
-          "title": "SoC Machine Learning Design Engineer",
-          "count": 4
         },
         {
           "title": "ML Engineer - Automated Evaluation and Adversarial Design",
@@ -115,73 +111,81 @@
           "count": 3
         },
         {
-          "title": "Machine Learning Engineer, Data for Foundation Models",
+          "title": "Machine Learning Engineer, System Experience - Proactive",
           "count": 2
         },
         {
-          "title": "Software Engineer (Framework Solutions), AI & Data Platforms (AiDP)",
+          "title": "Battery Algorithm ML Engineer",
           "count": 2
         },
         {
-          "title": "Engineering Manager, Siri Settings, Setup, and Compliance",
+          "title": "Battery Machine Learning Algorithm Engineer",
+          "count": 2
+        },
+        {
+          "title": "Software Engineer, Applied ML Connected Experiences, Sensing & Connectivity",
           "count": 2
         }
       ],
       "top_skills": [
         {
           "skill": "LLMs / Foundation Models",
-          "count": 22
+          "count": 24
         },
         {
           "skill": "Foundation Models / LLM Inference",
-          "count": 15
-        },
-        {
-          "skill": "AI & Data Platforms (AiDP)",
           "count": 12
         },
         {
-          "skill": "NLP",
+          "skill": "AI & Data Platforms (AiDP)",
           "count": 11
         },
         {
-          "skill": "Computer Vision",
-          "count": 7
+          "skill": "NLP",
+          "count": 8
         },
         {
-          "skill": "SoC",
-          "count": 7
+          "skill": "Computer Vision",
+          "count": 6
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 6
+        },
+        {
+          "skill": "macOS",
+          "count": 6
         },
         {
           "skill": "Speech / Audio",
           "count": 5
         },
         {
-          "skill": "iOS / iPadOS",
+          "skill": "visionOS",
           "count": 5
         },
         {
-          "skill": "Agile / Scrum",
-          "count": 4
-        },
-        {
-          "skill": "Combine",
-          "count": 4
+          "skill": "watchOS",
+          "count": 5
         }
       ],
       "seniority_breakdown": {
+        "Mid": 75,
+        "Senior": 33,
         "Manager": 15,
-        "Mid": 77,
-        "Senior": 38,
         "Staff": 4,
         "Lead": 2
       }
     },
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 88,
-      "posting_count": 142,
+      "role_count": 83,
+      "posting_count": 133,
       "top_titles": [
+        {
+          "title": "Wireless SoC RF Integration and Validation Engineer",
+          "count": 8
+        },
         {
           "title": "CPU Performance Architect, Platform Architecture",
           "count": 7
@@ -191,12 +195,16 @@
           "count": 7
         },
         {
+          "title": "SOC Design Verification Engineer",
+          "count": 6
+        },
+        {
           "title": "CPU Performance Engineer, Platform Architecture",
           "count": 6
         },
         {
-          "title": "SRAM Circuit Design Engineer",
-          "count": 5
+          "title": "Hardware System Integration Electrical Engineer - Mac",
+          "count": 4
         },
         {
           "title": "SOC Thermal Engineer",
@@ -205,43 +213,31 @@
         {
           "title": "Thermal Engineer",
           "count": 4
-        },
-        {
-          "title": "Wireless SoC RF Integration and Validation Engineer",
-          "count": 4
-        },
-        {
-          "title": "Hardware System Integration Electrical Engineer - Mac",
-          "count": 3
         }
       ],
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 59
+          "count": 53
         },
         {
           "skill": "CPU Architecture",
-          "count": 30
+          "count": 29
         },
         {
           "skill": "RF / Wireless",
-          "count": 24
+          "count": 28
         },
         {
           "skill": "RTL Design",
-          "count": 11
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 10
-        },
-        {
-          "skill": "GPU Architecture",
-          "count": 9
+          "count": 20
         },
         {
           "skill": "ASIC Design",
+          "count": 8
+        },
+        {
+          "skill": "GPU Architecture",
           "count": 8
         },
         {
@@ -249,25 +245,29 @@
           "count": 4
         },
         {
-          "skill": "Verilog/SystemVerilog",
+          "skill": "Speech / Audio",
           "count": 4
         },
         {
-          "skill": "SystemVerilog/UVM",
-          "count": 4
+          "skill": "3D Graphics / Rendering",
+          "count": 2
+        },
+        {
+          "skill": "Signal Integrity",
+          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 129,
-        "Manager": 9,
+        "Mid": 125,
+        "Manager": 4,
         "Senior": 3,
         "Lead": 1
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 62,
-      "posting_count": 73,
+      "role_count": 59,
+      "posting_count": 68,
       "top_titles": [
         {
           "title": "Product Manager, Employee Experience & Productivity",
@@ -282,10 +282,6 @@
           "count": 2
         },
         {
-          "title": "Central Marketing, Cross-Functional Project Manager",
-          "count": 2
-        },
-        {
           "title": "Construction Project Manager",
           "count": 2
         },
@@ -294,30 +290,28 @@
           "count": 2
         },
         {
-          "title": "Retail Network Project Manager, Infrastructure Services",
+          "title": "Portfolio Planning Program Manager & Analyst",
           "count": 2
         },
         {
-          "title": "Portfolio Planning Program Manager & Analyst",
+          "title": "AppleCare Technologies BPR Project Manager, Service Supply Chain",
+          "count": 2
+        },
+        {
+          "title": "Platform Program Manager, AMP Partner Operations",
           "count": 2
         }
       ],
-      "top_skills": [
-        {
-          "skill": "iCloud",
-          "count": 3
-        }
-      ],
+      "top_skills": [],
       "seniority_breakdown": {
-        "Manager": 59,
-        "Senior": 13,
-        "Lead": 1
+        "Senior": 15,
+        "Manager": 53
       }
     },
     {
       "name": "QA / Test / SDET",
-      "role_count": 28,
-      "posting_count": 31,
+      "role_count": 27,
+      "posting_count": 30,
       "top_titles": [
         {
           "title": "RFIC Test Engineer",
@@ -336,19 +330,19 @@
           "count": 2
         },
         {
+          "title": "Software Quality Engineer, Retail & Marcom Engineering",
+          "count": 1
+        },
+        {
+          "title": "Software QA Engineer, Fitness+ Team",
+          "count": 1
+        },
+        {
           "title": "Manufacturing Quality Engineer - Brittles",
           "count": 1
         },
         {
           "title": "Software Development Engineer in Test - Kernel Quality Engineering, Core OS",
-          "count": 1
-        },
-        {
-          "title": "Software Development Engineer in Test (SDET) \u2014 Enterprise Technology Services",
-          "count": 1
-        },
-        {
-          "title": "Wi-Fi Certification Quality Engineer, Wireless Technologies & Ecosystems",
           "count": 1
         }
       ],
@@ -368,8 +362,8 @@
       ],
       "seniority_breakdown": {
         "Mid": 27,
-        "Senior": 3,
-        "Manager": 1
+        "Manager": 1,
+        "Senior": 2
       }
     }
   ],
