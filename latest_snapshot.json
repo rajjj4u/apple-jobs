@@ -1,32 +1,28 @@
 {
-  "scraped_at": "2026-10-22T14:26:49+00:00",
-  "total_listings": 1200,
-  "tech_role_count": 654,
+  "scraped_at": "2026-10-23T14:09:58+00:00",
+  "total_listings": 1020,
+  "tech_role_count": 554,
   "top_categories": [
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 111,
-      "posting_count": 151,
+      "role_count": 96,
+      "posting_count": 128,
       "top_titles": [
-        {
-          "title": "Software Engineer: Linux Driver and Kernel Developer",
-          "count": 12
-        },
         {
           "title": "ISE, System Experience - Senior Software Engineer, macOS System Experience",
           "count": 10
         },
         {
-          "title": "Systems Software Engineer, Platform Architecture",
-          "count": 6
+          "title": "Software Engineer: Linux Driver and Kernel Developer",
+          "count": 8
+        },
+        {
+          "title": "Software Engineer - Journal Team",
+          "count": 4
         },
         {
           "title": "Senior Graphics Software Engineer",
           "count": 4
-        },
-        {
-          "title": "Firmware Engineer - Server BMC",
-          "count": 3
         },
         {
           "title": "Software Engineer, IS&T Early Career Opportunities",
@@ -39,20 +35,20 @@
         {
           "title": "Senior Software Engineer, Retail & Marcom Engineering",
           "count": 3
+        },
+        {
+          "title": "Distributed Systems Software Engineer (Golang)",
+          "count": 3
         }
       ],
       "top_skills": [
         {
           "skill": "macOS",
-          "count": 20
+          "count": 19
         },
         {
           "skill": "iOS / iPadOS",
-          "count": 15
-        },
-        {
-          "skill": "iCloud",
-          "count": 10
+          "count": 16
         },
         {
           "skill": "Swift",
@@ -63,11 +59,11 @@
           "count": 10
         },
         {
-          "skill": "RF / Wireless",
-          "count": 9
+          "skill": "iCloud",
+          "count": 8
         },
         {
-          "skill": "watchOS",
+          "skill": "RF / Wireless",
           "count": 8
         },
         {
@@ -75,25 +71,29 @@
           "count": 6
         },
         {
+          "skill": "watchOS",
+          "count": 6
+        },
+        {
           "skill": "Java",
           "count": 6
         },
         {
-          "skill": "Go",
-          "count": 6
+          "skill": "GPU Architecture",
+          "count": 5
         }
       ],
       "seniority_breakdown": {
-        "Senior": 55,
-        "Mid": 88,
+        "Senior": 49,
+        "Mid": 71,
         "Staff": 5,
         "New Grad": 3
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 111,
-      "posting_count": 138,
+      "role_count": 92,
+      "posting_count": 118,
       "top_titles": [
         {
           "title": "Gate-level IR/EM CAD/NLP Engineer",
@@ -108,8 +108,16 @@
           "count": 4
         },
         {
+          "title": "Senior Data Scientist, Apple Ads",
+          "count": 3
+        },
+        {
           "title": "Senior ML Researcher: Multimodal LLM Post-Training",
           "count": 3
+        },
+        {
+          "title": "AI/ML Engineer: System RF Data Ecosystem",
+          "count": 2
         },
         {
           "title": "Software Engineering (AI/ML), Retail and Marcom Engineering",
@@ -118,43 +126,27 @@
         {
           "title": "Principle Research Scientist, Siri Innovation Studio",
           "count": 2
-        },
-        {
-          "title": "Battery Machine Learning Algorithm Engineer",
-          "count": 2
-        },
-        {
-          "title": "AIML - Quality Engineering Manager, Responsible AI and Safety",
-          "count": 2
         }
       ],
       "top_skills": [
         {
           "skill": "LLMs / Foundation Models",
-          "count": 22
+          "count": 20
         },
         {
           "skill": "Foundation Models / LLM Inference",
-          "count": 12
-        },
-        {
-          "skill": "AI & Data Platforms (AiDP)",
           "count": 11
         },
         {
+          "skill": "AI & Data Platforms (AiDP)",
+          "count": 9
+        },
+        {
           "skill": "iOS / iPadOS",
-          "count": 9
-        },
-        {
-          "skill": "macOS",
-          "count": 9
-        },
-        {
-          "skill": "visionOS",
           "count": 8
         },
         {
-          "skill": "watchOS",
+          "skill": "macOS",
           "count": 8
         },
         {
@@ -166,22 +158,34 @@
           "count": 7
         },
         {
+          "skill": "visionOS",
+          "count": 7
+        },
+        {
+          "skill": "watchOS",
+          "count": 7
+        },
+        {
           "skill": "SoC",
           "count": 6
         }
       ],
       "seniority_breakdown": {
-        "Mid": 89,
-        "Staff": 6,
-        "Senior": 29,
-        "Manager": 14
+        "Mid": 71,
+        "Senior": 28,
+        "Manager": 14,
+        "Staff": 5
       }
     },
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 95,
-      "posting_count": 171,
+      "role_count": 76,
+      "posting_count": 146,
       "top_titles": [
+        {
+          "title": "Software Engineer - SoC Level Validation Engineer",
+          "count": 15
+        },
         {
           "title": "CPU Performance Engineer, Platform Architecture",
           "count": 14
@@ -192,57 +196,53 @@
         },
         {
           "title": "Design Verification Engineer",
-          "count": 8
-        },
-        {
-          "title": "Wireless SoC Design Engineer",
           "count": 7
-        },
-        {
-          "title": "CPU Performance Architect, Platform Architecture",
-          "count": 7
-        },
-        {
-          "title": "SerDes Circuit Design Engineer",
-          "count": 7
-        },
-        {
-          "title": "Wireless RTL Design Engineer",
-          "count": 6
         },
         {
           "title": "SOC Design Verification Engineer",
           "count": 6
+        },
+        {
+          "title": "SerDes Circuit Design Engineer",
+          "count": 6
+        },
+        {
+          "title": "PHY Design Verification Engineer",
+          "count": 4
+        },
+        {
+          "title": "Wireless SoC RF Integration and Validation Engineer",
+          "count": 4
         }
       ],
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 75
+          "count": 68
         },
         {
           "skill": "RF / Wireless",
-          "count": 56
-        },
-        {
-          "skill": "RTL Design",
-          "count": 38
-        },
-        {
-          "skill": "CPU Architecture",
-          "count": 34
+          "count": 44
         },
         {
           "skill": "Metal",
-          "count": 14
+          "count": 34
+        },
+        {
+          "skill": "CPU Architecture",
+          "count": 29
+        },
+        {
+          "skill": "RTL Design",
+          "count": 26
+        },
+        {
+          "skill": "3D Graphics / Rendering",
+          "count": 18
         },
         {
           "skill": "ASIC Design",
           "count": 10
-        },
-        {
-          "skill": "3D Graphics / Rendering",
-          "count": 8
         },
         {
           "skill": "GPU Architecture",
@@ -258,24 +258,24 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 160,
-        "Manager": 9,
+        "Mid": 137,
+        "Manager": 7,
         "Senior": 1,
         "Lead": 1
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 65,
-      "posting_count": 76,
+      "role_count": 59,
+      "posting_count": 69,
       "top_titles": [
-        {
-          "title": "Product Manager, Employee Experience & Productivity",
-          "count": 7
-        },
         {
           "title": "AMR Zero Waste Program Manager, Global Energy & Sustainbility",
           "count": 5
+        },
+        {
+          "title": "Product Manager, Employee Experience & Productivity",
+          "count": 4
         },
         {
           "title": "Sensing, Power, and Haptics Engineering Program Manager",
@@ -290,16 +290,16 @@
           "count": 2
         },
         {
+          "title": "SDS Privacy Engineering Program Manager",
+          "count": 2
+        },
+        {
           "title": "Operations Program Manager, iPhone",
           "count": 2
         },
         {
           "title": "Materials Program Manager",
           "count": 2
-        },
-        {
-          "title": "Trust & Safety Program Manager, Financial Fraud",
-          "count": 2
         }
       ],
       "top_skills": [
@@ -309,81 +309,69 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 63,
-        "Senior": 12,
-        "Lead": 1
+        "Manager": 59,
+        "Senior": 10
       }
     },
     {
-      "name": "Security / Cryptography",
-      "role_count": 25,
-      "posting_count": 29,
+      "name": "QA / Test / SDET",
+      "role_count": 21,
+      "posting_count": 24,
       "top_titles": [
         {
-          "title": "Vulnerability Response Manager - Apple Information Security",
+          "title": "RFIC Test Engineer",
           "count": 3
         },
         {
-          "title": "Senior Security Engineering Manager - Agentic Detection & Threat Hunting",
+          "title": "Screening & Integration Engineer, Watch Software, Sensing & Connectivity",
           "count": 2
         },
         {
-          "title": "Security Engineer - Health Software",
-          "count": 2
-        },
-        {
-          "title": "Cryptography Engineer, SEAR",
+          "title": "Software QA Engineer, Fitness Watch Software, Sensing & Connectivity",
           "count": 1
         },
         {
-          "title": "Senior Security Software Engineer EDR",
+          "title": "Tools & Automation Backend Quality Engineer \u2013 App Store Analytics",
           "count": 1
         },
         {
-          "title": "Principal Security Software Engineer, EDR",
+          "title": "Quality Assurance Test Engineer",
           "count": 1
         },
         {
-          "title": "Kubernetes Security Engineer",
+          "title": "Home Product Systems Quality Engineer",
           "count": 1
         },
         {
-          "title": "Principal Security Software Engineer",
+          "title": "Reliability Test Engineer",
+          "count": 1
+        },
+        {
+          "title": "Software Quality Engineer, Retail & Marcom Engineering",
           "count": 1
         }
       ],
       "top_skills": [
         {
-          "skill": "iCloud",
-          "count": 8
+          "skill": "RF / Wireless",
+          "count": 5
         },
         {
-          "skill": "Combine",
+          "skill": "watchOS",
+          "count": 4
+        },
+        {
+          "skill": "iOS / iPadOS",
           "count": 3
         },
         {
-          "skill": "Cryptography",
-          "count": 2
-        },
-        {
-          "skill": "Swift",
-          "count": 2
-        },
-        {
-          "skill": "Go",
-          "count": 2
-        },
-        {
-          "skill": "Distributed Systems",
+          "skill": "Python",
           "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 9,
-        "Senior": 11,
-        "Principal": 2,
-        "Manager": 6,
-        "Lead": 1
+        "Mid": 23,
+        "Manager": 1
       }
     }
   ],
@@ -397,34 +385,6 @@
       "top_skills": [],
       "sample_locations": [
         "Seattle"
-      ]
-    },
-    {
-      "title": "Principal Security Software Engineer, EDR",
-      "category": "Security / Cryptography",
-      "seniority": "Principal",
-      "salary_band": "$200K \u2013 $400K+",
-      "posting_count": 1,
-      "top_skills": [
-        {
-          "skill": "Swift",
-          "count": 1
-        }
-      ],
-      "sample_locations": [
-        "Seattle"
-      ]
-    },
-    {
-      "title": "Senior / Staff ML Engineer, Apple Data Platform",
-      "category": "ML / AI / Generative AI",
-      "seniority": "Staff",
-      "salary_band": "$200K \u2013 $380K",
-      "posting_count": 2,
-      "top_skills": [],
-      "sample_locations": [
-        "Seattle",
-        "Cupertino"
       ]
     },
     {
@@ -453,6 +413,28 @@
       "top_skills": [],
       "sample_locations": [
         "Santa Clara",
+        "Seattle"
+      ]
+    },
+    {
+      "title": "Senior / Staff ML Engineer, Apple Data Platform",
+      "category": "ML / AI / Generative AI",
+      "seniority": "Staff",
+      "salary_band": "$200K \u2013 $380K",
+      "posting_count": 1,
+      "top_skills": [],
+      "sample_locations": [
+        "Seattle"
+      ]
+    },
+    {
+      "title": "Senior / Staff Machine Learning Engineer, Apple Cloud AI Platform",
+      "category": "ML / AI / Generative AI",
+      "seniority": "Staff",
+      "salary_band": "$200K \u2013 $380K",
+      "posting_count": 1,
+      "top_skills": [],
+      "sample_locations": [
         "Seattle"
       ]
     }
