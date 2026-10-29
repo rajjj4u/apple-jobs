@@ -1,32 +1,28 @@
 {
-  "scraped_at": "2026-10-28T15:50:23+00:00",
-  "total_listings": 1200,
-  "tech_role_count": 675,
+  "scraped_at": "2026-10-29T15:58:44+00:00",
+  "total_listings": 980,
+  "tech_role_count": 547,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 114,
-      "posting_count": 224,
+      "role_count": 96,
+      "posting_count": 179,
       "top_titles": [
         {
           "title": "Software Engineer - SoC Level Validation Engineer",
           "count": 15
         },
         {
-          "title": "CPU Performance Engineer, Platform Architecture",
-          "count": 14
+          "title": "Design Verification Engineer",
+          "count": 13
         },
         {
           "title": "SOC Design Verification Engineer",
           "count": 13
         },
         {
-          "title": "Design Verification Engineer",
-          "count": 13
-        },
-        {
-          "title": "Wireless Module Test Engineer",
-          "count": 12
+          "title": "CPU Performance Engineer, Platform Architecture",
+          "count": 10
         },
         {
           "title": "Wireless SoC Design Engineer",
@@ -37,38 +33,42 @@
           "count": 7
         },
         {
-          "title": "Wireless SOC Design Verification Engineer",
+          "title": "Wireless SoC RF Integration and Validation Engineer",
+          "count": 6
+        },
+        {
+          "title": "Wireless RTL Design Engineer",
           "count": 6
         }
       ],
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 118
+          "count": 101
         },
         {
           "skill": "RF / Wireless",
-          "count": 86
-        },
-        {
-          "skill": "RTL Design",
           "count": 57
         },
         {
+          "skill": "RTL Design",
+          "count": 45
+        },
+        {
           "skill": "CPU Architecture",
-          "count": 35
+          "count": 30
         },
         {
           "skill": "Metal",
-          "count": 34
+          "count": 30
         },
         {
           "skill": "3D Graphics / Rendering",
-          "count": 18
+          "count": 17
         },
         {
           "skill": "ASIC Design",
-          "count": 17
+          "count": 14
         },
         {
           "skill": "SystemVerilog/UVM",
@@ -76,121 +76,116 @@
         },
         {
           "skill": "GPU Architecture",
-          "count": 5
+          "count": 4
         },
         {
           "skill": "Speech / Audio",
-          "count": 3
+          "count": 4
         }
       ],
       "seniority_breakdown": {
-        "Mid": 212,
-        "Manager": 10,
+        "Mid": 166,
+        "Manager": 11,
         "Senior": 1,
         "Lead": 1
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 112,
-      "posting_count": 139,
+      "role_count": 87,
+      "posting_count": 103,
       "top_titles": [
-        {
-          "title": "AI/ML Engineer: System RF Data Ecosystem",
-          "count": 4
-        },
-        {
-          "title": "Battery Algorithm ML Engineer",
-          "count": 4
-        },
-        {
-          "title": "Battery Machine Learning Algorithm Engineer",
-          "count": 4
-        },
-        {
-          "title": "Gate-level IR/EM CAD/NLP Engineer",
-          "count": 4
-        },
-        {
-          "title": "SoC Machine Learning Design Engineer",
-          "count": 4
-        },
         {
           "title": "Senior Software Engineer, Applied ML - Watch Software",
           "count": 3
         },
         {
-          "title": "Senior Data Scientist, Apple Ads",
-          "count": 3
+          "title": "Applied AI Engineer",
+          "count": 2
         },
         {
-          "title": "Senior ML Researcher: Multimodal LLM Post-Training",
-          "count": 3
+          "title": "Engineering Program Manager, Services Data Science & Analytics",
+          "count": 2
+        },
+        {
+          "title": "Senior Machine Learning Engineer - ML Platform",
+          "count": 2
+        },
+        {
+          "title": "Applied AI Engineer, Apple Ads",
+          "count": 2
+        },
+        {
+          "title": "Sr. Machine Learning Manager, AI, Search & Knowledge Platforms",
+          "count": 2
+        },
+        {
+          "title": "Sr. Computer Vision and Machine Learning Engineer, Creativity Apps",
+          "count": 2
+        },
+        {
+          "title": "Machine Learning Engineer, System Experience - Proactive",
+          "count": 2
         }
       ],
       "top_skills": [
         {
           "skill": "LLMs / Foundation Models",
-          "count": 21
-        },
-        {
-          "skill": "Foundation Models / LLM Inference",
-          "count": 13
-        },
-        {
-          "skill": "visionOS",
-          "count": 9
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 9
-        },
-        {
-          "skill": "iOS / iPadOS",
-          "count": 9
-        },
-        {
-          "skill": "macOS",
-          "count": 9
-        },
-        {
-          "skill": "NLP",
-          "count": 8
-        },
-        {
-          "skill": "watchOS",
-          "count": 8
+          "count": 11
         },
         {
           "skill": "AI & Data Platforms (AiDP)",
-          "count": 8
+          "count": 9
+        },
+        {
+          "skill": "Foundation Models / LLM Inference",
+          "count": 9
         },
         {
           "skill": "Computer Vision",
-          "count": 6
+          "count": 8
+        },
+        {
+          "skill": "visionOS",
+          "count": 8
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 8
+        },
+        {
+          "skill": "macOS",
+          "count": 8
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 7
+        },
+        {
+          "skill": "watchOS",
+          "count": 7
+        },
+        {
+          "skill": "GPU Architecture",
+          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 81,
-        "Senior": 39,
-        "Manager": 15,
+        "Mid": 62,
+        "Manager": 14,
+        "Senior": 24,
         "Principal": 1,
-        "Lead": 1,
         "Staff": 2
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 99,
-      "posting_count": 122,
+      "role_count": 83,
+      "posting_count": 101,
       "top_titles": [
         {
           "title": "iOS Analytics Software Engineer - Video Applications",
           "count": 5
-        },
-        {
-          "title": "Software Engineer: Linux Driver and Kernel Developer",
-          "count": 4
         },
         {
           "title": "Camera Embedded Software Engineer",
@@ -209,67 +204,71 @@
           "count": 3
         },
         {
-          "title": "Graphics Software Engineer",
+          "title": "Software Engineer, Information Systems & Technology",
           "count": 2
         },
         {
-          "title": "Sr. Software Engineer, Information Systems & Technology",
+          "title": "Sr. Principal Engineer - FoundationDB",
+          "count": 2
+        },
+        {
+          "title": "Graphics Software Engineer",
           "count": 2
         }
       ],
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 23
-        },
-        {
-          "skill": "macOS",
-          "count": 11
+          "count": 20
         },
         {
           "skill": "watchOS",
-          "count": 11
+          "count": 12
         },
         {
           "skill": "iCloud",
           "count": 10
         },
         {
-          "skill": "visionOS",
-          "count": 6
+          "skill": "macOS",
+          "count": 9
         },
         {
           "skill": "Java",
-          "count": 6
+          "count": 7
         },
         {
-          "skill": "RF / Wireless",
-          "count": 5
+          "skill": "visionOS",
+          "count": 6
         },
         {
           "skill": "CloudKit",
           "count": 4
         },
         {
-          "skill": "Combine",
+          "skill": "Observability",
           "count": 3
         },
         {
-          "skill": "Observability",
+          "skill": "RF / Wireless",
           "count": 3
+        },
+        {
+          "skill": "FoundationDB",
+          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 74,
-        "Senior": 44,
-        "Principal": 1,
+        "Mid": 57,
+        "Senior": 39,
+        "Principal": 2,
         "Staff": 3
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 67,
-      "posting_count": 80,
+      "role_count": 55,
+      "posting_count": 68,
       "top_titles": [
         {
           "title": "AMR Zero Waste Program Manager, Global Energy & Sustainbility",
@@ -280,8 +279,8 @@
           "count": 3
         },
         {
-          "title": "Product Manager, Employee Experience & Productivity",
-          "count": 3
+          "title": "Senior Engineering Program Manager, Lead , Service Special Projects",
+          "count": 2
         },
         {
           "title": "Product Manager - Experimentation Platform",
@@ -306,89 +305,104 @@
       ],
       "top_skills": [
         {
-          "skill": "Go",
+          "skill": "RF / Wireless",
           "count": 3
         },
         {
-          "skill": "RF / Wireless",
-          "count": 3
+          "skill": "Go",
+          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Manager": 67,
+        "Manager": 55,
         "Senior": 12,
         "Principal": 1
       }
     },
     {
-      "name": "Infrastructure / SRE / Platform",
-      "role_count": 24,
-      "posting_count": 29,
+      "name": "QA / Test / SDET",
+      "role_count": 22,
+      "posting_count": 27,
       "top_titles": [
         {
-          "title": "Senior Site Reliability Engineer - Apple Services Engineering / iCloud",
+          "title": "RFIC Test Engineer",
           "count": 3
         },
         {
-          "title": "Senior ML Infrastructure Engineer, Proactive",
+          "title": "Software Development Engineer in Test (SDET), Creative Apps",
           "count": 2
         },
         {
-          "title": "Platform Engineer, Privacy Preserving ML",
+          "title": "Test Engineer, Packaging Product Design",
           "count": 2
         },
         {
-          "title": "Site Reliability Engineer, Enterprise Technology Services",
+          "title": "Software QA Engineer, Fitness Watch Software, Sensing & Connectivity",
           "count": 2
         },
         {
-          "title": "WiFi Network Reliability Engineer, Infrastructure Services",
-          "count": 2
-        },
-        {
-          "title": "Site Reliability Engineer, Retail and Marcom Engineering",
+          "title": "Software Development Engineer in Test \u2013 Apps, Identity Management Services",
           "count": 1
         },
         {
-          "title": "Sr Site Reliability Engineer, Retail and Marcom Engineering",
+          "title": "Technical Program Manager and Manufacturing Quality Engineer",
           "count": 1
         },
         {
-          "title": "DevOps / Infrastructure Engineer \u2014 Firmware Validation",
+          "title": "Senior Quality Engineer - Apple Maps Performance",
+          "count": 1
+        },
+        {
+          "title": "Embedded QA Engineer - Camera,  ISP FW & Driver",
           "count": 1
         }
       ],
       "top_skills": [
         {
-          "skill": "iCloud",
-          "count": 9
+          "skill": "iOS / iPadOS",
+          "count": 8
         },
         {
-          "skill": "Observability",
+          "skill": "macOS",
           "count": 4
         },
         {
-          "skill": "Distributed Systems",
-          "count": 3
-        },
-        {
-          "skill": "ML Infrastructure",
-          "count": 2
+          "skill": "watchOS",
+          "count": 4
         },
         {
           "skill": "RF / Wireless",
-          "count": 2
+          "count": 4
         }
       ],
       "seniority_breakdown": {
-        "Mid": 16,
-        "Senior": 11,
-        "Lead": 1,
-        "Manager": 1
+        "Mid": 24,
+        "Manager": 1,
+        "Senior": 2
       }
     }
   ],
   "highest_paid_roles": [
+    {
+      "title": "Sr. Principal Engineer - FoundationDB",
+      "category": "Software Engineering (iOS/macOS/Services/Core OS)",
+      "seniority": "Principal",
+      "salary_band": "$200K \u2013 $400K+",
+      "posting_count": 2,
+      "top_skills": [
+        {
+          "skill": "FoundationDB",
+          "count": 2
+        },
+        {
+          "skill": "iCloud",
+          "count": 2
+        }
+      ],
+      "sample_locations": [
+        "Cupertino"
+      ]
+    },
     {
       "title": "Principal Applied Research Engineer/Scientist, Siri Labs",
       "category": "ML / AI / Generative AI",
@@ -445,34 +459,22 @@
       ]
     },
     {
-      "title": "Principal Security Software Engineer, EDR",
-      "category": "Security / Cryptography",
-      "seniority": "Principal",
-      "salary_band": "$200K \u2013 $400K+",
+      "title": "Senior / Staff Machine Learning Engineer, ACAI Training & Inference Platform",
+      "category": "ML / AI / Generative AI",
+      "seniority": "Staff",
+      "salary_band": "$200K \u2013 $380K",
       "posting_count": 1,
       "top_skills": [
         {
-          "skill": "Swift",
-          "count": 1
-        }
-      ],
-      "sample_locations": [
-        "Seattle"
-      ]
-    },
-    {
-      "title": "Sr. Principal Engineer - FoundationDB",
-      "category": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "seniority": "Principal",
-      "salary_band": "$200K \u2013 $400K+",
-      "posting_count": 1,
-      "top_skills": [
-        {
-          "skill": "FoundationDB",
+          "skill": "LLMs / Foundation Models",
           "count": 1
         },
         {
-          "skill": "iCloud",
+          "skill": "Foundation Models / LLM Inference",
+          "count": 1
+        },
+        {
+          "skill": "Distributed Systems",
           "count": 1
         }
       ],
