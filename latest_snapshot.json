@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-31T15:13:59+00:00",
+  "scraped_at": "2026-11-01T15:54:39+00:00",
   "total_listings": 1200,
   "tech_role_count": 672,
   "top_categories": [
@@ -44,15 +44,15 @@
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 123
+          "count": 128
         },
         {
           "skill": "RF / Wireless",
-          "count": 86
+          "count": 93
         },
         {
           "skill": "RTL Design",
-          "count": 57
+          "count": 61
         },
         {
           "skill": "Metal",
@@ -134,7 +134,7 @@
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 12
+          "count": 13
         },
         {
           "skill": "AI & Data Platforms (AiDP)",
@@ -149,24 +149,24 @@
           "count": 8
         },
         {
+          "skill": "iOS / iPadOS",
+          "count": 8
+        },
+        {
+          "skill": "macOS",
+          "count": 8
+        },
+        {
+          "skill": "visionOS",
+          "count": 8
+        },
+        {
           "skill": "NLP",
           "count": 7
         },
         {
-          "skill": "iOS / iPadOS",
-          "count": 7
-        },
-        {
-          "skill": "macOS",
-          "count": 7
-        },
-        {
-          "skill": "visionOS",
-          "count": 7
-        },
-        {
           "skill": "watchOS",
-          "count": 6
+          "count": 7
         }
       ],
       "seniority_breakdown": {
