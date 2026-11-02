@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-11-01T15:54:39+00:00",
+  "scraped_at": "2026-11-02T19:20:21+00:00",
   "total_listings": 1200,
-  "tech_role_count": 672,
+  "tech_role_count": 680,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 120,
-      "posting_count": 234,
+      "role_count": 121,
+      "posting_count": 238,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
@@ -29,22 +29,22 @@
           "count": 9
         },
         {
+          "title": "SoC UPF Methodology Engineer",
+          "count": 8
+        },
+        {
           "title": "CPU Performance Engineer, Platform Architecture",
           "count": 8
         },
         {
           "title": "Wireless SoC Design Engineer",
           "count": 7
-        },
-        {
-          "title": "Wireless Module Engineer",
-          "count": 6
         }
       ],
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 128
+          "count": 130
         },
         {
           "skill": "RF / Wireless",
@@ -59,16 +59,16 @@
           "count": 30
         },
         {
-          "skill": "CPU Architecture",
-          "count": 20
-        },
-        {
           "skill": "3D Graphics / Rendering",
           "count": 17
         },
         {
           "skill": "ASIC Design",
           "count": 14
+        },
+        {
+          "skill": "CPU Architecture",
+          "count": 13
         },
         {
           "skill": "Speech / Audio",
@@ -84,15 +84,15 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 220,
+        "Mid": 224,
         "Manager": 13,
         "Senior": 1
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 108,
-      "posting_count": 132,
+      "role_count": 106,
+      "posting_count": 130,
       "top_titles": [
         {
           "title": "Battery Algorithm ML Engineer",
@@ -149,14 +149,6 @@
           "count": 8
         },
         {
-          "skill": "iOS / iPadOS",
-          "count": 8
-        },
-        {
-          "skill": "macOS",
-          "count": 8
-        },
-        {
           "skill": "visionOS",
           "count": 8
         },
@@ -165,23 +157,31 @@
           "count": 7
         },
         {
+          "skill": "iOS / iPadOS",
+          "count": 7
+        },
+        {
+          "skill": "macOS",
+          "count": 7
+        },
+        {
           "skill": "watchOS",
           "count": 7
         }
       ],
       "seniority_breakdown": {
-        "Mid": 77,
+        "Senior": 34,
+        "Mid": 75,
         "Lead": 2,
-        "Senior": 33,
         "Principal": 1,
         "Staff": 3,
-        "Manager": 16
+        "Manager": 15
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 91,
-      "posting_count": 110,
+      "role_count": 95,
+      "posting_count": 115,
       "top_titles": [
         {
           "title": "iOS Analytics Software Engineer - Video Applications",
@@ -208,11 +208,11 @@
           "count": 3
         },
         {
-          "title": "Software Engineer, Information Systems & Technology",
+          "title": "Sr. Software Engineer, Infrastructure Services",
           "count": 2
         },
         {
-          "title": "Sr. Principal Engineer - FoundationDB",
+          "title": "Cellular Power Optimization Software Engineer, Wireless Technologies & Ecosystems",
           "count": 2
         }
       ],
@@ -227,40 +227,40 @@
         },
         {
           "skill": "macOS",
-          "count": 11
+          "count": 10
         },
         {
           "skill": "iCloud",
           "count": 9
         },
         {
-          "skill": "visionOS",
-          "count": 8
-        },
-        {
           "skill": "Java",
           "count": 7
+        },
+        {
+          "skill": "visionOS",
+          "count": 7
+        },
+        {
+          "skill": "RF / Wireless",
+          "count": 4
         },
         {
           "skill": "CloudKit",
           "count": 4
         },
         {
-          "skill": "Observability",
+          "skill": "Distributed Systems",
           "count": 3
         },
         {
-          "skill": "WebKit",
-          "count": 2
-        },
-        {
-          "skill": "FoundationDB",
-          "count": 2
+          "skill": "Observability",
+          "count": 3
         }
       ],
       "seniority_breakdown": {
-        "Mid": 67,
-        "Senior": 38,
+        "Senior": 42,
+        "Mid": 68,
         "Principal": 2,
         "Staff": 3
       }
@@ -318,8 +318,8 @@
         }
       ],
       "seniority_breakdown": {
-        "Senior": 14,
-        "Manager": 66,
+        "Manager": 67,
+        "Senior": 13,
         "Principal": 1
       }
     },
