@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-11-02T19:20:21+00:00",
+  "scraped_at": "2026-11-03T16:56:09+00:00",
   "total_listings": 1200,
-  "tech_role_count": 680,
+  "tech_role_count": 669,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 121,
-      "posting_count": 238,
+      "role_count": 118,
+      "posting_count": 233,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
@@ -44,11 +44,11 @@
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 130
+          "count": 131
         },
         {
           "skill": "RF / Wireless",
-          "count": 93
+          "count": 92
         },
         {
           "skill": "RTL Design",
@@ -63,16 +63,12 @@
           "count": 17
         },
         {
-          "skill": "ASIC Design",
-          "count": 14
-        },
-        {
           "skill": "CPU Architecture",
-          "count": 13
+          "count": 12
         },
         {
-          "skill": "Speech / Audio",
-          "count": 5
+          "skill": "ASIC Design",
+          "count": 10
         },
         {
           "skill": "SystemVerilog/UVM",
@@ -81,18 +77,22 @@
         {
           "skill": "GPU Architecture",
           "count": 3
+        },
+        {
+          "skill": "Go",
+          "count": 3
         }
       ],
       "seniority_breakdown": {
-        "Mid": 224,
-        "Manager": 13,
+        "Manager": 14,
+        "Mid": 218,
         "Senior": 1
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 106,
-      "posting_count": 130,
+      "role_count": 102,
+      "posting_count": 126,
       "top_titles": [
         {
           "title": "Battery Algorithm ML Engineer",
@@ -119,33 +119,33 @@
           "count": 3
         },
         {
-          "title": "AI/ML Engineer: System RF Data Ecosystem",
+          "title": "Machine Learning Engineer, SIML",
           "count": 2
         },
         {
-          "title": "Applied AI Engineer - Health",
+          "title": "Sr ML Researcher Multi-Modal Reasoning",
           "count": 2
         }
       ],
       "top_skills": [
         {
           "skill": "Foundation Models / LLM Inference",
-          "count": 13
+          "count": 16
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 13
-        },
-        {
-          "skill": "AI & Data Platforms (AiDP)",
-          "count": 10
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 8
+          "count": 11
         },
         {
           "skill": "Computer Vision",
+          "count": 9
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 8
+        },
+        {
+          "skill": "macOS",
           "count": 8
         },
         {
@@ -153,35 +153,35 @@
           "count": 8
         },
         {
+          "skill": "watchOS",
+          "count": 8
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 8
+        },
+        {
           "skill": "NLP",
           "count": 7
         },
         {
-          "skill": "iOS / iPadOS",
-          "count": 7
-        },
-        {
-          "skill": "macOS",
-          "count": 7
-        },
-        {
-          "skill": "watchOS",
+          "skill": "AI & Data Platforms (AiDP)",
           "count": 7
         }
       ],
       "seniority_breakdown": {
-        "Senior": 34,
-        "Mid": 75,
-        "Lead": 2,
+        "Mid": 71,
+        "Senior": 36,
+        "Lead": 3,
         "Principal": 1,
         "Staff": 3,
-        "Manager": 15
+        "Manager": 12
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 95,
-      "posting_count": 115,
+      "role_count": 90,
+      "posting_count": 111,
       "top_titles": [
         {
           "title": "iOS Analytics Software Engineer - Video Applications",
@@ -189,10 +189,6 @@
         },
         {
           "title": "iOS Engineer - Wallet",
-          "count": 3
-        },
-        {
-          "title": "Camera Embedded Software Engineer",
           "count": 3
         },
         {
@@ -208,22 +204,26 @@
           "count": 3
         },
         {
-          "title": "Sr. Software Engineer, Infrastructure Services",
+          "title": "Systems Software Engineer, Platform Architecture",
           "count": 2
         },
         {
-          "title": "Cellular Power Optimization Software Engineer, Wireless Technologies & Ecosystems",
+          "title": "Senior Software Engineer, Apple Services Engineering",
+          "count": 2
+        },
+        {
+          "title": "Sr. Software Engineer, Infrastructure Services",
           "count": 2
         }
       ],
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 26
+          "count": 25
         },
         {
           "skill": "watchOS",
-          "count": 12
+          "count": 11
         },
         {
           "skill": "macOS",
@@ -234,20 +234,20 @@
           "count": 9
         },
         {
-          "skill": "Java",
-          "count": 7
-        },
-        {
           "skill": "visionOS",
           "count": 7
         },
         {
-          "skill": "RF / Wireless",
-          "count": 4
+          "skill": "Java",
+          "count": 6
         },
         {
           "skill": "CloudKit",
           "count": 4
+        },
+        {
+          "skill": "RF / Wireless",
+          "count": 3
         },
         {
           "skill": "Distributed Systems",
@@ -259,20 +259,28 @@
         }
       ],
       "seniority_breakdown": {
-        "Senior": 42,
-        "Mid": 68,
+        "Mid": 66,
+        "Senior": 40,
         "Principal": 2,
         "Staff": 3
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 72,
-      "posting_count": 81,
+      "role_count": 77,
+      "posting_count": 87,
       "top_titles": [
         {
           "title": "Sensing, Power, and Haptics Engineering Program Manager",
           "count": 3
+        },
+        {
+          "title": "CAD Engineering Program Manager",
+          "count": 2
+        },
+        {
+          "title": "Audio Architecture Engineering Program Manager",
+          "count": 2
         },
         {
           "title": "Portfolio Planning Program Manager & Analyst",
@@ -293,14 +301,6 @@
         {
           "title": "PMIC Engineering Program Manager",
           "count": 2
-        },
-        {
-          "title": "Cellular Modem RF Software Engineering Program Manager",
-          "count": 2
-        },
-        {
-          "title": "Senior Program Manager, Finance Transformation",
-          "count": 2
         }
       ],
       "top_skills": [
@@ -315,10 +315,14 @@
         {
           "skill": "RF / Wireless",
           "count": 3
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Manager": 67,
+        "Manager": 73,
         "Senior": 13,
         "Principal": 1
       }
@@ -345,6 +349,10 @@
           "count": 2
         },
         {
+          "title": "Senior Software Engineer \u2014 Service Observability & Detection",
+          "count": 1
+        },
+        {
           "title": "Apple Data Platform SRE - Engineering Manager",
           "count": 1
         },
@@ -355,10 +363,6 @@
         {
           "title": "DevOps Engineer - Retail Engineering Apps & Services",
           "count": 1
-        },
-        {
-          "title": "Sr. AI Inference Platform Engineer",
-          "count": 1
         }
       ],
       "top_skills": [
@@ -367,22 +371,22 @@
           "count": 9
         },
         {
-          "skill": "ML Infrastructure",
-          "count": 3
+          "skill": "Observability",
+          "count": 4
         },
         {
           "skill": "Distributed Systems",
           "count": 3
         },
         {
-          "skill": "Observability",
-          "count": 3
+          "skill": "ML Infrastructure",
+          "count": 2
         }
       ],
       "seniority_breakdown": {
+        "Senior": 14,
         "Manager": 3,
         "Mid": 13,
-        "Senior": 14,
         "Lead": 1
       }
     }
