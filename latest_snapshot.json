@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-11-03T16:56:09+00:00",
+  "scraped_at": "2026-11-04T16:58:28+00:00",
   "total_listings": 1200,
-  "tech_role_count": 669,
+  "tech_role_count": 661,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 118,
-      "posting_count": 233,
+      "role_count": 126,
+      "posting_count": 244,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
@@ -48,7 +48,7 @@
         },
         {
           "skill": "RF / Wireless",
-          "count": 92
+          "count": 102
         },
         {
           "skill": "RTL Design",
@@ -56,51 +56,55 @@
         },
         {
           "skill": "Metal",
-          "count": 30
+          "count": 32
         },
         {
           "skill": "3D Graphics / Rendering",
-          "count": 17
-        },
-        {
-          "skill": "CPU Architecture",
-          "count": 12
+          "count": 18
         },
         {
           "skill": "ASIC Design",
-          "count": 10
+          "count": 9
+        },
+        {
+          "skill": "CPU Architecture",
+          "count": 8
+        },
+        {
+          "skill": "GPU Architecture",
+          "count": 5
         },
         {
           "skill": "SystemVerilog/UVM",
           "count": 5
         },
         {
-          "skill": "GPU Architecture",
-          "count": 3
-        },
-        {
           "skill": "Go",
-          "count": 3
+          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Manager": 14,
-        "Mid": 218,
-        "Senior": 1
+        "Mid": 225,
+        "Senior": 4,
+        "Manager": 15
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 102,
-      "posting_count": 126,
+      "role_count": 101,
+      "posting_count": 125,
       "top_titles": [
         {
           "title": "Battery Algorithm ML Engineer",
-          "count": 5
+          "count": 6
         },
         {
           "title": "Battery Machine Learning Algorithm Engineer",
           "count": 4
+        },
+        {
+          "title": "Senior Staff/Principal Engineer, Foundation Model Compute Infra",
+          "count": 3
         },
         {
           "title": "Product Design Engineer - Apple Vision Pro",
@@ -112,10 +116,6 @@
         },
         {
           "title": "Senior Data Scientist, Apple Ads",
-          "count": 3
-        },
-        {
-          "title": "Senior ML Researcher: Multimodal LLM Post-Training",
           "count": 3
         },
         {
@@ -134,11 +134,15 @@
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 11
+          "count": 10
         },
         {
           "skill": "Computer Vision",
           "count": 9
+        },
+        {
+          "skill": "NLP",
+          "count": 8
         },
         {
           "skill": "iOS / iPadOS",
@@ -161,27 +165,23 @@
           "count": 8
         },
         {
-          "skill": "NLP",
-          "count": 7
-        },
-        {
           "skill": "AI & Data Platforms (AiDP)",
-          "count": 7
+          "count": 6
         }
       ],
       "seniority_breakdown": {
-        "Mid": 71,
-        "Senior": 36,
+        "Manager": 13,
+        "Mid": 68,
+        "Senior": 34,
         "Lead": 3,
-        "Principal": 1,
-        "Staff": 3,
-        "Manager": 12
+        "Principal": 4,
+        "Staff": 3
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 90,
-      "posting_count": 111,
+      "role_count": 89,
+      "posting_count": 108,
       "top_titles": [
         {
           "title": "iOS Analytics Software Engineer - Video Applications",
@@ -196,12 +196,12 @@
           "count": 3
         },
         {
-          "title": "Sr. Software Engineer, Enterprise Technology Services",
-          "count": 3
+          "title": "AI Software Engineer, App Intelligence",
+          "count": 2
         },
         {
-          "title": "Senior Software Engineer, Retail & Marcom Engineering",
-          "count": 3
+          "title": "Software Development Engineer - Test",
+          "count": 2
         },
         {
           "title": "Systems Software Engineer, Platform Architecture",
@@ -219,56 +219,56 @@
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 25
-        },
-        {
-          "skill": "watchOS",
-          "count": 11
+          "count": 28
         },
         {
           "skill": "macOS",
-          "count": 10
+          "count": 12
+        },
+        {
+          "skill": "watchOS",
+          "count": 12
+        },
+        {
+          "skill": "visionOS",
+          "count": 9
         },
         {
           "skill": "iCloud",
           "count": 9
         },
         {
-          "skill": "visionOS",
-          "count": 7
+          "skill": "RF / Wireless",
+          "count": 6
         },
         {
           "skill": "Java",
-          "count": 6
+          "count": 4
         },
         {
           "skill": "CloudKit",
           "count": 4
         },
         {
-          "skill": "RF / Wireless",
-          "count": 3
-        },
-        {
           "skill": "Distributed Systems",
           "count": 3
         },
         {
-          "skill": "Observability",
-          "count": 3
+          "skill": "WebKit",
+          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 66,
-        "Senior": 40,
+        "Mid": 68,
+        "Senior": 35,
         "Principal": 2,
         "Staff": 3
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 77,
-      "posting_count": 87,
+      "role_count": 69,
+      "posting_count": 78,
       "top_titles": [
         {
           "title": "Sensing, Power, and Haptics Engineering Program Manager",
@@ -305,6 +305,10 @@
       ],
       "top_skills": [
         {
+          "skill": "RF / Wireless",
+          "count": 4
+        },
+        {
           "skill": "Go",
           "count": 4
         },
@@ -313,17 +317,13 @@
           "count": 3
         },
         {
-          "skill": "RF / Wireless",
-          "count": 3
-        },
-        {
           "skill": "Speech / Audio",
           "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Manager": 73,
-        "Senior": 13,
+        "Manager": 65,
+        "Senior": 12,
         "Principal": 1
       }
     },
@@ -349,6 +349,10 @@
           "count": 2
         },
         {
+          "title": "Sr. Engineering Program Manager, Cloud Compute Infrastructure - Virtualization/Kubernetes Platforms, Apple Services Engineering",
+          "count": 1
+        },
+        {
           "title": "Senior Software Engineer \u2014 Service Observability & Detection",
           "count": 1
         },
@@ -358,10 +362,6 @@
         },
         {
           "title": "SRE Manager, Apple Services Engineering",
-          "count": 1
-        },
-        {
-          "title": "DevOps Engineer - Retail Engineering Apps & Services",
           "count": 1
         }
       ],
@@ -392,6 +392,28 @@
     }
   ],
   "highest_paid_roles": [
+    {
+      "title": "Senior Staff/Principal Engineer, Foundation Model Compute Infra",
+      "category": "ML / AI / Generative AI",
+      "seniority": "Principal",
+      "salary_band": "$200K \u2013 $400K+",
+      "posting_count": 3,
+      "top_skills": [
+        {
+          "skill": "LLMs / Foundation Models",
+          "count": 3
+        },
+        {
+          "skill": "Foundation Models / LLM Inference",
+          "count": 3
+        }
+      ],
+      "sample_locations": [
+        "Cupertino",
+        "Santa Clara",
+        "Seattle"
+      ]
+    },
     {
       "title": "Applied Research Engineer/Scientist, Siri Labs",
       "category": "ML / AI / Generative AI",
@@ -470,30 +492,6 @@
       ],
       "sample_locations": [
         "Seattle"
-      ]
-    },
-    {
-      "title": "Senior / Staff Machine Learning Engineer, ACAI Training & Inference Platform",
-      "category": "ML / AI / Generative AI",
-      "seniority": "Staff",
-      "salary_band": "$200K \u2013 $380K",
-      "posting_count": 1,
-      "top_skills": [
-        {
-          "skill": "LLMs / Foundation Models",
-          "count": 1
-        },
-        {
-          "skill": "Foundation Models / LLM Inference",
-          "count": 1
-        },
-        {
-          "skill": "Distributed Systems",
-          "count": 1
-        }
-      ],
-      "sample_locations": [
-        "Cupertino"
       ]
     }
   ]
