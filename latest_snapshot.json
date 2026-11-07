@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-11-06T16:41:15+00:00",
+  "scraped_at": "2026-11-07T15:32:36+00:00",
   "total_listings": 1200,
-  "tech_role_count": 639,
+  "tech_role_count": 637,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 144,
-      "posting_count": 237,
+      "role_count": 147,
+      "posting_count": 239,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
@@ -84,19 +84,23 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 222,
+        "Mid": 224,
         "Senior": 3,
         "Manager": 12
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 105,
-      "posting_count": 131,
+      "role_count": 102,
+      "posting_count": 132,
       "top_titles": [
         {
           "title": "Product Design Engineer - Apple Vision Pro",
           "count": 6
+        },
+        {
+          "title": "Machine Learning Engineer, AI/ML Model Quality",
+          "count": 4
         },
         {
           "title": "Battery Algorithm ML Engineer",
@@ -121,20 +125,20 @@
         {
           "title": "Senior Data Scientist, Apple Ads",
           "count": 3
-        },
-        {
-          "title": "Machine Learning Engineer",
-          "count": 2
         }
       ],
       "top_skills": [
         {
           "skill": "Foundation Models / LLM Inference",
-          "count": 16
+          "count": 17
         },
         {
           "skill": "Computer Vision",
           "count": 12
+        },
+        {
+          "skill": "LLMs / Foundation Models",
+          "count": 9
         },
         {
           "skill": "Speech / Audio",
@@ -142,22 +146,10 @@
         },
         {
           "skill": "iOS / iPadOS",
-          "count": 8
-        },
-        {
-          "skill": "macOS",
-          "count": 8
-        },
-        {
-          "skill": "LLMs / Foundation Models",
-          "count": 8
-        },
-        {
-          "skill": "visionOS",
           "count": 7
         },
         {
-          "skill": "watchOS",
+          "skill": "macOS",
           "count": 7
         },
         {
@@ -167,20 +159,28 @@
         {
           "skill": "AI & Data Platforms (AiDP)",
           "count": 6
+        },
+        {
+          "skill": "visionOS",
+          "count": 6
+        },
+        {
+          "skill": "watchOS",
+          "count": 6
         }
       ],
       "seniority_breakdown": {
-        "Mid": 72,
-        "Senior": 34,
+        "Manager": 11,
+        "Mid": 76,
+        "Senior": 33,
         "Staff": 5,
-        "Manager": 13,
         "Lead": 3,
         "Principal": 4
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 79,
+      "role_count": 80,
       "posting_count": 99,
       "top_titles": [
         {
@@ -196,12 +196,12 @@
           "count": 3
         },
         {
-          "title": "iOS Engineer - Wallet",
+          "title": "Firmware Engineer - Server BMC",
           "count": 3
         },
         {
-          "title": "Firmware Engineer - Server BMC",
-          "count": 3
+          "title": "Sr Software Engineer, Retail & Marcom Engineering",
+          "count": 2
         },
         {
           "title": "Senior Software Engineer - Compute",
@@ -219,11 +219,11 @@
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 22
+          "count": 19
         },
         {
           "skill": "RF / Wireless",
-          "count": 12
+          "count": 13
         },
         {
           "skill": "macOS",
@@ -259,16 +259,16 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 69,
-        "Senior": 27,
-        "Principal": 2,
-        "Staff": 1
+        "Mid": 67,
+        "Staff": 1,
+        "Senior": 29,
+        "Principal": 2
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 61,
-      "posting_count": 69,
+      "role_count": 57,
+      "posting_count": 64,
       "top_titles": [
         {
           "title": "Technical Program Manager",
@@ -305,6 +305,10 @@
       ],
       "top_skills": [
         {
+          "skill": "Combine",
+          "count": 4
+        },
+        {
           "skill": "RF / Wireless",
           "count": 4
         },
@@ -315,26 +319,18 @@
         {
           "skill": "Go",
           "count": 3
-        },
-        {
-          "skill": "Combine",
-          "count": 3
-        },
-        {
-          "skill": "iCloud",
-          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Manager": 61,
-        "Senior": 7,
+        "Manager": 57,
+        "Senior": 6,
         "Principal": 1
       }
     },
     {
       "name": "QA / Test / SDET",
-      "role_count": 26,
-      "posting_count": 30,
+      "role_count": 27,
+      "posting_count": 31,
       "top_titles": [
         {
           "title": "RFIC Test Engineer",
@@ -357,15 +353,15 @@
           "count": 2
         },
         {
+          "title": "Modem System Test Engineer - Wireless Technologies and Ecosystems |",
+          "count": 1
+        },
+        {
           "title": "Test Engineer",
           "count": 1
         },
         {
           "title": "Manufacturing Quality Engineer",
-          "count": 1
-        },
-        {
-          "title": "Manufacturing Quality Engineer - Brittles",
           "count": 1
         }
       ],
@@ -376,7 +372,7 @@
         },
         {
           "skill": "RF / Wireless",
-          "count": 4
+          "count": 5
         },
         {
           "skill": "watchOS",
@@ -392,7 +388,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 25,
+        "Mid": 26,
         "Senior": 4,
         "Manager": 1
       }
@@ -470,6 +466,17 @@
       ]
     },
     {
+      "title": "Principal Platform Engineer - People Systems",
+      "category": "Infrastructure / SRE / Platform",
+      "seniority": "Principal",
+      "salary_band": "$200K \u2013 $400K+",
+      "posting_count": 1,
+      "top_skills": [],
+      "sample_locations": [
+        "Sunnyvale"
+      ]
+    },
+    {
       "title": "Principal Product Manager, Search Platform",
       "category": "Product / Program Management (Technical)",
       "seniority": "Principal",
@@ -483,22 +490,6 @@
       ],
       "sample_locations": [
         "San Francisco"
-      ]
-    },
-    {
-      "title": "Principal Security Software Engineer, EDR",
-      "category": "Security / Cryptography",
-      "seniority": "Principal",
-      "salary_band": "$200K \u2013 $400K+",
-      "posting_count": 1,
-      "top_skills": [
-        {
-          "skill": "Swift",
-          "count": 1
-        }
-      ],
-      "sample_locations": [
-        "Seattle"
       ]
     }
   ]
