@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-07T15:32:36+00:00",
+  "scraped_at": "2026-11-08T15:53:45+00:00",
   "total_listings": 1200,
   "tech_role_count": 637,
   "top_categories": [
@@ -267,8 +267,8 @@
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 57,
-      "posting_count": 64,
+      "role_count": 56,
+      "posting_count": 63,
       "top_titles": [
         {
           "title": "Technical Program Manager",
@@ -322,7 +322,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 57,
+        "Manager": 56,
         "Senior": 6,
         "Principal": 1
       }
