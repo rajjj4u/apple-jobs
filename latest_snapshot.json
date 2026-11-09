@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-11-08T15:53:45+00:00",
+  "scraped_at": "2026-11-09T19:40:19+00:00",
   "total_listings": 1200,
-  "tech_role_count": 637,
+  "tech_role_count": 638,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 147,
-      "posting_count": 239,
+      "role_count": 146,
+      "posting_count": 237,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
@@ -44,15 +44,15 @@
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 110
+          "count": 108
         },
         {
           "skill": "RF / Wireless",
-          "count": 68
+          "count": 66
         },
         {
           "skill": "RTL Design",
-          "count": 37
+          "count": 35
         },
         {
           "skill": "Metal",
@@ -84,7 +84,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 224,
+        "Mid": 222,
         "Senior": 3,
         "Manager": 12
       }
@@ -146,11 +146,11 @@
         },
         {
           "skill": "iOS / iPadOS",
-          "count": 7
+          "count": 6
         },
         {
           "skill": "macOS",
-          "count": 7
+          "count": 6
         },
         {
           "skill": "NLP",
@@ -166,12 +166,12 @@
         },
         {
           "skill": "watchOS",
-          "count": 6
+          "count": 5
         }
       ],
       "seniority_breakdown": {
-        "Manager": 11,
         "Mid": 76,
+        "Manager": 11,
         "Senior": 33,
         "Staff": 5,
         "Lead": 3,
@@ -180,8 +180,8 @@
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 80,
-      "posting_count": 99,
+      "role_count": 82,
+      "posting_count": 101,
       "top_titles": [
         {
           "title": "iOS Analytics Software Engineer - Video Applications",
@@ -223,7 +223,7 @@
         },
         {
           "skill": "RF / Wireless",
-          "count": 13
+          "count": 14
         },
         {
           "skill": "macOS",
@@ -246,34 +246,30 @@
           "count": 4
         },
         {
+          "skill": "Distributed Systems",
+          "count": 3
+        },
+        {
           "skill": "SoC",
           "count": 3
         },
         {
           "skill": "RTL Design",
           "count": 2
-        },
-        {
-          "skill": "Distributed Systems",
-          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 67,
+        "Senior": 30,
+        "Mid": 68,
         "Staff": 1,
-        "Senior": 29,
         "Principal": 2
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 56,
-      "posting_count": 63,
+      "role_count": 55,
+      "posting_count": 62,
       "top_titles": [
-        {
-          "title": "Technical Program Manager",
-          "count": 2
-        },
         {
           "title": "CAD Engineering Program Manager",
           "count": 2
@@ -301,6 +297,10 @@
         {
           "title": "PMIC Engineering Program Manager",
           "count": 2
+        },
+        {
+          "title": "Cellular Modem RF Software Engineering Program Manager",
+          "count": 2
         }
       ],
       "top_skills": [
@@ -322,7 +322,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 56,
+        "Manager": 55,
         "Senior": 6,
         "Principal": 1
       }
@@ -466,7 +466,7 @@
       ]
     },
     {
-      "title": "Principal Platform Engineer - People Systems",
+      "title": "Principal Platform Engineer, People Systems - G&A Solutions Engineering",
       "category": "Infrastructure / SRE / Platform",
       "seniority": "Principal",
       "salary_band": "$200K \u2013 $400K+",
