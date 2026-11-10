@@ -1,16 +1,16 @@
 {
-  "scraped_at": "2026-11-09T19:40:19+00:00",
+  "scraped_at": "2026-11-10T16:55:31+00:00",
   "total_listings": 1200,
-  "tech_role_count": 638,
+  "tech_role_count": 667,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 146,
-      "posting_count": 237,
+      "role_count": 154,
+      "posting_count": 256,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
-          "count": 29
+          "count": 26
         },
         {
           "title": "Software Engineer - SoC Level Validation Engineer",
@@ -29,30 +29,30 @@
           "count": 7
         },
         {
-          "title": "System Product Design Engineer",
+          "title": "SoC Test Engineer",
           "count": 6
         },
         {
-          "title": "Wireless Module Engineer",
+          "title": "SoC Correlation Product Engineer",
           "count": 6
         },
         {
-          "title": "Wireless SOC Design Verification Engineer",
+          "title": "SoC Characterization Product Engineer",
           "count": 6
         }
       ],
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 108
+          "count": 123
         },
         {
           "skill": "RF / Wireless",
-          "count": 66
+          "count": 64
         },
         {
           "skill": "RTL Design",
-          "count": 35
+          "count": 33
         },
         {
           "skill": "Metal",
@@ -64,19 +64,19 @@
         },
         {
           "skill": "ASIC Design",
-          "count": 11
+          "count": 10
         },
         {
           "skill": "SystemVerilog/UVM",
-          "count": 6
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 4
+          "count": 5
         },
         {
           "skill": "GPU Architecture",
           "count": 4
+        },
+        {
+          "skill": "Signal Integrity",
+          "count": 3
         },
         {
           "skill": "CPU Architecture",
@@ -84,15 +84,15 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 222,
+        "Mid": 241,
         "Senior": 3,
         "Manager": 12
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 102,
-      "posting_count": 132,
+      "role_count": 105,
+      "posting_count": 135,
       "top_titles": [
         {
           "title": "Product Design Engineer - Apple Vision Pro",
@@ -130,15 +130,15 @@
       "top_skills": [
         {
           "skill": "Foundation Models / LLM Inference",
-          "count": 17
+          "count": 18
         },
         {
           "skill": "Computer Vision",
-          "count": 12
+          "count": 13
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 9
+          "count": 10
         },
         {
           "skill": "Speech / Audio",
@@ -146,11 +146,11 @@
         },
         {
           "skill": "iOS / iPadOS",
-          "count": 6
+          "count": 7
         },
         {
           "skill": "macOS",
-          "count": 6
+          "count": 7
         },
         {
           "skill": "NLP",
@@ -170,18 +170,18 @@
         }
       ],
       "seniority_breakdown": {
+        "Lead": 4,
+        "Senior": 34,
+        "Manager": 12,
         "Mid": 76,
-        "Manager": 11,
-        "Senior": 33,
         "Staff": 5,
-        "Lead": 3,
         "Principal": 4
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 82,
-      "posting_count": 101,
+      "role_count": 84,
+      "posting_count": 105,
       "top_titles": [
         {
           "title": "iOS Analytics Software Engineer - Video Applications",
@@ -192,6 +192,10 @@
           "count": 4
         },
         {
+          "title": "Software Engineer, Deployment Platform MultiCloud",
+          "count": 3
+        },
+        {
           "title": "Embedded Real Time Critical Control Firmware Engineer",
           "count": 3
         },
@@ -200,19 +204,15 @@
           "count": 3
         },
         {
+          "title": "Software Development Engineer - Cellular (Instrument Engineering)",
+          "count": 2
+        },
+        {
+          "title": "Location Software Engineer",
+          "count": 2
+        },
+        {
           "title": "Sr Software Engineer, Retail & Marcom Engineering",
-          "count": 2
-        },
-        {
-          "title": "Senior Software Engineer - Compute",
-          "count": 2
-        },
-        {
-          "title": "Firmware Validation Engineer",
-          "count": 2
-        },
-        {
-          "title": "Software Development Engineer - Test",
           "count": 2
         }
       ],
@@ -223,7 +223,11 @@
         },
         {
           "skill": "RF / Wireless",
-          "count": 14
+          "count": 15
+        },
+        {
+          "skill": "Distributed Systems",
+          "count": 7
         },
         {
           "skill": "macOS",
@@ -246,29 +250,25 @@
           "count": 4
         },
         {
-          "skill": "Distributed Systems",
+          "skill": "Go",
           "count": 3
         },
         {
           "skill": "SoC",
           "count": 3
-        },
-        {
-          "skill": "RTL Design",
-          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Senior": 30,
-        "Mid": 68,
+        "Mid": 75,
+        "Senior": 27,
         "Staff": 1,
         "Principal": 2
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 55,
-      "posting_count": 62,
+      "role_count": 56,
+      "posting_count": 63,
       "top_titles": [
         {
           "title": "CAD Engineering Program Manager",
@@ -322,15 +322,15 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 55,
+        "Manager": 56,
         "Senior": 6,
         "Principal": 1
       }
     },
     {
       "name": "QA / Test / SDET",
-      "role_count": 27,
-      "posting_count": 31,
+      "role_count": 26,
+      "posting_count": 30,
       "top_titles": [
         {
           "title": "RFIC Test Engineer",
@@ -389,7 +389,7 @@
       ],
       "seniority_breakdown": {
         "Mid": 26,
-        "Senior": 4,
+        "Senior": 3,
         "Manager": 1
       }
     }
