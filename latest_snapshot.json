@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-11-14T15:43:19+00:00",
-  "total_listings": 1180,
-  "tech_role_count": 667,
+  "scraped_at": "2026-11-15T16:13:26+00:00",
+  "total_listings": 1200,
+  "tech_role_count": 676,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 156,
-      "posting_count": 248,
+      "role_count": 158,
+      "posting_count": 250,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
@@ -44,15 +44,15 @@
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 84
+          "count": 87
         },
         {
           "skill": "RF / Wireless",
-          "count": 48
+          "count": 50
         },
         {
           "skill": "RTL Design",
-          "count": 22
+          "count": 23
         },
         {
           "skill": "GPU Architecture",
@@ -60,7 +60,15 @@
         },
         {
           "skill": "ASIC Design",
-          "count": 7
+          "count": 8
+        },
+        {
+          "skill": "SystemVerilog/UVM",
+          "count": 6
+        },
+        {
+          "skill": "CPU Architecture",
+          "count": 4
         },
         {
           "skill": "Signal Integrity",
@@ -73,26 +81,18 @@
         {
           "skill": "3D Graphics / Rendering",
           "count": 4
-        },
-        {
-          "skill": "CPU Architecture",
-          "count": 3
-        },
-        {
-          "skill": "SystemVerilog/UVM",
-          "count": 3
         }
       ],
       "seniority_breakdown": {
-        "Mid": 233,
+        "Mid": 235,
         "Senior": 3,
         "Manager": 12
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 113,
-      "posting_count": 138,
+      "role_count": 117,
+      "posting_count": 145,
       "top_titles": [
         {
           "title": "CAD Automation and ML Engineer",
@@ -130,31 +130,31 @@
       "top_skills": [
         {
           "skill": "Foundation Models / LLM Inference",
-          "count": 22
+          "count": 28
         },
         {
           "skill": "Computer Vision",
-          "count": 17
+          "count": 21
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 15
+          "count": 16
         },
         {
           "skill": "visionOS",
           "count": 8
         },
         {
-          "skill": "iOS / iPadOS",
+          "skill": "Combine",
           "count": 8
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 7
         },
         {
           "skill": "macOS",
-          "count": 8
-        },
-        {
-          "skill": "Combine",
-          "count": 8
+          "count": 7
         },
         {
           "skill": "Speech / Audio",
@@ -165,23 +165,23 @@
           "count": 6
         },
         {
-          "skill": "AI & Data Platforms (AiDP)",
+          "skill": "NLP",
           "count": 5
         }
       ],
       "seniority_breakdown": {
-        "Mid": 78,
-        "Senior": 30,
+        "Mid": 81,
+        "Senior": 33,
         "Staff": 6,
         "Manager": 18,
-        "Lead": 2,
+        "Lead": 3,
         "Principal": 4
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 101,
-      "posting_count": 124,
+      "role_count": 100,
+      "posting_count": 123,
       "top_titles": [
         {
           "title": "Performance Modeling Software Engineer, Platform Architecture",
@@ -219,18 +219,18 @@
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 20
+          "count": 21
         },
         {
           "skill": "RF / Wireless",
-          "count": 11
-        },
-        {
-          "skill": "SoC",
-          "count": 8
+          "count": 12
         },
         {
           "skill": "Distributed Systems",
+          "count": 9
+        },
+        {
+          "skill": "SoC",
           "count": 8
         },
         {
@@ -259,7 +259,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 82,
+        "Mid": 81,
         "Senior": 39,
         "Staff": 1,
         "Principal": 2
@@ -267,8 +267,8 @@
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 51,
-      "posting_count": 60,
+      "role_count": 52,
+      "posting_count": 61,
       "top_titles": [
         {
           "title": "Merchandising Field Operations Program Manager",
@@ -305,6 +305,10 @@
       ],
       "top_skills": [
         {
+          "skill": "Combine",
+          "count": 4
+        },
+        {
           "skill": "RF / Wireless",
           "count": 4
         },
@@ -314,10 +318,6 @@
         },
         {
           "skill": "iOS / iPadOS",
-          "count": 3
-        },
-        {
-          "skill": "Combine",
           "count": 3
         },
         {
@@ -338,7 +338,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 55,
+        "Manager": 56,
         "Senior": 5
       }
     },
