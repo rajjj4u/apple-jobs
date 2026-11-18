@@ -1,23 +1,23 @@
 {
-  "scraped_at": "2026-11-17T18:27:13+00:00",
-  "total_listings": 1180,
-  "tech_role_count": 650,
+  "scraped_at": "2026-11-18T17:59:37+00:00",
+  "total_listings": 1120,
+  "tech_role_count": 637,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 154,
-      "posting_count": 237,
+      "role_count": 128,
+      "posting_count": 211,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
-          "count": 18
-        },
-        {
-          "title": "GPU Performance Engineer, Platform Architecture",
-          "count": 8
+          "count": 12
         },
         {
           "title": "SoC UPF Methodology Engineer",
+          "count": 9
+        },
+        {
+          "title": "GPU Performance Engineer, Platform Architecture",
           "count": 8
         },
         {
@@ -33,40 +33,48 @@
           "count": 6
         },
         {
-          "title": "SoC Test Engineer",
+          "title": "SoC Characterization Product Engineer",
           "count": 6
         },
         {
-          "title": "SoC Correlation Product Engineer",
+          "title": "Wireless SOC Design Verification Engineer",
           "count": 6
         }
       ],
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 20
+          "count": 35
         },
         {
           "skill": "RF / Wireless",
-          "count": 15
+          "count": 23
         },
         {
           "skill": "RTL Design",
-          "count": 4
+          "count": 12
+        },
+        {
+          "skill": "GPU Architecture",
+          "count": 11
         },
         {
           "skill": "ASIC Design",
           "count": 4
         },
         {
-          "skill": "Signal Integrity",
+          "skill": "3D Graphics / Rendering",
+          "count": 2
+        },
+        {
+          "skill": "Metal",
           "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 225,
-        "Manager": 8,
-        "Senior": 4
+        "Mid": 194,
+        "Senior": 6,
+        "Manager": 11
       }
     },
     {
@@ -103,42 +111,70 @@
           "count": 3
         },
         {
-          "title": "AR/VR Software Engineer, Spatial Experiences - Vision Products Software",
+          "title": "Vision Display, Optical Module Engineer",
           "count": 2
         }
       ],
       "top_skills": [
         {
-          "skill": "Computer Vision",
-          "count": 5
+          "skill": "Foundation Models / LLM Inference",
+          "count": 19
         },
         {
-          "skill": "Metal",
-          "count": 2
+          "skill": "Computer Vision",
+          "count": 17
+        },
+        {
+          "skill": "LLMs / Foundation Models",
+          "count": 10
         },
         {
           "skill": "visionOS",
-          "count": 2
+          "count": 6
         },
         {
-          "skill": "Foundation Models / LLM Inference",
-          "count": 2
+          "skill": "iOS / iPadOS",
+          "count": 6
+        },
+        {
+          "skill": "macOS",
+          "count": 6
+        },
+        {
+          "skill": "watchOS",
+          "count": 5
+        },
+        {
+          "skill": "Combine",
+          "count": 5
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 5
+        },
+        {
+          "skill": "3D Graphics / Rendering",
+          "count": 3
         }
       ],
       "seniority_breakdown": {
-        "Senior": 31,
-        "Mid": 75,
-        "Manager": 19,
-        "Staff": 6,
+        "Senior": 35,
+        "Mid": 78,
+        "Manager": 14,
+        "Staff": 4,
         "Lead": 3,
         "Principal": 4
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 103,
-      "posting_count": 124,
+      "role_count": 101,
+      "posting_count": 132,
       "top_titles": [
+        {
+          "title": "Software Engineer - Frameworks - Video Applications",
+          "count": 6
+        },
         {
           "title": "Performance Modeling Software Engineer, Platform Architecture",
           "count": 6
@@ -152,6 +188,10 @@
           "count": 4
         },
         {
+          "title": "Swift Software Engineer, Productivity Apps",
+          "count": 3
+        },
+        {
           "title": "Senior Software Engineer, Apple Ads",
           "count": 3
         },
@@ -162,27 +202,23 @@
         {
           "title": "Software Engineer, Deployment Platform MultiDev",
           "count": 3
-        },
-        {
-          "title": "Embedded Real Time Critical Control Firmware Engineer",
-          "count": 3
-        },
-        {
-          "title": "Software Development Engineer - Cellular (Instrument Engineering)",
-          "count": 2
         }
       ],
       "top_skills": [
         {
-          "skill": "SoC",
+          "skill": "Distributed Systems",
           "count": 6
         },
         {
-          "skill": "Distributed Systems",
-          "count": 5
+          "skill": "iOS / iPadOS",
+          "count": 4
         },
         {
           "skill": "RF / Wireless",
+          "count": 4
+        },
+        {
+          "skill": "macOS",
           "count": 3
         },
         {
@@ -190,25 +226,37 @@
           "count": 3
         },
         {
-          "skill": "iOS / iPadOS",
-          "count": 3
+          "skill": "visionOS",
+          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 81,
+        "Mid": 87,
         "Senior": 41,
-        "Staff": 1,
+        "Staff": 3,
         "Principal": 1
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 46,
-      "posting_count": 55,
+      "role_count": 50,
+      "posting_count": 60,
       "top_titles": [
         {
           "title": "Merchandising Field Operations Program Manager",
           "count": 4
+        },
+        {
+          "title": "Engineering Program Manager, Media Efficiency, Apple Services Engineering",
+          "count": 2
+        },
+        {
+          "title": "Engineering Project Manager (Marcom Interactive), Retail & Marcom Engineering",
+          "count": 2
+        },
+        {
+          "title": "Engineering Project Manager, Retail & Marcom Engineering",
+          "count": 2
         },
         {
           "title": "Cellular Modem RF Software Engineering Program Manager",
@@ -225,43 +273,43 @@
         {
           "title": "Functional Analyst/Product Manager, IS&T Business Planning",
           "count": 2
-        },
-        {
-          "title": "AppleCare Mail-In Readiness Program Manager",
-          "count": 2
-        },
-        {
-          "title": "CAD Engineering Program Manager",
-          "count": 2
-        },
-        {
-          "title": "Audio Architecture Engineering Program Manager",
-          "count": 2
         }
       ],
       "top_skills": [
         {
+          "skill": "Combine",
+          "count": 3
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 3
+        },
+        {
           "skill": "RF / Wireless",
+          "count": 2
+        },
+        {
+          "skill": "iOS / iPadOS",
           "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Manager": 48,
-        "Senior": 7
+        "Manager": 54,
+        "Senior": 6
       }
     },
     {
       "name": "QA / Test / SDET",
-      "role_count": 26,
-      "posting_count": 30,
+      "role_count": 20,
+      "posting_count": 27,
       "top_titles": [
         {
           "title": "RFIC Test Engineer",
-          "count": 3
+          "count": 6
         },
         {
-          "title": "Manufacturing Quality Engineer",
-          "count": 3
+          "title": "Quality Engineer - Health Software",
+          "count": 2
         },
         {
           "title": "Software Development Engineer in Test - Camera API",
@@ -272,7 +320,7 @@
           "count": 2
         },
         {
-          "title": "Design for Test Engineer",
+          "title": "Manufacturing Quality Engineer",
           "count": 2
         },
         {
@@ -288,9 +336,22 @@
           "count": 1
         }
       ],
-      "top_skills": [],
+      "top_skills": [
+        {
+          "skill": "RF / Wireless",
+          "count": 6
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 2
+        },
+        {
+          "skill": "macOS",
+          "count": 2
+        }
+      ],
       "seniority_breakdown": {
-        "Mid": 26,
+        "Mid": 23,
         "Senior": 3,
         "Manager": 1
       }
