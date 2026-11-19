@@ -1,56 +1,5 @@
 [
   {
-    "date": "2026-10-20T14:12:47+00:00",
-    "tech_role_count": 629,
-    "top_categories": [
-      "Software Engineering (iOS/macOS/Services/Core OS)",
-      "ML / AI / Generative AI",
-      "Apple Silicon / Hardware Engineering"
-    ],
-    "top_category_counts": [
-      119,
-      111,
-      95
-    ],
-    "top_paid_roles": [
-      {
-        "title": "Principal Security Software Engineer",
-        "category": "Security / Cryptography",
-        "seniority": "Principal",
-        "salary_band": "$200K \u2013 $400K+",
-        "posting_count": 1
-      },
-      {
-        "title": "Senior / Staff ML Engineer, Apple Data Platform",
-        "category": "ML / AI / Generative AI",
-        "seniority": "Staff",
-        "salary_band": "$200K \u2013 $380K",
-        "posting_count": 2
-      },
-      {
-        "title": "Senior Staff Machine Learning Engineer, ML Platform",
-        "category": "ML / AI / Generative AI",
-        "seniority": "Staff",
-        "salary_band": "$200K \u2013 $380K",
-        "posting_count": 2
-      },
-      {
-        "title": "Staff/Sr. Software Engineer, Performance Testing Platform",
-        "category": "Software Engineering (iOS/macOS/Services/Core OS)",
-        "seniority": "Staff",
-        "salary_band": "$200K \u2013 $380K",
-        "posting_count": 2
-      },
-      {
-        "title": "Senior/Staff Software Engineer, Apple Services Engineering",
-        "category": "Software Engineering (iOS/macOS/Services/Core OS)",
-        "seniority": "Staff",
-        "salary_band": "$200K \u2013 $380K",
-        "posting_count": 1
-      }
-    ]
-  },
-  {
     "date": "2026-10-21T14:25:54+00:00",
     "tech_role_count": 586,
     "top_categories": [
@@ -1490,6 +1439,57 @@
       128,
       110,
       101
+    ],
+    "top_paid_roles": [
+      {
+        "title": "Senior Staff/Principal Engineer, Foundation Model Compute Infra",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Principal",
+        "salary_band": "$200K \u2013 $400K+",
+        "posting_count": 3
+      },
+      {
+        "title": "Applied Research Engineer/Scientist, Siri Labs",
+        "category": "ML / AI / Generative AI",
+        "seniority": "Principal",
+        "salary_band": "$200K \u2013 $400K+",
+        "posting_count": 2
+      },
+      {
+        "title": "Principal Platform Engineer, People Systems - G&A Solutions Engineering",
+        "category": "Infrastructure / SRE / Platform",
+        "seniority": "Principal",
+        "salary_band": "$200K \u2013 $400K+",
+        "posting_count": 1
+      },
+      {
+        "title": "Principal Security Architect, Data Center Security",
+        "category": "Security / Cryptography",
+        "seniority": "Principal",
+        "salary_band": "$200K \u2013 $400K+",
+        "posting_count": 1
+      },
+      {
+        "title": "Sr. Principal Engineer - FoundationDB",
+        "category": "Software Engineering (iOS/macOS/Services/Core OS)",
+        "seniority": "Principal",
+        "salary_band": "$200K \u2013 $400K+",
+        "posting_count": 1
+      }
+    ]
+  },
+  {
+    "date": "2026-11-19T18:11:42+00:00",
+    "tech_role_count": 613,
+    "top_categories": [
+      "Apple Silicon / Hardware Engineering",
+      "ML / AI / Generative AI",
+      "Software Engineering (iOS/macOS/Services/Core OS)"
+    ],
+    "top_category_counts": [
+      122,
+      118,
+      100
     ],
     "top_paid_roles": [
       {
