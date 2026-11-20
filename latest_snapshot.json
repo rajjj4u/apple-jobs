@@ -1,16 +1,16 @@
 {
-  "scraped_at": "2026-11-19T18:11:43+00:00",
-  "total_listings": 1100,
-  "tech_role_count": 613,
+  "scraped_at": "2026-11-20T17:41:50+00:00",
+  "total_listings": 1180,
+  "tech_role_count": 666,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 122,
-      "posting_count": 193,
+      "role_count": 133,
+      "posting_count": 205,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
-          "count": 12
+          "count": 11
         },
         {
           "title": "SoC UPF Methodology Engineer",
@@ -25,54 +25,74 @@
           "count": 8
         },
         {
-          "title": "SOC Design Verification Engineer",
-          "count": 7
+          "title": "SoC Test Engineer",
+          "count": 6
+        },
+        {
+          "title": "SoC Correlation Product Engineer",
+          "count": 6
         },
         {
           "title": "SoC Characterization Product Engineer",
-          "count": 5
+          "count": 6
         },
         {
           "title": "Wireless Design Verification Engineer",
           "count": 5
-        },
-        {
-          "title": "Silicon Photonics & Optical Packaging Eng",
-          "count": 4
         }
       ],
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 21
+          "count": 80
         },
         {
           "skill": "RF / Wireless",
-          "count": 18
+          "count": 35
         },
         {
           "skill": "GPU Architecture",
-          "count": 13
+          "count": 20
         },
         {
           "skill": "RTL Design",
-          "count": 13
+          "count": 18
+        },
+        {
+          "skill": "CPU Architecture",
+          "count": 6
+        },
+        {
+          "skill": "Signal Integrity",
+          "count": 5
+        },
+        {
+          "skill": "ASIC Design",
+          "count": 4
         },
         {
           "skill": "3D Graphics / Rendering",
+          "count": 4
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 3
+        },
+        {
+          "skill": "Go",
           "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 176,
-        "Senior": 6,
-        "Manager": 11
+        "Mid": 188,
+        "Manager": 11,
+        "Senior": 6
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 118,
-      "posting_count": 147,
+      "role_count": 130,
+      "posting_count": 159,
       "top_titles": [
         {
           "title": "CAD Automation and ML Engineer",
@@ -81,6 +101,10 @@
         {
           "title": "Product Design Engineer - Apple Vision Pro",
           "count": 6
+        },
+        {
+          "title": "AR/VR Software Engineer - Spatial System UI, Vision Products Software",
+          "count": 4
         },
         {
           "title": "AI Research Scientist: Multimodal Foundation Models - Architecture, Pre-Training & Distillation",
@@ -99,77 +123,73 @@
           "count": 3
         },
         {
-          "title": "Senior Software Engineer, Applied ML - Watch Software",
-          "count": 3
-        },
-        {
-          "title": "Software Development Engineer, Vision Products Software",
+          "title": "Vision Display, Optical Module Engineer",
           "count": 2
         }
       ],
       "top_skills": [
         {
           "skill": "Foundation Models / LLM Inference",
-          "count": 10
+          "count": 33
         },
         {
           "skill": "Computer Vision",
-          "count": 8
+          "count": 23
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 6
+          "count": 17
         },
         {
           "skill": "visionOS",
-          "count": 4
+          "count": 11
         },
         {
-          "skill": "NLP",
-          "count": 4
+          "skill": "Combine",
+          "count": 9
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 8
         },
         {
           "skill": "AI & Data Platforms (AiDP)",
-          "count": 3
+          "count": 8
         },
         {
           "skill": "iOS / iPadOS",
-          "count": 3
+          "count": 7
         },
         {
           "skill": "macOS",
-          "count": 3
+          "count": 7
         },
         {
           "skill": "watchOS",
-          "count": 3
-        },
-        {
-          "skill": "Python",
-          "count": 2
+          "count": 6
         }
       ],
       "seniority_breakdown": {
-        "Mid": 78,
-        "Senior": 39,
-        "Staff": 7,
-        "Manager": 16,
+        "Senior": 40,
+        "Mid": 87,
+        "Staff": 6,
+        "Manager": 19,
         "Lead": 3,
         "Principal": 4
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 100,
-      "posting_count": 119,
+      "role_count": 105,
+      "posting_count": 132,
       "top_titles": [
         {
-          "title": "Performance Modeling Software Engineer, Platform Architecture",
+          "title": "Software Engineer - Frameworks - Video Applications",
           "count": 6
         },
         {
-          "title": "Sr iOS Software Engineer, Creativity Apps",
-          "count": 5
+          "title": "Performance Modeling Software Engineer, Platform Architecture",
+          "count": 6
         },
         {
           "title": "Embedded 5G/4G Cellular Physical Layer Data Path Signal Processing Firmware Engineer",
@@ -180,67 +200,74 @@
           "count": 3
         },
         {
+          "title": "Swift Software Engineer, Productivity Apps",
+          "count": 3
+        },
+        {
           "title": "Senior Software Engineer, Apple Ads",
+          "count": 3
+        },
+        {
+          "title": "Software Engineer, Deployment Platform MultiDev",
           "count": 3
         },
         {
           "title": "Embedded Real Time Critical Control Firmware Engineer",
           "count": 3
-        },
-        {
-          "title": "Staff Software Engineer, Retail & Marcom Engineering",
-          "count": 2
-        },
-        {
-          "title": "iOS Software Engineer - Video Applications",
-          "count": 2
         }
       ],
       "top_skills": [
         {
-          "skill": "SoC",
-          "count": 6
-        },
-        {
           "skill": "RF / Wireless",
-          "count": 4
+          "count": 16
         },
         {
           "skill": "iOS / iPadOS",
-          "count": 4
+          "count": 16
         },
         {
-          "skill": "GPU Architecture",
-          "count": 2
+          "skill": "Distributed Systems",
+          "count": 9
         },
         {
-          "skill": "Swift",
-          "count": 2
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 2
+          "skill": "SoC",
+          "count": 8
         },
         {
           "skill": "macOS",
-          "count": 2
+          "count": 6
+        },
+        {
+          "skill": "GPU Architecture",
+          "count": 4
+        },
+        {
+          "skill": "Swift",
+          "count": 4
+        },
+        {
+          "skill": "Go",
+          "count": 4
         },
         {
           "skill": "visionOS",
-          "count": 2
+          "count": 4
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 3
         }
       ],
       "seniority_breakdown": {
-        "Mid": 78,
-        "Senior": 37,
-        "Staff": 3,
-        "Principal": 1
+        "Mid": 95,
+        "Senior": 34,
+        "Staff": 3
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 48,
-      "posting_count": 60,
+      "role_count": 55,
+      "posting_count": 68,
       "top_titles": [
         {
           "title": "Senior Compliance Project Manager, Wallet, Payments, and Commerce",
@@ -249,6 +276,10 @@
         {
           "title": "Merchandising Field Operations Program Manager",
           "count": 4
+        },
+        {
+          "title": "Engineering Program Manager, Media Efficiency, Apple Services Engineering",
+          "count": 2
         },
         {
           "title": "Engineering Project Manager (Marcom Interactive), Retail & Marcom Engineering",
@@ -269,71 +300,94 @@
         {
           "title": "Compensation Compliance & Administration Lead- Senior Program Manager",
           "count": 2
-        },
-        {
-          "title": "Functional Analyst/Product Manager, IS&T Business Planning",
-          "count": 2
         }
       ],
       "top_skills": [
         {
+          "skill": "Go",
+          "count": 3
+        },
+        {
           "skill": "RF / Wireless",
-          "count": 2
+          "count": 3
+        },
+        {
+          "skill": "Combine",
+          "count": 3
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 3
         },
         {
           "skill": "visionOS",
           "count": 2
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Manager": 50,
+        "Manager": 58,
         "Senior": 10
       }
     },
     {
-      "name": "Infrastructure / SRE / Platform",
-      "role_count": 22,
+      "name": "Security / Cryptography",
+      "role_count": 21,
       "posting_count": 24,
       "top_titles": [
         {
-          "title": "Senior Software Engineer (Platform Engineer), G&A Solutions Engineering (GSE)",
-          "count": 3
-        },
-        {
-          "title": "Site Reliability Engineer \u2014 Info Apps",
+          "title": "Senior Security Engineer - Security Assurance Scaling",
           "count": 2
         },
         {
-          "title": "DevOps Engineer - Retail Engineering Apps & Services",
+          "title": "Senior Security Engineer",
           "count": 2
         },
         {
-          "title": "Sr. Site Reliability Engineer, Enterprise Technology Services",
+          "title": "Sr Security Incident Response Engineer, AIS",
           "count": 2
         },
         {
-          "title": "Sr. Software Engineer (Observability Solutions) - Enterprise Technology Services",
+          "title": "Executive Assistant / Team Lead, Security Engineering & Architecture (SEAR)",
           "count": 1
         },
         {
-          "title": "Build, Release & Infrastructure Engineer",
+          "title": "Software Development Engineer in Test, Security Server Application, Joint Mobile Engineering Team",
           "count": 1
         },
         {
-          "title": "Site Reliability Engineer \u2014 Corporate Email Services",
+          "title": "Security Software Engineering Manager - Systems & Kernel",
           "count": 1
         },
         {
-          "title": "Staff / Principal ML Infrastructure Engineer",
+          "title": "Security Software Engineering Manager - Platform and Frameworks",
+          "count": 1
+        },
+        {
+          "title": "Security Site Reliability Engineer - Apple Service Engineering",
           "count": 1
         }
       ],
-      "top_skills": [],
+      "top_skills": [
+        {
+          "skill": "iCloud",
+          "count": 10
+        },
+        {
+          "skill": "Cryptography",
+          "count": 2
+        }
+      ],
       "seniority_breakdown": {
-        "Senior": 10,
-        "Mid": 9,
-        "Principal": 2,
-        "Manager": 3
+        "Lead": 1,
+        "Mid": 6,
+        "Manager": 4,
+        "Principal": 1,
+        "Staff": 2,
+        "Senior": 10
       }
     }
   ],
@@ -344,7 +398,16 @@
       "seniority": "Principal",
       "salary_band": "$200K \u2013 $400K+",
       "posting_count": 3,
-      "top_skills": [],
+      "top_skills": [
+        {
+          "skill": "LLMs / Foundation Models",
+          "count": 3
+        },
+        {
+          "skill": "Foundation Models / LLM Inference",
+          "count": 3
+        }
+      ],
       "sample_locations": [
         "Cupertino",
         "Santa Clara",
@@ -360,19 +423,19 @@
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 1
+          "count": 2
         },
         {
           "skill": "macOS",
-          "count": 1
+          "count": 2
         },
         {
           "skill": "visionOS",
-          "count": 1
+          "count": 2
         },
         {
           "skill": "watchOS",
-          "count": 1
+          "count": 2
         }
       ],
       "sample_locations": [
@@ -411,12 +474,21 @@
       ]
     },
     {
-      "title": "Sr. Principal Engineer - FoundationDB",
-      "category": "Software Engineering (iOS/macOS/Services/Core OS)",
+      "title": "Staff / Principal ML Infrastructure Engineer",
+      "category": "Infrastructure / SRE / Platform",
       "seniority": "Principal",
       "salary_band": "$200K \u2013 $400K+",
       "posting_count": 1,
-      "top_skills": [],
+      "top_skills": [
+        {
+          "skill": "Foundation Models / LLM Inference",
+          "count": 1
+        },
+        {
+          "skill": "ML Infrastructure",
+          "count": 1
+        }
+      ],
       "sample_locations": [
         "Cupertino"
       ]
