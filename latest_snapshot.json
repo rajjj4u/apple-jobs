@@ -1,12 +1,101 @@
 {
-  "scraped_at": "2026-11-20T17:41:50+00:00",
-  "total_listings": 1180,
-  "tech_role_count": 666,
+  "scraped_at": "2026-11-21T16:42:23+00:00",
+  "total_listings": 1200,
+  "tech_role_count": 684,
   "top_categories": [
     {
+      "name": "ML / AI / Generative AI",
+      "role_count": 136,
+      "posting_count": 165,
+      "top_titles": [
+        {
+          "title": "CAD Automation and ML Engineer",
+          "count": 6
+        },
+        {
+          "title": "Product Design Engineer - Apple Vision Pro",
+          "count": 6
+        },
+        {
+          "title": "AR/VR Software Engineer - Spatial System UI, Vision Products Software",
+          "count": 4
+        },
+        {
+          "title": "AI Research Scientist: Multimodal Foundation Models - Architecture, Pre-Training & Distillation",
+          "count": 4
+        },
+        {
+          "title": "Applied AI Scientist - Multimodal Intelligence",
+          "count": 4
+        },
+        {
+          "title": "Senior Software Engineer, Vision Products Software",
+          "count": 3
+        },
+        {
+          "title": "Machine Learning Engineer - Health AIML",
+          "count": 3
+        },
+        {
+          "title": "Senior Staff/Principal Engineer, Foundation Model Compute Infra",
+          "count": 3
+        }
+      ],
+      "top_skills": [
+        {
+          "skill": "Foundation Models / LLM Inference",
+          "count": 34
+        },
+        {
+          "skill": "Computer Vision",
+          "count": 24
+        },
+        {
+          "skill": "LLMs / Foundation Models",
+          "count": 18
+        },
+        {
+          "skill": "visionOS",
+          "count": 11
+        },
+        {
+          "skill": "Combine",
+          "count": 10
+        },
+        {
+          "skill": "AI & Data Platforms (AiDP)",
+          "count": 9
+        },
+        {
+          "skill": "Metal",
+          "count": 8
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 8
+        },
+        {
+          "skill": "macOS",
+          "count": 8
+        },
+        {
+          "skill": "3D Graphics / Rendering",
+          "count": 7
+        }
+      ],
+      "seniority_breakdown": {
+        "Manager": 19,
+        "Senior": 44,
+        "Mid": 90,
+        "Staff": 5,
+        "Lead": 3,
+        "Principal": 4
+      }
+    },
+    {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 133,
-      "posting_count": 205,
+      "role_count": 134,
+      "posting_count": 203,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
@@ -44,15 +133,15 @@
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 80
+          "count": 82
         },
         {
           "skill": "RF / Wireless",
-          "count": 35
+          "count": 32
         },
         {
           "skill": "GPU Architecture",
-          "count": 20
+          "count": 19
         },
         {
           "skill": "RTL Design",
@@ -60,11 +149,15 @@
         },
         {
           "skill": "CPU Architecture",
-          "count": 6
+          "count": 7
         },
         {
           "skill": "Signal Integrity",
           "count": 5
+        },
+        {
+          "skill": "Go",
+          "count": 4
         },
         {
           "skill": "ASIC Design",
@@ -72,116 +165,23 @@
         },
         {
           "skill": "3D Graphics / Rendering",
-          "count": 4
+          "count": 3
         },
         {
           "skill": "Speech / Audio",
           "count": 3
-        },
-        {
-          "skill": "Go",
-          "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Mid": 188,
+        "Mid": 186,
         "Manager": 11,
         "Senior": 6
       }
     },
     {
-      "name": "ML / AI / Generative AI",
-      "role_count": 130,
-      "posting_count": 159,
-      "top_titles": [
-        {
-          "title": "CAD Automation and ML Engineer",
-          "count": 6
-        },
-        {
-          "title": "Product Design Engineer - Apple Vision Pro",
-          "count": 6
-        },
-        {
-          "title": "AR/VR Software Engineer - Spatial System UI, Vision Products Software",
-          "count": 4
-        },
-        {
-          "title": "AI Research Scientist: Multimodal Foundation Models - Architecture, Pre-Training & Distillation",
-          "count": 4
-        },
-        {
-          "title": "Applied AI Scientist - Multimodal Intelligence",
-          "count": 4
-        },
-        {
-          "title": "Machine Learning Engineer - Health AIML",
-          "count": 3
-        },
-        {
-          "title": "Senior Staff/Principal Engineer, Foundation Model Compute Infra",
-          "count": 3
-        },
-        {
-          "title": "Vision Display, Optical Module Engineer",
-          "count": 2
-        }
-      ],
-      "top_skills": [
-        {
-          "skill": "Foundation Models / LLM Inference",
-          "count": 33
-        },
-        {
-          "skill": "Computer Vision",
-          "count": 23
-        },
-        {
-          "skill": "LLMs / Foundation Models",
-          "count": 17
-        },
-        {
-          "skill": "visionOS",
-          "count": 11
-        },
-        {
-          "skill": "Combine",
-          "count": 9
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 8
-        },
-        {
-          "skill": "AI & Data Platforms (AiDP)",
-          "count": 8
-        },
-        {
-          "skill": "iOS / iPadOS",
-          "count": 7
-        },
-        {
-          "skill": "macOS",
-          "count": 7
-        },
-        {
-          "skill": "watchOS",
-          "count": 6
-        }
-      ],
-      "seniority_breakdown": {
-        "Senior": 40,
-        "Mid": 87,
-        "Staff": 6,
-        "Manager": 19,
-        "Lead": 3,
-        "Principal": 4
-      }
-    },
-    {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 105,
-      "posting_count": 132,
+      "role_count": 117,
+      "posting_count": 145,
       "top_titles": [
         {
           "title": "Software Engineer - Frameworks - Video Applications",
@@ -194,6 +194,10 @@
         {
           "title": "Embedded 5G/4G Cellular Physical Layer Data Path Signal Processing Firmware Engineer",
           "count": 4
+        },
+        {
+          "title": "Systems Software Engineer, Platform Architecture",
+          "count": 3
         },
         {
           "title": "Graphics Software Engineer",
@@ -210,32 +214,40 @@
         {
           "title": "Software Engineer, Deployment Platform MultiDev",
           "count": 3
-        },
-        {
-          "title": "Embedded Real Time Critical Control Firmware Engineer",
-          "count": 3
         }
       ],
       "top_skills": [
         {
-          "skill": "RF / Wireless",
-          "count": 16
+          "skill": "iOS / iPadOS",
+          "count": 20
         },
         {
-          "skill": "iOS / iPadOS",
-          "count": 16
+          "skill": "RF / Wireless",
+          "count": 19
         },
         {
           "skill": "Distributed Systems",
           "count": 9
         },
         {
+          "skill": "macOS",
+          "count": 8
+        },
+        {
           "skill": "SoC",
           "count": 8
         },
         {
-          "skill": "macOS",
-          "count": 6
+          "skill": "iCloud",
+          "count": 5
+        },
+        {
+          "skill": "visionOS",
+          "count": 5
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 4
         },
         {
           "skill": "GPU Architecture",
@@ -244,30 +256,18 @@
         {
           "skill": "Swift",
           "count": 4
-        },
-        {
-          "skill": "Go",
-          "count": 4
-        },
-        {
-          "skill": "visionOS",
-          "count": 4
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 3
         }
       ],
       "seniority_breakdown": {
-        "Mid": 95,
+        "Mid": 108,
         "Senior": 34,
         "Staff": 3
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 55,
-      "posting_count": 68,
+      "role_count": 61,
+      "posting_count": 73,
       "top_titles": [
         {
           "title": "Senior Compliance Project Manager, Wallet, Payments, and Commerce",
@@ -276,10 +276,6 @@
         {
           "title": "Merchandising Field Operations Program Manager",
           "count": 4
-        },
-        {
-          "title": "Engineering Program Manager, Media Efficiency, Apple Services Engineering",
-          "count": 2
         },
         {
           "title": "Engineering Project Manager (Marcom Interactive), Retail & Marcom Engineering",
@@ -300,6 +296,10 @@
         {
           "title": "Compensation Compliance & Administration Lead- Senior Program Manager",
           "count": 2
+        },
+        {
+          "title": "Functional Analyst/Product Manager, IS&T Business Planning",
+          "count": 2
         }
       ],
       "top_skills": [
@@ -329,14 +329,14 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 58,
-        "Senior": 10
+        "Manager": 61,
+        "Senior": 12
       }
     },
     {
       "name": "Security / Cryptography",
-      "role_count": 21,
-      "posting_count": 24,
+      "role_count": 19,
+      "posting_count": 21,
       "top_titles": [
         {
           "title": "Senior Security Engineer - Security Assurance Scaling",
@@ -347,8 +347,8 @@
           "count": 2
         },
         {
-          "title": "Sr Security Incident Response Engineer, AIS",
-          "count": 2
+          "title": "Firmware Security Researcher, SEAR",
+          "count": 1
         },
         {
           "title": "Executive Assistant / Team Lead, Security Engineering & Architecture (SEAR)",
@@ -374,7 +374,7 @@
       "top_skills": [
         {
           "skill": "iCloud",
-          "count": 10
+          "count": 9
         },
         {
           "skill": "Cryptography",
@@ -382,12 +382,12 @@
         }
       ],
       "seniority_breakdown": {
+        "Mid": 7,
         "Lead": 1,
-        "Mid": 6,
         "Manager": 4,
         "Principal": 1,
         "Staff": 2,
-        "Senior": 10
+        "Senior": 6
       }
     }
   ],
