@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-11-21T16:42:23+00:00",
+  "scraped_at": "2026-11-22T17:00:09+00:00",
   "total_listings": 1200,
-  "tech_role_count": 684,
+  "tech_role_count": 685,
   "top_categories": [
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 136,
-      "posting_count": 165,
+      "role_count": 137,
+      "posting_count": 166,
       "top_titles": [
         {
           "title": "CAD Automation and ML Engineer",
@@ -87,7 +87,7 @@
         "Manager": 19,
         "Senior": 44,
         "Mid": 90,
-        "Staff": 5,
+        "Staff": 6,
         "Lead": 3,
         "Principal": 4
       }
