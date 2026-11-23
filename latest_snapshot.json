@@ -1,12 +1,98 @@
 {
-  "scraped_at": "2026-11-22T17:00:09+00:00",
+  "scraped_at": "2026-11-23T21:02:41+00:00",
   "total_listings": 1200,
-  "tech_role_count": 685,
+  "tech_role_count": 686,
   "top_categories": [
     {
+      "name": "Apple Silicon / Hardware Engineering",
+      "role_count": 136,
+      "posting_count": 205,
+      "top_titles": [
+        {
+          "title": "Design Verification Engineer",
+          "count": 11
+        },
+        {
+          "title": "SoC UPF Methodology Engineer",
+          "count": 9
+        },
+        {
+          "title": "GPU Performance Engineer, Platform Architecture",
+          "count": 8
+        },
+        {
+          "title": "SoC Power Spec Engineer",
+          "count": 8
+        },
+        {
+          "title": "SoC Test Engineer",
+          "count": 6
+        },
+        {
+          "title": "SoC Correlation Product Engineer",
+          "count": 6
+        },
+        {
+          "title": "SoC Characterization Product Engineer",
+          "count": 6
+        },
+        {
+          "title": "Wireless Design Verification Engineer",
+          "count": 5
+        }
+      ],
+      "top_skills": [
+        {
+          "skill": "SoC",
+          "count": 80
+        },
+        {
+          "skill": "RF / Wireless",
+          "count": 28
+        },
+        {
+          "skill": "RTL Design",
+          "count": 19
+        },
+        {
+          "skill": "GPU Architecture",
+          "count": 19
+        },
+        {
+          "skill": "CPU Architecture",
+          "count": 7
+        },
+        {
+          "skill": "ASIC Design",
+          "count": 5
+        },
+        {
+          "skill": "Signal Integrity",
+          "count": 5
+        },
+        {
+          "skill": "Go",
+          "count": 4
+        },
+        {
+          "skill": "3D Graphics / Rendering",
+          "count": 3
+        },
+        {
+          "skill": "Metal",
+          "count": 2
+        }
+      ],
+      "seniority_breakdown": {
+        "Mid": 188,
+        "Manager": 11,
+        "Senior": 6
+      }
+    },
+    {
       "name": "ML / AI / Generative AI",
-      "role_count": 137,
-      "posting_count": 166,
+      "role_count": 135,
+      "posting_count": 164,
       "top_titles": [
         {
           "title": "CAD Automation and ML Engineer",
@@ -48,11 +134,11 @@
         },
         {
           "skill": "Computer Vision",
-          "count": 24
+          "count": 23
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 18
+          "count": 17
         },
         {
           "skill": "visionOS",
@@ -86,96 +172,10 @@
       "seniority_breakdown": {
         "Manager": 19,
         "Senior": 44,
-        "Mid": 90,
-        "Staff": 6,
+        "Mid": 89,
+        "Staff": 5,
         "Lead": 3,
         "Principal": 4
-      }
-    },
-    {
-      "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 134,
-      "posting_count": 203,
-      "top_titles": [
-        {
-          "title": "Design Verification Engineer",
-          "count": 11
-        },
-        {
-          "title": "SoC UPF Methodology Engineer",
-          "count": 9
-        },
-        {
-          "title": "GPU Performance Engineer, Platform Architecture",
-          "count": 8
-        },
-        {
-          "title": "SoC Power Spec Engineer",
-          "count": 8
-        },
-        {
-          "title": "SoC Test Engineer",
-          "count": 6
-        },
-        {
-          "title": "SoC Correlation Product Engineer",
-          "count": 6
-        },
-        {
-          "title": "SoC Characterization Product Engineer",
-          "count": 6
-        },
-        {
-          "title": "Wireless Design Verification Engineer",
-          "count": 5
-        }
-      ],
-      "top_skills": [
-        {
-          "skill": "SoC",
-          "count": 82
-        },
-        {
-          "skill": "RF / Wireless",
-          "count": 32
-        },
-        {
-          "skill": "GPU Architecture",
-          "count": 19
-        },
-        {
-          "skill": "RTL Design",
-          "count": 18
-        },
-        {
-          "skill": "CPU Architecture",
-          "count": 7
-        },
-        {
-          "skill": "Signal Integrity",
-          "count": 5
-        },
-        {
-          "skill": "Go",
-          "count": 4
-        },
-        {
-          "skill": "ASIC Design",
-          "count": 4
-        },
-        {
-          "skill": "3D Graphics / Rendering",
-          "count": 3
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 3
-        }
-      ],
-      "seniority_breakdown": {
-        "Mid": 186,
-        "Manager": 11,
-        "Senior": 6
       }
     },
     {
@@ -226,11 +226,11 @@
           "count": 19
         },
         {
-          "skill": "Distributed Systems",
-          "count": 9
+          "skill": "macOS",
+          "count": 8
         },
         {
-          "skill": "macOS",
+          "skill": "Distributed Systems",
           "count": 8
         },
         {
@@ -266,8 +266,8 @@
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 61,
-      "posting_count": 73,
+      "role_count": 63,
+      "posting_count": 75,
       "top_titles": [
         {
           "title": "Senior Compliance Project Manager, Wallet, Payments, and Commerce",
@@ -320,23 +320,19 @@
           "count": 3
         },
         {
-          "skill": "visionOS",
-          "count": 2
-        },
-        {
           "skill": "iOS / iPadOS",
           "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Manager": 61,
-        "Senior": 12
+        "Manager": 62,
+        "Senior": 13
       }
     },
     {
       "name": "Security / Cryptography",
-      "role_count": 19,
-      "posting_count": 21,
+      "role_count": 20,
+      "posting_count": 22,
       "top_titles": [
         {
           "title": "Senior Security Engineer - Security Assurance Scaling",
@@ -345,6 +341,10 @@
         {
           "title": "Senior Security Engineer",
           "count": 2
+        },
+        {
+          "title": "Senior Security Engineer - Strategic Risk",
+          "count": 1
         },
         {
           "title": "Firmware Security Researcher, SEAR",
@@ -365,16 +365,12 @@
         {
           "title": "Security Software Engineering Manager - Platform and Frameworks",
           "count": 1
-        },
-        {
-          "title": "Security Site Reliability Engineer - Apple Service Engineering",
-          "count": 1
         }
       ],
       "top_skills": [
         {
           "skill": "iCloud",
-          "count": 9
+          "count": 10
         },
         {
           "skill": "Cryptography",
@@ -382,12 +378,12 @@
         }
       ],
       "seniority_breakdown": {
+        "Senior": 7,
         "Mid": 7,
         "Lead": 1,
         "Manager": 4,
         "Principal": 1,
-        "Staff": 2,
-        "Senior": 6
+        "Staff": 2
       }
     }
   ],
