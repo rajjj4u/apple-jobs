@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-11-23T21:02:41+00:00",
+  "scraped_at": "2026-11-24T20:03:44+00:00",
   "total_listings": 1200,
-  "tech_role_count": 686,
+  "tech_role_count": 680,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 136,
-      "posting_count": 205,
+      "role_count": 135,
+      "posting_count": 204,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
@@ -44,11 +44,11 @@
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 80
+          "count": 83
         },
         {
           "skill": "RF / Wireless",
-          "count": 28
+          "count": 31
         },
         {
           "skill": "RTL Design",
@@ -67,11 +67,11 @@
           "count": 5
         },
         {
-          "skill": "Signal Integrity",
-          "count": 5
+          "skill": "Go",
+          "count": 4
         },
         {
-          "skill": "Go",
+          "skill": "Signal Integrity",
           "count": 4
         },
         {
@@ -79,20 +79,20 @@
           "count": 3
         },
         {
-          "skill": "Metal",
-          "count": 2
+          "skill": "Speech / Audio",
+          "count": 3
         }
       ],
       "seniority_breakdown": {
-        "Mid": 188,
+        "Mid": 187,
         "Manager": 11,
         "Senior": 6
       }
     },
     {
       "name": "ML / AI / Generative AI",
-      "role_count": 135,
-      "posting_count": 164,
+      "role_count": 133,
+      "posting_count": 162,
       "top_titles": [
         {
           "title": "CAD Automation and ML Engineer",
@@ -134,15 +134,15 @@
         },
         {
           "skill": "Computer Vision",
-          "count": 23
+          "count": 24
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 17
+          "count": 18
         },
         {
           "skill": "visionOS",
-          "count": 11
+          "count": 10
         },
         {
           "skill": "Combine",
@@ -157,31 +157,31 @@
           "count": 8
         },
         {
-          "skill": "iOS / iPadOS",
-          "count": 8
-        },
-        {
-          "skill": "macOS",
-          "count": 8
-        },
-        {
           "skill": "3D Graphics / Rendering",
           "count": 7
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 6
+        },
+        {
+          "skill": "iOS / iPadOS",
+          "count": 6
         }
       ],
       "seniority_breakdown": {
+        "Mid": 88,
         "Manager": 19,
         "Senior": 44,
-        "Mid": 89,
         "Staff": 5,
         "Lead": 3,
-        "Principal": 4
+        "Principal": 3
       }
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 117,
-      "posting_count": 145,
+      "role_count": 116,
+      "posting_count": 144,
       "top_titles": [
         {
           "title": "Software Engineer - Frameworks - Video Applications",
@@ -226,11 +226,11 @@
           "count": 19
         },
         {
-          "skill": "macOS",
-          "count": 8
+          "skill": "Distributed Systems",
+          "count": 9
         },
         {
-          "skill": "Distributed Systems",
+          "skill": "macOS",
           "count": 8
         },
         {
@@ -259,15 +259,15 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 108,
+        "Mid": 107,
         "Senior": 34,
         "Staff": 3
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 63,
-      "posting_count": 75,
+      "role_count": 62,
+      "posting_count": 74,
       "top_titles": [
         {
           "title": "Senior Compliance Project Manager, Wallet, Payments, and Commerce",
@@ -320,12 +320,16 @@
           "count": 3
         },
         {
+          "skill": "visionOS",
+          "count": 2
+        },
+        {
           "skill": "iOS / iPadOS",
           "count": 2
         }
       ],
       "seniority_breakdown": {
-        "Manager": 62,
+        "Manager": 61,
         "Senior": 13
       }
     },
@@ -411,34 +415,6 @@
       ]
     },
     {
-      "title": "Applied Research Engineer/Scientist, Siri Labs",
-      "category": "ML / AI / Generative AI",
-      "seniority": "Principal",
-      "salary_band": "$200K \u2013 $400K+",
-      "posting_count": 2,
-      "top_skills": [
-        {
-          "skill": "iOS / iPadOS",
-          "count": 2
-        },
-        {
-          "skill": "macOS",
-          "count": 2
-        },
-        {
-          "skill": "visionOS",
-          "count": 2
-        },
-        {
-          "skill": "watchOS",
-          "count": 2
-        }
-      ],
-      "sample_locations": [
-        "Cupertino"
-      ]
-    },
-    {
       "title": "Principal Platform Engineer, People Systems - G&A Solutions Engineering",
       "category": "Infrastructure / SRE / Platform",
       "seniority": "Principal",
@@ -487,6 +463,18 @@
       ],
       "sample_locations": [
         "Cupertino"
+      ]
+    },
+    {
+      "title": "Senior Software Engineer, Apple Ads",
+      "category": "Software Engineering (iOS/macOS/Services/Core OS)",
+      "seniority": "Staff",
+      "salary_band": "$200K \u2013 $380K",
+      "posting_count": 7,
+      "top_skills": [],
+      "sample_locations": [
+        "Cupertino",
+        "Austin"
       ]
     }
   ]
