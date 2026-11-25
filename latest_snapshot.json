@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-11-24T20:03:44+00:00",
+  "scraped_at": "2026-11-25T19:03:57+00:00",
   "total_listings": 1200,
   "tech_role_count": 680,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
-      "role_count": 135,
-      "posting_count": 204,
+      "role_count": 136,
+      "posting_count": 205,
       "top_titles": [
         {
           "title": "Design Verification Engineer",
@@ -48,7 +48,7 @@
         },
         {
           "skill": "RF / Wireless",
-          "count": 31
+          "count": 32
         },
         {
           "skill": "RTL Design",
@@ -84,7 +84,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Mid": 187,
+        "Mid": 188,
         "Manager": 11,
         "Senior": 6
       }
@@ -266,8 +266,8 @@
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 62,
-      "posting_count": 74,
+      "role_count": 61,
+      "posting_count": 73,
       "top_titles": [
         {
           "title": "Senior Compliance Project Manager, Wallet, Payments, and Commerce",
@@ -329,7 +329,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 61,
+        "Manager": 60,
         "Senior": 13
       }
     },
