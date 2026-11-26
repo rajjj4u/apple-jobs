@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-11-25T19:03:57+00:00",
+  "scraped_at": "2026-11-26T18:56:56+00:00",
   "total_listings": 1200,
-  "tech_role_count": 680,
+  "tech_role_count": 679,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
@@ -44,19 +44,19 @@
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 83
+          "count": 75
         },
         {
           "skill": "RF / Wireless",
-          "count": 32
+          "count": 24
         },
         {
           "skill": "RTL Design",
-          "count": 19
+          "count": 16
         },
         {
           "skill": "GPU Architecture",
-          "count": 19
+          "count": 13
         },
         {
           "skill": "CPU Architecture",
@@ -71,16 +71,16 @@
           "count": 4
         },
         {
+          "skill": "Speech / Audio",
+          "count": 3
+        },
+        {
           "skill": "Signal Integrity",
-          "count": 4
+          "count": 2
         },
         {
           "skill": "3D Graphics / Rendering",
-          "count": 3
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 3
+          "count": 2
         }
       ],
       "seniority_breakdown": {
@@ -130,43 +130,43 @@
       "top_skills": [
         {
           "skill": "Foundation Models / LLM Inference",
-          "count": 34
+          "count": 28
         },
         {
           "skill": "Computer Vision",
-          "count": 24
+          "count": 22
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 18
-        },
-        {
-          "skill": "visionOS",
-          "count": 10
+          "count": 15
         },
         {
           "skill": "Combine",
           "count": 10
         },
         {
+          "skill": "visionOS",
+          "count": 9
+        },
+        {
           "skill": "AI & Data Platforms (AiDP)",
           "count": 9
         },
         {
-          "skill": "Metal",
-          "count": 8
-        },
-        {
           "skill": "3D Graphics / Rendering",
-          "count": 7
-        },
-        {
-          "skill": "Speech / Audio",
-          "count": 6
+          "count": 5
         },
         {
           "skill": "iOS / iPadOS",
-          "count": 6
+          "count": 5
+        },
+        {
+          "skill": "macOS",
+          "count": 5
+        },
+        {
+          "skill": "Metal",
+          "count": 4
         }
       ],
       "seniority_breakdown": {
@@ -180,8 +180,8 @@
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 116,
-      "posting_count": 144,
+      "role_count": 115,
+      "posting_count": 143,
       "top_titles": [
         {
           "title": "Software Engineer - Frameworks - Video Applications",
@@ -219,11 +219,11 @@
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 20
+          "count": 18
         },
         {
           "skill": "RF / Wireless",
-          "count": 19
+          "count": 11
         },
         {
           "skill": "Distributed Systems",
@@ -235,7 +235,7 @@
         },
         {
           "skill": "SoC",
-          "count": 8
+          "count": 7
         },
         {
           "skill": "iCloud",
@@ -246,20 +246,20 @@
           "count": 5
         },
         {
-          "skill": "Speech / Audio",
-          "count": 4
-        },
-        {
           "skill": "GPU Architecture",
           "count": 4
         },
         {
           "skill": "Swift",
           "count": 4
+        },
+        {
+          "skill": "Go",
+          "count": 4
         }
       ],
       "seniority_breakdown": {
-        "Mid": 107,
+        "Mid": 106,
         "Senior": 34,
         "Staff": 3
       }
@@ -374,7 +374,7 @@
       "top_skills": [
         {
           "skill": "iCloud",
-          "count": 10
+          "count": 8
         },
         {
           "skill": "Cryptography",
@@ -398,16 +398,7 @@
       "seniority": "Principal",
       "salary_band": "$200K \u2013 $400K+",
       "posting_count": 3,
-      "top_skills": [
-        {
-          "skill": "LLMs / Foundation Models",
-          "count": 3
-        },
-        {
-          "skill": "Foundation Models / LLM Inference",
-          "count": 3
-        }
-      ],
+      "top_skills": [],
       "sample_locations": [
         "Cupertino",
         "Santa Clara",
