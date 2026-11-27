@@ -1,7 +1,7 @@
 {
-  "scraped_at": "2026-11-26T18:56:56+00:00",
+  "scraped_at": "2026-11-27T18:48:25+00:00",
   "total_listings": 1200,
-  "tech_role_count": 679,
+  "tech_role_count": 680,
   "top_categories": [
     {
       "name": "Apple Silicon / Hardware Engineering",
@@ -44,19 +44,19 @@
       "top_skills": [
         {
           "skill": "SoC",
-          "count": 75
+          "count": 70
         },
         {
           "skill": "RF / Wireless",
-          "count": 24
+          "count": 32
         },
         {
           "skill": "RTL Design",
-          "count": 16
+          "count": 19
         },
         {
           "skill": "GPU Architecture",
-          "count": 13
+          "count": 19
         },
         {
           "skill": "CPU Architecture",
@@ -71,16 +71,16 @@
           "count": 4
         },
         {
-          "skill": "Speech / Audio",
-          "count": 3
-        },
-        {
           "skill": "Signal Integrity",
-          "count": 2
+          "count": 4
         },
         {
           "skill": "3D Graphics / Rendering",
-          "count": 2
+          "count": 3
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 3
         }
       ],
       "seniority_breakdown": {
@@ -130,31 +130,35 @@
       "top_skills": [
         {
           "skill": "Foundation Models / LLM Inference",
-          "count": 28
+          "count": 30
         },
         {
           "skill": "Computer Vision",
-          "count": 22
+          "count": 24
         },
         {
           "skill": "LLMs / Foundation Models",
-          "count": 15
-        },
-        {
-          "skill": "Combine",
-          "count": 10
+          "count": 18
         },
         {
           "skill": "visionOS",
-          "count": 9
+          "count": 10
         },
         {
           "skill": "AI & Data Platforms (AiDP)",
           "count": 9
         },
         {
+          "skill": "Metal",
+          "count": 8
+        },
+        {
           "skill": "3D Graphics / Rendering",
-          "count": 5
+          "count": 6
+        },
+        {
+          "skill": "Speech / Audio",
+          "count": 6
         },
         {
           "skill": "iOS / iPadOS",
@@ -163,16 +167,12 @@
         {
           "skill": "macOS",
           "count": 5
-        },
-        {
-          "skill": "Metal",
-          "count": 4
         }
       ],
       "seniority_breakdown": {
+        "Manager": 20,
         "Mid": 88,
-        "Manager": 19,
-        "Senior": 44,
+        "Senior": 43,
         "Staff": 5,
         "Lead": 3,
         "Principal": 3
@@ -180,8 +180,8 @@
     },
     {
       "name": "Software Engineering (iOS/macOS/Services/Core OS)",
-      "role_count": 115,
-      "posting_count": 143,
+      "role_count": 114,
+      "posting_count": 141,
       "top_titles": [
         {
           "title": "Software Engineer - Frameworks - Video Applications",
@@ -219,22 +219,22 @@
       "top_skills": [
         {
           "skill": "iOS / iPadOS",
-          "count": 18
+          "count": 19
         },
         {
           "skill": "RF / Wireless",
-          "count": 11
+          "count": 17
         },
         {
           "skill": "Distributed Systems",
-          "count": 9
-        },
-        {
-          "skill": "macOS",
           "count": 8
         },
         {
           "skill": "SoC",
+          "count": 8
+        },
+        {
+          "skill": "macOS",
           "count": 7
         },
         {
@@ -260,14 +260,14 @@
       ],
       "seniority_breakdown": {
         "Mid": 106,
-        "Senior": 34,
+        "Senior": 32,
         "Staff": 3
       }
     },
     {
       "name": "Product / Program Management (Technical)",
-      "role_count": 61,
-      "posting_count": 73,
+      "role_count": 62,
+      "posting_count": 74,
       "top_titles": [
         {
           "title": "Senior Compliance Project Manager, Wallet, Payments, and Commerce",
@@ -329,7 +329,7 @@
         }
       ],
       "seniority_breakdown": {
-        "Manager": 60,
+        "Manager": 61,
         "Senior": 13
       }
     },
@@ -374,7 +374,7 @@
       "top_skills": [
         {
           "skill": "iCloud",
-          "count": 8
+          "count": 10
         },
         {
           "skill": "Cryptography",
@@ -398,7 +398,16 @@
       "seniority": "Principal",
       "salary_band": "$200K \u2013 $400K+",
       "posting_count": 3,
-      "top_skills": [],
+      "top_skills": [
+        {
+          "skill": "LLMs / Foundation Models",
+          "count": 3
+        },
+        {
+          "skill": "Foundation Models / LLM Inference",
+          "count": 3
+        }
+      ],
       "sample_locations": [
         "Cupertino",
         "Santa Clara",
